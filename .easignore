@@ -1,0 +1,32 @@
+# Build artifacts
+dist/
+web-build/
+
+# Expo
+.expo/
+
+# IDE
+.idea/
+.vscode/
+
+# Development
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# Documentation (if you add it later)
+docs/
+*.md
+
+# Testing
+__tests__/
+*.test.js
+*.spec.js
