@@ -1,0 +1,3393 @@
+{
+  "generated": "2026-02-24 16:46:44",
+  "total_checked": 201,
+  "total_ok": 11,
+  "total_corrections": 173,
+  "high_confidence_fixes": 237,
+  "low_confidence_fixes": 49,
+  "corrections": [
+    {
+      "slug": "rock_pigeon",
+      "en": "Rock Pigeon",
+      "scientific": "Columba livia",
+      "corrections": {
+        "en": {
+          "old": "Rock Pigeon",
+          "new": "Rock Dove",
+          "source": "en.wikipedia article title for Columba livia"
+        },
+        "he": {
+          "old": "יונת סלע",
+          "new": "יונת הסלע",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Paloma bravía",
+          "new": "Paloma bravía, paloma asiática",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Columba livia"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Rock dove"
+    },
+    {
+      "slug": "common_blackbird",
+      "en": "Common Blackbird",
+      "scientific": "Turdus merula",
+      "corrections": {
+        "es": {
+          "old": "Mirlo común",
+          "new": "Mirlo común o, más comúnmente, mirlo",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Turdus merula"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common blackbird"
+    },
+    {
+      "slug": "european_starling",
+      "en": "European Starling",
+      "scientific": "Sturnus vulgaris",
+      "corrections": {
+        "en": {
+          "old": "European Starling",
+          "new": "Common Starling",
+          "source": "en.wikipedia article title for Sturnus vulgaris"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common starling"
+    },
+    {
+      "slug": "mallard",
+      "en": "Mallard",
+      "scientific": "Anas platyrhynchos",
+      "corrections": {
+        "he": {
+          "old": "ברווז בר",
+          "new": "ברכייה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ánade real",
+          "new": "Ánade real, ánade azulón",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Anas platyrhynchos"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Mallard"
+    },
+    {
+      "slug": "canada_goose",
+      "en": "Canada Goose",
+      "scientific": "Branta canadensis",
+      "corrections": {
+        "he": {
+          "old": "אווז קנדי",
+          "new": "ברנטה קנדית",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ganso canadiense",
+          "new": "Barnacla canadiense",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Branta canadensis"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Canada goose"
+    },
+    {
+      "slug": "mute_swan",
+      "en": "Mute Swan",
+      "scientific": "Cygnus olor",
+      "corrections": {
+        "he": {
+          "old": "ברבור אילם",
+          "new": "ברבור מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Mute swan"
+    },
+    {
+      "slug": "herring_gull",
+      "en": "Herring Gull",
+      "scientific": "Larus argentatus",
+      "corrections": {
+        "en": {
+          "old": "Herring Gull",
+          "new": "European Herring Gull",
+          "source": "en.wikipedia article title for Larus argentatus"
+        },
+        "he": {
+          "old": "שחף הים",
+          "new": "שחף צפוני",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Gaviota argéntea",
+          "new": "Gaviota plateada",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Larus argentatus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European herring gull"
+    },
+    {
+      "slug": "american_robin",
+      "en": "American Robin",
+      "scientific": "Turdus migratorius",
+      "corrections": {
+        "he": {
+          "old": "רובין אמריקאי",
+          "new": "קיכלי אדום-חזה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Mirlo primavera",
+          "new": "Zorzal robín",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Turdus migratorius"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "American robin"
+    },
+    {
+      "slug": "eurasian_magpie",
+      "en": "Eurasian Magpie",
+      "scientific": "Pica pica",
+      "corrections": {
+        "he": {
+          "old": "עקעק",
+          "new": "עקעק זנבתן",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian magpie"
+    },
+    {
+      "slug": "great_tit",
+      "en": "Great Tit",
+      "scientific": "Parus major",
+      "corrections": {
+        "he": {
+          "old": "ירגזי גדול",
+          "new": "ירגזי מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great tit"
+    },
+    {
+      "slug": "blue_tit",
+      "en": "Blue Tit",
+      "scientific": "Cyanistes caeruleus",
+      "corrections": {
+        "en": {
+          "old": "Blue Tit",
+          "new": "Eurasian Blue Tit",
+          "source": "en.wikipedia article title for Cyanistes caeruleus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian blue tit"
+    },
+    {
+      "slug": "barn_swallow",
+      "en": "Barn Swallow",
+      "scientific": "Hirundo rustica",
+      "corrections": {
+        "he": {
+          "old": "סנונית אסם",
+          "new": "סנונית הרפתות",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Barn swallow"
+    },
+    {
+      "slug": "eurasian_collared_dove",
+      "en": "Eurasian Collared Dove",
+      "scientific": "Streptopelia decaocto",
+      "corrections": {
+        "es": {
+          "old": "Tórtola turca",
+          "new": "Streptopelia decaocto",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian collared dove"
+    },
+    {
+      "slug": "common_wood_pigeon",
+      "en": "Common Wood Pigeon",
+      "scientific": "Columba palumbus",
+      "corrections": {
+        "he": {
+          "old": "יונת עצים",
+          "new": "יונת ענק",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common wood pigeon"
+    },
+    {
+      "slug": "house_finch",
+      "en": "House Finch",
+      "scientific": "Haemorhous mexicanus",
+      "corrections": {
+        "es": {
+          "old": "Pinzón doméstico",
+          "new": "Pinzón mexicano, camachuelo mexicano",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Haemorhous mexicanus"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "House finch"
+    },
+    {
+      "slug": "mourning_dove",
+      "en": "Mourning Dove",
+      "scientific": "Zenaida macroura",
+      "corrections": {
+        "es": {
+          "old": "Tórtola llorona",
+          "new": "Zenaida macroura",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Mourning dove"
+    },
+    {
+      "slug": "common_myna",
+      "en": "Common Myna",
+      "scientific": "Acridotheres tristis",
+      "corrections": {
+        "he": {
+          "old": "מיינה רגילה",
+          "new": "מיינה מצויה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common myna"
+    },
+    {
+      "slug": "house_crow",
+      "en": "House Crow",
+      "scientific": "Corvus splendens",
+      "corrections": {
+        "he": {
+          "old": "עורב הבית",
+          "new": "עורב הודי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Cuervo de la casa",
+          "new": "Cuervo indio",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Corvus splendens"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "House crow"
+    },
+    {
+      "slug": "european_robin",
+      "en": "European Robin",
+      "scientific": "Erithacus rubecula",
+      "corrections": {
+        "he": {
+          "old": "אדום החזה",
+          "new": "אדום-החזה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European robin"
+    },
+    {
+      "slug": "goldfinch",
+      "en": "Goldfinch",
+      "scientific": "Carduelis carduelis",
+      "corrections": {
+        "en": {
+          "old": "Goldfinch",
+          "new": "European Goldfinch",
+          "source": "en.wikipedia article title for Carduelis carduelis"
+        },
+        "es": {
+          "old": "Jilguero europeo",
+          "new": "Carduelis carduelis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European goldfinch"
+    },
+    {
+      "slug": "great_egret",
+      "en": "Great Egret",
+      "scientific": "Ardea alba",
+      "corrections": {
+        "he": {
+          "old": "אנפה לבנה",
+          "new": "לבנית גדולה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great egret"
+    },
+    {
+      "slug": "flamingo",
+      "en": "Greater Flamingo",
+      "scientific": "Phoenicopterus roseus",
+      "corrections": {
+        "he": {
+          "old": "פלמינגו",
+          "new": "פלמינגו מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Greater flamingo"
+    },
+    {
+      "slug": "peacock",
+      "en": "Indian Peafowl",
+      "scientific": "Pavo cristatus",
+      "corrections": {
+        "he": {
+          "old": "טווס",
+          "new": "טווס מצוי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Pavo real",
+          "new": "Pavo real común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Pavo cristatus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Indian peafowl"
+    },
+    {
+      "slug": "common_buzzard",
+      "en": "Common Buzzard",
+      "scientific": "Buteo buteo",
+      "corrections": {
+        "he": {
+          "old": "עקב מצוי",
+          "new": "עקב חורף",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Busardo ratonero",
+          "new": "Buteo buteo",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common buzzard"
+    },
+    {
+      "slug": "barn_owl",
+      "en": "Barn Owl",
+      "scientific": "Tyto alba",
+      "corrections": {
+        "en": {
+          "old": "Barn Owl",
+          "new": "Western Barn Owl",
+          "source": "en.wikipedia article title for Tyto alba"
+        },
+        "he": {
+          "old": "תנשמת",
+          "new": "תנשמת לבנה",
+          "source": "interlanguage link"
+        },
+        "fr": {
+          "old": "Chouette effraie",
+          "new": "L'Effraie des clochers",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Effraie des clochers"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Western barn owl"
+    },
+    {
+      "slug": "common_swift",
+      "en": "Common Swift",
+      "scientific": "Apus apus",
+      "corrections": {
+        "he": {
+          "old": "סיס מצוי",
+          "new": "סיס חומות",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common swift"
+    },
+    {
+      "slug": "song_thrush",
+      "en": "Song Thrush",
+      "scientific": "Turdus philomelos",
+      "corrections": {
+        "he": {
+          "old": "קיכלי שיר",
+          "new": "קיכלי רונן",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Tordo común",
+          "new": "Zorzal común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Turdus philomelos"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Song thrush"
+    },
+    {
+      "slug": "white_stork",
+      "en": "White Stork",
+      "scientific": "Ciconia ciconia",
+      "corrections": {
+        "he": {
+          "old": "חסידה",
+          "new": "חסידה לבנה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "White stork"
+    },
+    {
+      "slug": "cormorant",
+      "en": "Great Cormorant",
+      "scientific": "Phalacrocorax carbo",
+      "corrections": {
+        "es": {
+          "old": "Cormorán grande",
+          "new": "Phalacrocorax carbo",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great cormorant"
+    },
+    {
+      "slug": "hoopoe",
+      "en": "Eurasian Hoopoe",
+      "scientific": "Upupa epops",
+      "corrections": {
+        "he": {
+          "old": "דוכיפת",
+          "new": "דוכיפת מצויה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian hoopoe"
+    },
+    {
+      "slug": "black_headed_gull",
+      "en": "Black-headed Gull",
+      "scientific": "Chroicocephalus ridibundus",
+      "corrections": {
+        "he": {
+          "old": "שחף ראש שחור",
+          "new": "שחף אגמים",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Gaviota reidora",
+          "new": "Chroicocephalus ridibundus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Black-headed gull"
+    },
+    {
+      "slug": "common_kingfisher",
+      "en": "Common Kingfisher",
+      "scientific": "Alcedo atthis",
+      "corrections": {
+        "he": {
+          "old": "שלדג מצוי",
+          "new": "שלדג גמדי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Martín pescador",
+          "new": "Alcedo atthis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common kingfisher"
+    },
+    {
+      "slug": "nightingale",
+      "en": "Common Nightingale",
+      "scientific": "Luscinia megarhynchos",
+      "corrections": {
+        "he": {
+          "old": "זמיר",
+          "new": "זמיר הירדן",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ruiseñor común",
+          "new": "Luscinia megarhynchos",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common nightingale"
+    },
+    {
+      "slug": "skylark",
+      "en": "Eurasian Skylark",
+      "scientific": "Alauda arvensis",
+      "corrections": {
+        "he": {
+          "old": "עפרוני",
+          "new": "זרעית השדה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Alondra común",
+          "new": "Alauda arvensis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian skylark"
+    },
+    {
+      "slug": "chaffinch",
+      "en": "Common Chaffinch",
+      "scientific": "Fringilla coelebs",
+      "corrections": {
+        "en": {
+          "old": "Common Chaffinch",
+          "new": "Eurasian Chaffinch",
+          "source": "en.wikipedia article title for Fringilla coelebs"
+        },
+        "es": {
+          "old": "Pinzón vulgar",
+          "new": "Fringilla coelebs",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian chaffinch"
+    },
+    {
+      "slug": "greenfinch",
+      "en": "European Greenfinch",
+      "scientific": "Chloris chloris",
+      "corrections": {
+        "he": {
+          "old": "ירקון",
+          "new": "ירקון (עוף)",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Verderón europeo",
+          "new": "Chloris chloris",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European greenfinch"
+    },
+    {
+      "slug": "red_tailed_hawk",
+      "en": "Red-tailed Hawk",
+      "scientific": "Buteo jamaicensis",
+      "corrections": {
+        "he": {
+          "old": "נץ זנב אדום",
+          "new": "עקב אדום-זנב",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Halcón de cola roja",
+          "new": "Buteo jamaicensis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Red-tailed hawk"
+    },
+    {
+      "slug": "bald_eagle",
+      "en": "Bald Eagle",
+      "scientific": "Haliaeetus leucocephalus",
+      "corrections": {
+        "he": {
+          "old": "עיט קירח",
+          "new": "עיטם לבן-ראש",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila cabeza blanca",
+          "new": "Haliaeetus leucocephalus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Bald eagle"
+    },
+    {
+      "slug": "osprey",
+      "en": "Osprey",
+      "scientific": "Pandion haliaetus",
+      "corrections": {
+        "he": {
+          "old": "עיט הדגים",
+          "new": "שלך",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila pescadora",
+          "new": "Pandion haliaetus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Osprey"
+    },
+    {
+      "slug": "peregrine_falcon",
+      "en": "Peregrine Falcon",
+      "scientific": "Falco peregrinus",
+      "corrections": {
+        "he": {
+          "old": "בז נדיד",
+          "new": "בז נודד",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Halcón peregrino",
+          "new": "Falco peregrinus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Peregrine falcon"
+    },
+    {
+      "slug": "great_horned_owl",
+      "en": "Great Horned Owl",
+      "scientific": "Bubo virginianus",
+      "corrections": {
+        "he": {
+          "old": "ינשוף קרניים",
+          "new": "אוח וירג'יניה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Búho real americano",
+          "new": "Bubo virginianus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great horned owl"
+    },
+    {
+      "slug": "snowy_owl",
+      "en": "Snowy Owl",
+      "scientific": "Bubo scandiacus",
+      "corrections": {
+        "he": {
+          "old": "ינשוף שלג",
+          "new": "אוח השלג",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Snowy owl"
+    },
+    {
+      "slug": "red_kite",
+      "en": "Red Kite",
+      "scientific": "Milvus milvus",
+      "corrections": {
+        "es": {
+          "old": "Milano real",
+          "new": "Milvus milvus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Red kite"
+    },
+    {
+      "slug": "downy_woodpecker",
+      "en": "Downy Woodpecker",
+      "scientific": "Dryobates pubescens",
+      "corrections": {
+        "es": {
+          "old": "Carpintero velloso",
+          "new": "Dryobates pubescens",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Downy woodpecker"
+    },
+    {
+      "slug": "great_spotted_woodpecker",
+      "en": "Great Spotted Woodpecker",
+      "scientific": "Dendrocopos major",
+      "corrections": {
+        "he": {
+          "old": "נקר גדול",
+          "new": "נקר עקוד",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Pico picapinos",
+          "new": "Dendrocopos major",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great spotted woodpecker"
+    },
+    {
+      "slug": "green_woodpecker",
+      "en": "Green Woodpecker",
+      "scientific": "Picus viridis",
+      "corrections": {
+        "en": {
+          "old": "Green Woodpecker",
+          "new": "European Green Woodpecker",
+          "source": "en.wikipedia article title for Picus viridis"
+        }
+      },
+      "missing_wiki": [
+        "he",
+        "es",
+        "fr"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "European green woodpecker"
+    },
+    {
+      "slug": "northern_mockingbird",
+      "en": "Northern Mockingbird",
+      "scientific": "Mimus polyglottos",
+      "corrections": {
+        "es": {
+          "old": "Sinsonte norteño",
+          "new": "Mimus polyglottos",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Northern mockingbird"
+    },
+    {
+      "slug": "american_goldfinch",
+      "en": "American Goldfinch",
+      "scientific": "Spinus tristis",
+      "corrections": {
+        "he": {
+          "old": "חוחית אמריקאית",
+          "new": "קנרית אמריקאית",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Jilguero americano",
+          "new": "Jilguero yanqui",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Spinus tristis"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "American goldfinch"
+    },
+    {
+      "slug": "black_capped_chickadee",
+      "en": "Black-capped Chickadee",
+      "scientific": "Poecile atricapillus",
+      "corrections": {
+        "he": {
+          "old": "ירגזי כיפה שחורה",
+          "new": "ירגזי שחור-כיפה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Carbonero cabecinegro",
+          "new": "Poecile atricapillus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Black-capped chickadee"
+    },
+    {
+      "slug": "tufted_titmouse",
+      "en": "Tufted Titmouse",
+      "scientific": "Baeolophus bicolor",
+      "corrections": {
+        "he": {
+          "old": "ירגזי ציצי",
+          "new": "ירגזי דו-גוני",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Carbonero copetón",
+          "new": "Baeolophus bicolor",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Tufted titmouse"
+    },
+    {
+      "slug": "cedar_waxwing",
+      "en": "Cedar Waxwing",
+      "scientific": "Bombycilla cedrorum",
+      "corrections": {
+        "es": {
+          "old": "Ampelis americano",
+          "new": "Bombycilla cedrorum",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Cedar waxwing"
+    },
+    {
+      "slug": "baltimore_oriole",
+      "en": "Baltimore Oriole",
+      "scientific": "Icterus galbula",
+      "corrections": {
+        "he": {
+          "old": "זהבן בולטימור",
+          "new": "פזאי בולטימור",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Turpial de Baltimore",
+          "new": "Icterus galbula",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Baltimore oriole"
+    },
+    {
+      "slug": "scarlet_tanager",
+      "en": "Scarlet Tanager",
+      "scientific": "Piranga olivacea",
+      "corrections": {
+        "es": {
+          "old": "Tángara escarlata",
+          "new": "Piranga olivacea",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Tangara écarlate",
+          "new": "Piranga écarlate",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Scarlet tanager"
+    },
+    {
+      "slug": "eastern_bluebird",
+      "en": "Eastern Bluebird",
+      "scientific": "Sialia sialis",
+      "corrections": {
+        "es": {
+          "old": "Azulejo oriental",
+          "new": "Sialia sialis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Eastern bluebird"
+    },
+    {
+      "slug": "wood_duck",
+      "en": "Wood Duck",
+      "scientific": "Aix sponsa",
+      "corrections": {
+        "he": {
+          "old": "ברווז העצים",
+          "new": "ברווז עצים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Wood duck"
+    },
+    {
+      "slug": "canada_jay",
+      "en": "Canada Jay",
+      "scientific": "Perisoreus canadensis",
+      "corrections": {
+        "es": {
+          "old": "Arrendajo de Canadá",
+          "new": "Arrendajo canadiense",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Perisoreus canadensis"
+        },
+        "fr": {
+          "old": "Geai de Canada",
+          "new": "Mésangeai du Canada",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Mésangeai du Canada"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Canada jay"
+    },
+    {
+      "slug": "eurasian_jay",
+      "en": "Eurasian Jay",
+      "scientific": "Garrulus glandarius",
+      "corrections": {
+        "he": {
+          "old": "עורבני מצוי",
+          "new": "עורבני שחור-כיפה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Arrendajo europeo",
+          "new": "Arrendajo euroasiático",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Garrulus glandarius"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian jay"
+    },
+    {
+      "slug": "lapwing",
+      "en": "Northern Lapwing",
+      "scientific": "Vanellus vanellus",
+      "corrections": {
+        "he": {
+          "old": "קיוויית",
+          "new": "קיווית מצוייצת",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Avefría europea",
+          "new": "Vanellus vanellus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Northern lapwing"
+    },
+    {
+      "slug": "little_owl",
+      "en": "Little Owl",
+      "scientific": "Athene noctua",
+      "corrections": {
+        "he": {
+          "old": "כוס",
+          "new": "כוס החורבות",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Little owl"
+    },
+    {
+      "slug": "tawny_owl",
+      "en": "Tawny Owl",
+      "scientific": "Strix aluco",
+      "corrections": {
+        "he": {
+          "old": "ינשוף חום",
+          "new": "לילית מצויה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Cárabo común",
+          "new": "Strix aluco",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Tawny owl"
+    },
+    {
+      "slug": "long_eared_owl",
+      "en": "Long-eared Owl",
+      "scientific": "Asio otus",
+      "corrections": {
+        "he": {
+          "old": "ינשוף אוזניים",
+          "new": "ינשוף עצים",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Búho chico",
+          "new": "Asio otus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Long-eared owl"
+    },
+    {
+      "slug": "black_redstart",
+      "en": "Black Redstart",
+      "scientific": "Phoenicurus ochruros",
+      "corrections": {
+        "he": {
+          "old": "חריות שחור",
+          "new": "חכלילית סלעים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Black redstart"
+    },
+    {
+      "slug": "wheatear",
+      "en": "Northern Wheatear",
+      "scientific": "Oenanthe oenanthe",
+      "corrections": {
+        "he": {
+          "old": "גוזלן",
+          "new": "סלעית אירופית",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Northern wheatear"
+    },
+    {
+      "slug": "stonechat",
+      "en": "European Stonechat",
+      "scientific": "Saxicola rubicola",
+      "corrections": {
+        "he": {
+          "old": "חמרית",
+          "new": "דוחל שחור-גרון",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Tarabilla europea",
+          "new": "Tarabilla común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Saxicola rubicola"
+        },
+        "fr": {
+          "old": "Tarier pâtre",
+          "new": "Saxicola rubicola",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European stonechat"
+    },
+    {
+      "slug": "puffin",
+      "en": "Atlantic Puffin",
+      "scientific": "Fratercula arctica",
+      "corrections": {
+        "he": {
+          "old": "פאפין",
+          "new": "תוכי ים אטלנטי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Frailecillo atlántico",
+          "new": "Fratercula arctica",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Atlantic puffin"
+    },
+    {
+      "slug": "gannet",
+      "en": "Northern Gannet",
+      "scientific": "Morus bassanus",
+      "corrections": {
+        "he": {
+          "old": "סולה",
+          "new": "סולה צפונית",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Alcatraz atlántico",
+          "new": "Alcatraz común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Morus bassanus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Northern gannet"
+    },
+    {
+      "slug": "oystercatcher",
+      "en": "Eurasian Oystercatcher",
+      "scientific": "Haematopus ostralegus",
+      "corrections": {
+        "he": {
+          "old": "שחרית",
+          "new": "שלצדף החוף",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ostrero euroasiático",
+          "new": "Haematopus ostralegus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian oystercatcher"
+    },
+    {
+      "slug": "common_tern",
+      "en": "Common Tern",
+      "scientific": "Sterna hirundo",
+      "corrections": {
+        "he": {
+          "old": "שחפית מצויה",
+          "new": "שחפית ים",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Charrán común",
+          "new": "Sterna hirundo",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common tern"
+    },
+    {
+      "slug": "common_coot",
+      "en": "Common Coot",
+      "scientific": "Fulica atra",
+      "corrections": {
+        "en": {
+          "old": "Common Coot",
+          "new": "Eurasian Coot",
+          "source": "en.wikipedia article title for Fulica atra"
+        }
+      },
+      "missing_wiki": [
+        "he",
+        "es",
+        "fr"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian coot"
+    },
+    {
+      "slug": "moorhen",
+      "en": "Common Moorhen",
+      "scientific": "Gallinula chloropus",
+      "corrections": {
+        "he": {
+          "old": "סופית",
+          "new": "סופית מצויה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common moorhen"
+    },
+    {
+      "slug": "grebe",
+      "en": "Great Crested Grebe",
+      "scientific": "Podiceps cristatus",
+      "corrections": {
+        "he": {
+          "old": "טבלן מצוי",
+          "new": "טבלן מצויץ",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great crested grebe"
+    },
+    {
+      "slug": "shearwater",
+      "en": "Manx Shearwater",
+      "scientific": "Puffinus puffinus",
+      "corrections": {
+        "he": {
+          "old": "יסעור",
+          "new": "יסעור אטלנטי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Manx shearwater"
+    },
+    {
+      "slug": "common_swift_apus",
+      "en": "Common Swift",
+      "scientific": "Apus apus",
+      "corrections": {
+        "he": {
+          "old": "סיס",
+          "new": "סיס חומות",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common swift"
+    },
+    {
+      "slug": "house_martin",
+      "en": "House Martin",
+      "scientific": "Delichon urbicum",
+      "corrections": {
+        "en": {
+          "old": "House Martin",
+          "new": "Delichon",
+          "source": "en.wikipedia article title for Delichon urbicum"
+        }
+      },
+      "missing_wiki": [
+        "he",
+        "es",
+        "fr"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Delichon"
+    },
+    {
+      "slug": "sand_martin",
+      "en": "Sand Martin",
+      "scientific": "Riparia riparia",
+      "corrections": {
+        "he": {
+          "old": "סנונית חול",
+          "new": "כוכית גדות",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Avión zapador",
+          "new": "Riparia riparia",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Sand martin"
+    },
+    {
+      "slug": "wryneck",
+      "en": "Eurasian Wryneck",
+      "scientific": "Jynx torquilla",
+      "corrections": {
+        "he": {
+          "old": "שקת",
+          "new": "סבראש",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Torcecuello europeo",
+          "new": "Jynx torquilla",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian wryneck"
+    },
+    {
+      "slug": "wren",
+      "en": "Eurasian Wren",
+      "scientific": "Troglodytes troglodytes",
+      "corrections": {
+        "he": {
+          "old": "גדרון",
+          "new": "גדרון מצוי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Chochín común",
+          "new": "Troglodytes troglodytes",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian wren"
+    },
+    {
+      "slug": "dunnock",
+      "en": "Dunnock",
+      "scientific": "Prunella modularis",
+      "corrections": {
+        "he": {
+          "old": "חרוז",
+          "new": "סתרי מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Dunnock"
+    },
+    {
+      "slug": "blackcap",
+      "en": "Eurasian Blackcap",
+      "scientific": "Sylvia atricapilla",
+      "corrections": {
+        "he": {
+          "old": "סבכי שחור קלצ",
+          "new": "סבכי שחור-כיפה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian blackcap"
+    },
+    {
+      "slug": "garden_warbler",
+      "en": "Garden Warbler",
+      "scientific": "Sylvia borin",
+      "corrections": {
+        "he": {
+          "old": "סבכי גנים",
+          "new": "סבכי אפור",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Garden warbler"
+    },
+    {
+      "slug": "chiffchaff",
+      "en": "Common Chiffchaff",
+      "scientific": "Phylloscopus collybita",
+      "corrections": {
+        "he": {
+          "old": "עלווית",
+          "new": "עלווית חורף",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common chiffchaff"
+    },
+    {
+      "slug": "willow_warbler",
+      "en": "Willow Warbler",
+      "scientific": "Phylloscopus trochilus",
+      "corrections": {
+        "he": {
+          "old": "עלווית צפצפות",
+          "new": "עלווית אפורה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Mosquitero musical",
+          "new": "Phylloscopus trochilus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Willow warbler"
+    },
+    {
+      "slug": "reed_warbler",
+      "en": "Eurasian Reed Warbler",
+      "scientific": "Acrocephalus scirpaceus",
+      "corrections": {
+        "en": {
+          "old": "Eurasian Reed Warbler",
+          "new": "Common Reed Warbler",
+          "source": "en.wikipedia article title for Acrocephalus scirpaceus"
+        },
+        "he": {
+          "old": "עלוון",
+          "new": "קנית קטנה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Carricero tordal",
+          "new": "Carricero común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Acrocephalus scirpaceus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common reed warbler"
+    },
+    {
+      "slug": "sedge_warbler",
+      "en": "Sedge Warbler",
+      "scientific": "Acrocephalus schoenobaenus",
+      "corrections": {
+        "he": {
+          "old": "עלוון גומא",
+          "new": "קנית פסים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Sedge warbler"
+    },
+    {
+      "slug": "long_tailed_tit",
+      "en": "Long-tailed Tit",
+      "scientific": "Aegithalos caudatus",
+      "corrections": {
+        "he": {
+          "old": "ירגזי ארוך זנב",
+          "new": "גנובתן אירופי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Long-tailed tit"
+    },
+    {
+      "slug": "coal_tit",
+      "en": "Coal Tit",
+      "scientific": "Periparus ater",
+      "corrections": {
+        "he": {
+          "old": "ירגזי פחם",
+          "new": "ירגזי שחור",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Coal tit"
+    },
+    {
+      "slug": "bullfinch",
+      "en": "Eurasian Bullfinch",
+      "scientific": "Pyrrhula pyrrhula",
+      "corrections": {
+        "he": {
+          "old": "דם מצוי",
+          "new": "אדמונית אירופית",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Camachuelo europeo",
+          "new": "Camachuelo común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Pyrrhula pyrrhula"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian bullfinch"
+    },
+    {
+      "slug": "siskin",
+      "en": "Eurasian Siskin",
+      "scientific": "Spinus spinus",
+      "corrections": {
+        "he": {
+          "old": "תורית",
+          "new": "חורפי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Lúgano",
+          "new": "Lúgano, lugano",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Spinus spinus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian siskin"
+    },
+    {
+      "slug": "linnet",
+      "en": "Common Linnet",
+      "scientific": "Linaria cannabina",
+      "corrections": {
+        "he": {
+          "old": "חוחית פשתן",
+          "new": "תפוחית מצויה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common linnet"
+    },
+    {
+      "slug": "yellowhammer",
+      "en": "Yellowhammer",
+      "scientific": "Emberiza citrinella",
+      "corrections": {
+        "he": {
+          "old": "גבתון צהוב",
+          "new": "גיבתון צהוב",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Yellowhammer"
+    },
+    {
+      "slug": "corn_bunting",
+      "en": "Corn Bunting",
+      "scientific": "Emberiza calandra",
+      "corrections": {
+        "he": {
+          "old": "גבתון שדות",
+          "new": "גיבתון עפרוני",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Escribano triguero",
+          "new": "Triguero",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Emberiza calandra"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Corn bunting"
+    },
+    {
+      "slug": "booted_eagle",
+      "en": "Booted Eagle",
+      "scientific": "Hieraaetus pennatus",
+      "corrections": {
+        "he": {
+          "old": "עיט נעלם",
+          "new": "עיט גמדי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila calzada",
+          "new": "Águila",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Hieraaetus pennatus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Booted eagle"
+    },
+    {
+      "slug": "short_toed_eagle",
+      "en": "Short-toed Eagle",
+      "scientific": "Circaetus gallicus",
+      "corrections": {
+        "en": {
+          "old": "Short-toed Eagle",
+          "new": "Short-Toed Snake Eagle",
+          "source": "en.wikipedia article title for Circaetus gallicus"
+        },
+        "he": {
+          "old": "עיט נחשים",
+          "new": "חיוויאי הנחשים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Short-toed snake eagle"
+    },
+    {
+      "slug": "levant_sparrowhawk",
+      "en": "Levant Sparrowhawk",
+      "scientific": "Accipiter brevipes",
+      "corrections": {
+        "he": {
+          "old": "נץ לבנטיני",
+          "new": "נץ קצר-אצבעות",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Gavilán del Levante",
+          "new": "Gavilán griego",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Accipiter brevipes"
+        },
+        "fr": {
+          "old": "Épervier du Levant",
+          "new": "L'Épervier à pieds courts",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Épervier à pieds courts"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Levant sparrowhawk"
+    },
+    {
+      "slug": "white_tailed_eagle",
+      "en": "White-tailed Eagle",
+      "scientific": "Haliaeetus albicilla",
+      "corrections": {
+        "he": {
+          "old": "עיט ים",
+          "new": "עיטם לבן-זנב",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "White-tailed eagle"
+    },
+    {
+      "slug": "marsh_harrier",
+      "en": "Western Marsh Harrier",
+      "scientific": "Circus aeruginosus",
+      "corrections": {
+        "he": {
+          "old": "זרון ביצות",
+          "new": "זרון סוף",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Aguilucho lagunero",
+          "new": "Aguilucho lagunero occidental",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Circus aeruginosus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Western marsh harrier"
+    },
+    {
+      "slug": "montagu_harrier",
+      "en": "Montagu's Harrier",
+      "scientific": "Circus pygargus",
+      "corrections": {
+        "he": {
+          "old": "זרון מונטגיו",
+          "new": "זרון פס",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Montagu's harrier"
+    },
+    {
+      "slug": "hobby",
+      "en": "Eurasian Hobby",
+      "scientific": "Falco subbuteo",
+      "corrections": {
+        "he": {
+          "old": "בז הבתות",
+          "new": "בז עצים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian hobby"
+    },
+    {
+      "slug": "merlin",
+      "en": "Merlin",
+      "scientific": "Falco columbarius",
+      "corrections": {
+        "he": {
+          "old": "בז קטן",
+          "new": "בז גמדי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Merlin (bird)"
+    },
+    {
+      "slug": "lanner_falcon",
+      "en": "Lanner Falcon",
+      "scientific": "Falco biarmicus",
+      "corrections": {
+        "he": {
+          "old": "בז מדבר",
+          "new": "בז צוקים",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Halcón borní",
+          "new": "Halcón borní,  barní",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Falco biarmicus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Lanner falcon"
+    },
+    {
+      "slug": "scops_owl",
+      "en": "Eurasian Scops Owl",
+      "scientific": "Otus scops",
+      "corrections": {
+        "he": {
+          "old": "קוק",
+          "new": "שעיר מצוי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Autillo europeo",
+          "new": "Autillo, autillo común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Otus scops"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian scops owl"
+    },
+    {
+      "slug": "roller",
+      "en": "European Roller",
+      "scientific": "Coracias garrulus",
+      "corrections": {
+        "he": {
+          "old": "סנונית ים",
+          "new": "כחל מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "European roller"
+    },
+    {
+      "slug": "little_bustard",
+      "en": "Little Bustard",
+      "scientific": "Tetrax tetrax",
+      "corrections": {
+        "he": {
+          "old": "שפרה קטנה",
+          "new": "חובה קטנה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Little bustard"
+    },
+    {
+      "slug": "common_quail",
+      "en": "Common Quail",
+      "scientific": "Coturnix coturnix",
+      "corrections": {
+        "he": {
+          "old": "שלו",
+          "new": "שליו נודד",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common quail"
+    },
+    {
+      "slug": "pheasant",
+      "en": "Common Pheasant",
+      "scientific": "Phasianus colchicus",
+      "corrections": {
+        "he": {
+          "old": "פסיון",
+          "new": "פסיון מצוי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Faisán vulgar",
+          "new": "Faisán común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Phasianus colchicus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common pheasant"
+    },
+    {
+      "slug": "red_legged_partridge",
+      "en": "Red-legged Partridge",
+      "scientific": "Alectoris rufa",
+      "corrections": {
+        "he": {
+          "old": "חוגלה אדומת רגל",
+          "new": "חוגלה אדמונית",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Red-legged partridge"
+    },
+    {
+      "slug": "kinglet",
+      "en": "Goldcrest",
+      "scientific": "Regulus regulus",
+      "corrections": {
+        "he": {
+          "old": "מלכית",
+          "new": "מלכילון אורנים",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Reyezuelo listado",
+          "new": "Reyezuelo sencillo",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Regulus regulus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Goldcrest"
+    },
+    {
+      "slug": "great_bustard",
+      "en": "Great Bustard",
+      "scientific": "Otis tarda",
+      "corrections": {
+        "he": {
+          "old": "שפרה גדולה",
+          "new": "חובה גדולה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Avutarda euroasiática",
+          "new": "Avutarda común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Otis tarda"
+        },
+        "fr": {
+          "old": "Outarde barbue",
+          "new": "Grande Outarde",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Great bustard"
+    },
+    {
+      "slug": "black_grouse",
+      "en": "Black Grouse",
+      "scientific": "Lyrurus tetrix",
+      "corrections": {
+        "he": {
+          "old": "טטרה שחורה",
+          "new": "שכווי שחור",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Gallo lira",
+          "new": "Gallo lira común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Lyrurus tetrix"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Black grouse"
+    },
+    {
+      "slug": "capercaillie",
+      "en": "Western Capercaillie",
+      "scientific": "Tetrao urogallus",
+      "corrections": {
+        "he": {
+          "old": "טטרה גדולה",
+          "new": "שכווי ענק",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Urogallo occidental",
+          "new": "Urogallo común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Tetrao urogallus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Western capercaillie"
+    },
+    {
+      "slug": "grey_partridge",
+      "en": "Grey Partridge",
+      "scientific": "Perdix perdix",
+      "corrections": {
+        "he": {
+          "old": "חוגלה אפורה",
+          "new": "חוגלית אפורה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Grey partridge"
+    },
+    {
+      "slug": "water_rail",
+      "en": "Water Rail",
+      "scientific": "Rallus aquaticus",
+      "corrections": {
+        "he": {
+          "old": "רעמית מים",
+          "new": "רלית המים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Water rail"
+    },
+    {
+      "slug": "night_heron",
+      "en": "Black-crowned Night Heron",
+      "scientific": "Nycticorax nycticorax",
+      "corrections": {
+        "he": {
+          "old": "אנפת לילה",
+          "new": "אנפת לילה מצויה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Garza nocturna",
+          "new": "Martinete común, huaco⁸",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Nycticorax nycticorax"
+        },
+        "fr": {
+          "old": "Héron bihoreau",
+          "new": "Bihoreau gris",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Bihoreau gris"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Black-crowned night heron"
+    },
+    {
+      "slug": "squacco_heron",
+      "en": "Squacco Heron",
+      "scientific": "Ardeola ralloides",
+      "corrections": {
+        "he": {
+          "old": "אנפת אגמים",
+          "new": "אנפית סוף",
+          "source": "interlanguage link"
+        },
+        "fr": {
+          "old": "Héron crabier",
+          "new": "Crabier chevelu",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Crabier chevelu"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Squacco heron"
+    },
+    {
+      "slug": "glossy_ibis",
+      "en": "Glossy Ibis",
+      "scientific": "Plegadis falcinellus",
+      "corrections": {
+        "he": {
+          "old": "אבוקיה",
+          "new": "מגלן חום",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Glossy ibis"
+    },
+    {
+      "slug": "spoonbill",
+      "en": "Eurasian Spoonbill",
+      "scientific": "Platalea leucorodia",
+      "corrections": {
+        "he": {
+          "old": "כפכף",
+          "new": "כפן מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian spoonbill"
+    },
+    {
+      "slug": "ferruginous_duck",
+      "en": "Ferruginous Duck",
+      "scientific": "Aythya nyroca",
+      "corrections": {
+        "he": {
+          "old": "ברווז חום",
+          "new": "צולל ביצות",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Ferruginous duck"
+    },
+    {
+      "slug": "garganey",
+      "en": "Garganey",
+      "scientific": "Spatula querquedula",
+      "corrections": {
+        "he": {
+          "old": "כחלית",
+          "new": "קרקיר",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Garganey"
+    },
+    {
+      "slug": "saker_falcon",
+      "en": "Saker Falcon",
+      "scientific": "Falco cherrug",
+      "corrections": {
+        "he": {
+          "old": "בז ציד",
+          "new": "בז ציידים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Saker falcon"
+    },
+    {
+      "slug": "bonelli_eagle",
+      "en": "Bonelli's Eagle",
+      "scientific": "Aquila fasciata",
+      "corrections": {
+        "he": {
+          "old": "עיט ינון",
+          "new": "עיט ניצי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila de Bonelli",
+          "new": "Águila azor perdicera",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Aquila fasciata"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Bonelli's eagle"
+    },
+    {
+      "slug": "imperial_eagle",
+      "en": "Eastern Imperial Eagle",
+      "scientific": "Aquila heliaca",
+      "corrections": {
+        "he": {
+          "old": "עיט קיסרי",
+          "new": "עיט שמש",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eastern imperial eagle"
+    },
+    {
+      "slug": "griffon_vulture",
+      "en": "Griffon Vulture",
+      "scientific": "Gyps fulvus",
+      "corrections": {
+        "en": {
+          "old": "Griffon Vulture",
+          "new": "Eurasian Griffon Vulture",
+          "source": "en.wikipedia article title for Gyps fulvus"
+        },
+        "he": {
+          "old": "נשר מכוחלים",
+          "new": "נשר מקראי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian griffon vulture"
+    },
+    {
+      "slug": "egyptian_vulture",
+      "en": "Egyptian Vulture",
+      "scientific": "Neophron percnopterus",
+      "corrections": {
+        "he": {
+          "old": "רחם",
+          "new": "רחם (עוף)",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Alimoche",
+          "new": "Alimoche común, abanto, guirre",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Neophron percnopterus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Egyptian vulture"
+    },
+    {
+      "slug": "black_vulture",
+      "en": "Black Vulture",
+      "scientific": "Aegypius monachus",
+      "corrections": {
+        "en": {
+          "old": "Black Vulture",
+          "new": "Cinereous Vulture",
+          "source": "en.wikipedia article title for Aegypius monachus"
+        },
+        "he": {
+          "old": "כוכיה",
+          "new": "עוזנייה שחורה",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Cinereous vulture"
+    },
+    {
+      "slug": "eagle_owl",
+      "en": "Eurasian Eagle-Owl",
+      "scientific": "Bubo bubo",
+      "corrections": {
+        "he": {
+          "old": "אוח",
+          "new": "אוח מצוי",
+          "source": "interlanguage link"
+        },
+        "fr": {
+          "old": "Grand-duc d'Europe",
+          "new": "Hibou grand-duc",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Hibou grand-duc"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian eagle-owl"
+    },
+    {
+      "slug": "ural_owl",
+      "en": "Ural Owl",
+      "scientific": "Strix uralensis",
+      "corrections": {
+        "he": {
+          "old": "ינשוף אורל",
+          "new": "לילית אורל",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Ural owl"
+    },
+    {
+      "slug": "pygmy_owl",
+      "en": "Eurasian Pygmy Owl",
+      "scientific": "Glaucidium passerinum",
+      "corrections": {
+        "es": {
+          "old": "Mochuelo chico",
+          "new": "Mochuelo alpino",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Glaucidium passerinum"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian pygmy owl"
+    },
+    {
+      "slug": "tengmalm_owl",
+      "en": "Boreal Owl",
+      "scientific": "Aegolius funereus",
+      "corrections": {
+        "he": {
+          "old": "ינשוף בורני",
+          "new": "כוס חום",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Lechuza de Tengmalm",
+          "new": "Mochuelo boreal",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Aegolius funereus"
+        },
+        "fr": {
+          "old": "Chouette de Tengmalm",
+          "new": "Nyctale de Tengmalm",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Nyctale de Tengmalm"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Boreal owl"
+    },
+    {
+      "slug": "ortolan_bunting",
+      "en": "Ortolan Bunting",
+      "scientific": "Emberiza hortulana",
+      "corrections": {
+        "he": {
+          "old": "גבתון גנים",
+          "new": "גיבתון גנים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Ortolan bunting"
+    },
+    {
+      "slug": "hawfinch",
+      "en": "Hawfinch",
+      "scientific": "Coccothraustes coccothraustes",
+      "corrections": {
+        "he": {
+          "old": "חטמון",
+          "new": "פצחן מצוי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Picogordo europeo",
+          "new": "Picogordo común",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Coccothraustes coccothraustes"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Hawfinch"
+    },
+    {
+      "slug": "crossbill",
+      "en": "Red Crossbill",
+      "scientific": "Loxia curvirostra",
+      "corrections": {
+        "he": {
+          "old": "שתקית",
+          "new": "צלוב-מקור מצוי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Red crossbill"
+    },
+    {
+      "slug": "redpoll",
+      "en": "Common Redpoll",
+      "scientific": "Acanthis flammea",
+      "corrections": {
+        "en": {
+          "old": "Common Redpoll",
+          "new": "Redpoll",
+          "source": "en.wikipedia article title for Acanthis flammea"
+        },
+        "es": {
+          "old": "Pardillo sizerín",
+          "new": "Acanthis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Sizerin flammé",
+          "new": "Acanthis (genre)",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Redpoll"
+    },
+    {
+      "slug": "snow_bunting",
+      "en": "Snow Bunting",
+      "scientific": "Plectrophenax nivalis",
+      "corrections": {
+        "he": {
+          "old": "גבתון שלג",
+          "new": "גיבתון השלג",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Snow bunting"
+    },
+    {
+      "slug": "lapland_bunting",
+      "en": "Lapland Longspur",
+      "scientific": "Calcarius lapponicus",
+      "corrections": {
+        "he": {
+          "old": "גבתון לפלנד",
+          "new": "גיבתון לפלנד",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Escribano de Laponia",
+          "new": "Escribano lapón",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Calcarius lapponicus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Lapland longspur"
+    },
+    {
+      "slug": "brambling",
+      "en": "Brambling",
+      "scientific": "Fringilla montifringilla",
+      "corrections": {
+        "he": {
+          "old": "פרוש צפוני",
+          "new": "פרוש הרים",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Brambling"
+    },
+    {
+      "slug": "firecrest",
+      "en": "Common Firecrest",
+      "scientific": "Regulus ignicapilla",
+      "corrections": {
+        "he": {
+          "old": "מלכית אש",
+          "new": "מלכילון לבן-גבות",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Reyezuelo listado",
+          "new": "Regulus ignicapilla",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Common firecrest"
+    },
+    {
+      "slug": "bearded_tit",
+      "en": "Bearded Reedling",
+      "scientific": "Panurus biarmicus",
+      "corrections": {
+        "he": {
+          "old": "ירגזי זקן",
+          "new": "שפמתן",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Bearded reedling"
+    },
+    {
+      "slug": "penduline_tit",
+      "en": "Eurasian Penduline Tit",
+      "scientific": "Remiz pendulinus",
+      "corrections": {
+        "he": {
+          "old": "ירגזי שק",
+          "new": "רמית (עוף)",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Pájaro moscón",
+          "new": "Pájaro moscón europeo",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Remiz pendulinus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian penduline tit"
+    },
+    {
+      "slug": "wallcreeper",
+      "en": "Wallcreeper",
+      "scientific": "Tichodroma muraria",
+      "corrections": {
+        "he": {
+          "old": "טיפסן",
+          "new": "כותלי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Treparriscos",
+          "new": "Treparriscos, arañero",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Tichodroma muraria"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Wallcreeper"
+    },
+    {
+      "slug": "dipper",
+      "en": "White-throated Dipper",
+      "scientific": "Cinclus cinclus",
+      "corrections": {
+        "he": {
+          "old": "צולל",
+          "new": "אמודאי אירופי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Mirlo acuático",
+          "new": "Mirlo acuático europeo",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Cinclus cinclus"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "White-throated dipper"
+    },
+    {
+      "slug": "ring_ouzel",
+      "en": "Ring Ouzel",
+      "scientific": "Turdus torquatus",
+      "corrections": {
+        "he": {
+          "old": "שחרור הר",
+          "new": "קיכלי סהרון",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Ring ouzel"
+    },
+    {
+      "slug": "bluethroat",
+      "en": "Bluethroat",
+      "scientific": "Luscinia svecica",
+      "corrections": {
+        "he": {
+          "old": "כחלת",
+          "new": "כחול-החזה",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Pechiazul",
+          "new": "Luscinia svecica",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Bluethroat"
+    },
+    {
+      "slug": "wryneck_eur",
+      "en": "Eurasian Wryneck",
+      "scientific": "Jynx torquilla",
+      "corrections": {
+        "he": {
+          "old": "שקת",
+          "new": "סבראש",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Torcecuello europeo",
+          "new": "Torcecuello euroasiático",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Jynx torquilla"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Eurasian wryneck"
+    },
+    {
+      "slug": "kakapo",
+      "en": "Kakapo",
+      "scientific": "Strigops habroptilus",
+      "corrections": {
+        "en": {
+          "old": "Kakapo",
+          "new": "Kākāpō",
+          "source": "en.wikipedia article title for Strigops habroptilus"
+        },
+        "he": {
+          "old": "קקפו",
+          "new": "קאקאפו",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Kākāpō"
+    },
+    {
+      "slug": "california_condor",
+      "en": "California Condor",
+      "scientific": "Gymnogyps californianus",
+      "corrections": {
+        "he": {
+          "old": "קונדור קליפורניה",
+          "new": "קונדור קליפורני",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Cóndor de California",
+          "new": "Gymnogyps californianus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "California condor"
+    },
+    {
+      "slug": "philippine_eagle",
+      "en": "Philippine Eagle",
+      "scientific": "Pithecophaga jefferyi",
+      "corrections": {
+        "he": {
+          "old": "עיט הפיליפינים",
+          "new": "עיט פיליפיני",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila de Filipinas",
+          "new": "Águila monera",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Pithecophaga jefferyi"
+        },
+        "fr": {
+          "old": "Aigle des Philippines",
+          "new": "Pithécophage des Philippines",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Pithécophage des Philippines"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Philippine eagle"
+    },
+    {
+      "slug": "whooping_crane",
+      "en": "Whooping Crane",
+      "scientific": "Grus americana",
+      "corrections": {
+        "he": {
+          "old": "עגור שורק",
+          "new": "עגור אמריקאי",
+          "source": "interlanguage link"
+        },
+        "fr": {
+          "old": "Grue blanche d'Amérique",
+          "new": "Grue blanche",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Grue blanche"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Whooping crane"
+    },
+    {
+      "slug": "california_clapper_rail",
+      "en": "Ridgway's Rail",
+      "scientific": "Rallus obsoletus",
+      "corrections": {
+        "es": {
+          "old": "Rascón de California",
+          "new": "Rascón de Ridgway",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Rallus obsoletus"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Ridgway's rail"
+    },
+    {
+      "slug": "spixs_macaw",
+      "en": "Spix's Macaw",
+      "scientific": "Cyanopsitta spixii",
+      "corrections": {
+        "he": {
+          "old": "מקאו של שפיקס",
+          "new": "מקאו ספיקס",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Spix's macaw"
+    },
+    {
+      "slug": "blue_throated_macaw",
+      "en": "Blue-throated Macaw",
+      "scientific": "Ara glaucogularis",
+      "corrections": {
+        "he": {
+          "old": "מקאו כחול גרון",
+          "new": "ארה כחולת-גרון",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Guacamayo de cuello azul",
+          "new": "Guacamayo barba azul",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Ara glaucogularis"
+        },
+        "fr": {
+          "old": "Ara à gorge bleue",
+          "new": "L'Ara canindé",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Ara canindé"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Blue-throated macaw"
+    },
+    {
+      "slug": "regent_honeyeater",
+      "en": "Regent Honeyeater",
+      "scientific": "Anthochaera phrygia",
+      "corrections": {
+        "es": {
+          "old": "Melífago regente",
+          "new": "Mielero regente",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Anthochaera phrygia"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Regent honeyeater"
+    },
+    {
+      "slug": "forest_owlet",
+      "en": "Forest Owlet",
+      "scientific": "Heteroglaux blewitti",
+      "corrections": {
+        "es": {
+          "old": "Mochuelo forestal",
+          "new": "Athene blewitti",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Chevêchette forêt",
+          "new": "Chevêche forestière",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Chevêche forestière"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Forest owlet"
+    },
+    {
+      "slug": "stellers_sea_eagle",
+      "en": "Steller's Sea Eagle",
+      "scientific": "Haliaeetus pelagicus",
+      "corrections": {
+        "he": {
+          "old": "עיט ים של שטלר",
+          "new": "עיטם שטלר",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Pigargo de Steller",
+          "new": "Haliaeetus pelagicus",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Pygargue de Steller",
+          "new": "Pygargue empereur",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Pygargue empereur"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Steller's sea eagle"
+    },
+    {
+      "slug": "harpy_eagle",
+      "en": "Harpy Eagle",
+      "scientific": "Harpia harpyja",
+      "corrections": {
+        "he": {
+          "old": "עיט הרפייה",
+          "new": "הרפיה (עוף)",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Águila harpía",
+          "new": "Harpia harpyja",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Harpy eagle"
+    },
+    {
+      "slug": "martial_eagle",
+      "en": "Martial Eagle",
+      "scientific": "Polemaetus bellicosus",
+      "corrections": {
+        "he": {
+          "old": "עיט מלחמתי",
+          "new": "עיט לוחם",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Martial eagle"
+    },
+    {
+      "slug": "secretary_bird",
+      "en": "Secretary Bird",
+      "scientific": "Sagittarius serpentarius",
+      "corrections": {
+        "en": {
+          "old": "Secretary Bird",
+          "new": "Secretarybird",
+          "source": "en.wikipedia article title for Sagittarius serpentarius"
+        },
+        "he": {
+          "old": "ציפור מזכיר",
+          "new": "לבלר (עוף)",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ave secretaria",
+          "new": "Secretario",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Sagittarius serpentarius"
+        },
+        "fr": {
+          "old": "Secrétaire",
+          "new": "Messager sagittaire",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Messager sagittaire"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Secretarybird"
+    },
+    {
+      "slug": "shoebill",
+      "en": "Shoebill",
+      "scientific": "Balaeniceps rex",
+      "corrections": {
+        "he": {
+          "old": "צפרדענית",
+          "new": "מנעלן",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Shoebill"
+    },
+    {
+      "slug": "african_spoonbill",
+      "en": "African Spoonbill",
+      "scientific": "Platalea alba",
+      "corrections": {
+        "he": {
+          "old": "כפכף אפריקאי",
+          "new": "כפן אפריקאי",
+          "source": "interlanguage link"
+        },
+        "fr": {
+          "old": "Spatule africaine",
+          "new": "Spatule d'Afrique",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "African spoonbill"
+    },
+    {
+      "slug": "javan_rhino_hornbill",
+      "en": "Javan Rhinoceros Hornbill",
+      "scientific": "Buceros rhinoceros",
+      "corrections": {
+        "en": {
+          "old": "Javan Rhinoceros Hornbill",
+          "new": "Rhinoceros Hornbill",
+          "source": "en.wikipedia article title for Buceros rhinoceros"
+        },
+        "he": {
+          "old": "קרנית ריינוסרוס",
+          "new": "קלאו קרנפי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Rhinoceros hornbill"
+    },
+    {
+      "slug": "resplendent_quetzal",
+      "en": "Resplendent Quetzal",
+      "scientific": "Pharomachrus mocinno",
+      "corrections": {
+        "he": {
+          "old": "קצאל מפואר",
+          "new": "קורוקו הדור",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Quetzal resplandeciente",
+          "new": "Pharomachrus mocinno",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Resplendent quetzal"
+    },
+    {
+      "slug": "superb_lyrebird",
+      "en": "Superb Lyrebird",
+      "scientific": "Menura novaehollandiae",
+      "corrections": {
+        "he": {
+          "old": "כנורן",
+          "new": "נבלי הדור",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Menura superba",
+          "new": "Ave lira soberbia",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Menura novaehollandiae"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Superb lyrebird"
+    },
+    {
+      "slug": "bird_of_paradise",
+      "en": "Raggiana Bird-of-paradise",
+      "scientific": "Paradisaea raggiana",
+      "corrections": {
+        "he": {
+          "old": "ציפור גן עדן",
+          "new": "בת עדן ראגי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Ave del paraíso",
+          "new": "Raggi",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Paradisaea raggiana"
+        },
+        "fr": {
+          "old": "Paradisier de Raggiana",
+          "new": "Paradisier de Raggi",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Paradisier de Raggi"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Raggiana bird-of-paradise"
+    },
+    {
+      "slug": "kiwi",
+      "en": "Brown Kiwi",
+      "scientific": "Apteryx australis",
+      "corrections": {
+        "en": {
+          "old": "Brown Kiwi",
+          "new": "Southern Brown Kiwi",
+          "source": "en.wikipedia article title for Apteryx australis"
+        },
+        "he": {
+          "old": "קיווי",
+          "new": "קיווי חום דרומי",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Southern brown kiwi"
+    },
+    {
+      "slug": "bali_myna",
+      "en": "Bali Myna",
+      "scientific": "Leucopsar rothschildi",
+      "corrections": {
+        "es": {
+          "old": "Miná de Bali",
+          "new": "Estornino de Bali",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Leucopsar rothschildi"
+        },
+        "fr": {
+          "old": "Mainate de Bali",
+          "new": "L'Étourneau de Rothschild",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Étourneau de Rothschild"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Bali myna"
+    },
+    {
+      "slug": "palawan_peacock_pheasant",
+      "en": "Palawan Peacock-Pheasant",
+      "scientific": "Polyplectron napoleonis",
+      "corrections": {
+        "he": {
+          "old": "פסיון טווס",
+          "new": "טווסון פלאוואן",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Espejuelo de Palawán",
+          "new": "Polyplectron napoleonis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Éperonnier de Palawan",
+          "new": "L'Éperonnier napoléon",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Éperonnier napoléon"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Palawan peacock-pheasant"
+    },
+    {
+      "slug": "blue_crowned_laughingthrush",
+      "en": "Blue-crowned Laughingthrush",
+      "scientific": "Pterorhinus courtoisi",
+      "corrections": {
+        "es": {
+          "old": "Charlatán corona azul",
+          "new": "Charlatán coroniazul",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Garrulax courtoisi"
+        },
+        "fr": {
+          "old": "Garrulaxe à couronne bleue",
+          "new": "Garrulaxe de Courtois",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Garrulaxe de Courtois"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Blue-crowned laughingthrush"
+    },
+    {
+      "slug": "amsterdam_albatross",
+      "en": "Amsterdam Albatross",
+      "scientific": "Diomedea amsterdamensis",
+      "corrections": {
+        "es": {
+          "old": "Albatros de Amsterdam",
+          "new": "Albatros de Ámsterdam",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Diomedea amsterdamensis"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Amsterdam albatross"
+    },
+    {
+      "slug": "cahow",
+      "en": "Bermuda Petrel",
+      "scientific": "Pterodroma cahow",
+      "corrections": {
+        "fr": {
+          "old": "Pétrel cahow",
+          "new": "Pétrel des Bermudes",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Pétrel des Bermudes"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Bermuda petrel"
+    },
+    {
+      "slug": "ivory_billed_woodpecker",
+      "en": "Ivory-billed Woodpecker",
+      "scientific": "Campephilus principalis",
+      "corrections": {
+        "he": {
+          "old": "נקר מקור שנהב",
+          "new": "נקר שנהבי",
+          "source": "interlanguage link"
+        },
+        "es": {
+          "old": "Carpintero pico de marfil",
+          "new": "Campephilus principalis",
+          "source": "interlanguage link (scientific name as title)",
+          "note": "wiki uses scientific name; our common name may be fine",
+          "confidence": "low"
+        },
+        "fr": {
+          "old": "Pic à bec blanc",
+          "new": "Pic à bec ivoire",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Pic à bec ivoire"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Ivory-billed woodpecker"
+    },
+    {
+      "slug": "po_ouli",
+      "en": "Poʻouli",
+      "scientific": "Melamprosops phaeosoma",
+      "corrections": {
+        "es": {
+          "old": "Poʻouli",
+          "new": "Po'ouli",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Melamprosops phaeosoma"
+        },
+        "fr": {
+          "old": "Poʻouli",
+          "new": "Po-o-uli masqué",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Po-o-uli masqué"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Poʻouli"
+    },
+    {
+      "slug": "giant_ibis",
+      "en": "Giant Ibis",
+      "scientific": "Thaumatibis gigantea",
+      "corrections": {
+        "he": {
+          "old": "איביס ענק",
+          "new": "מגלן ענק",
+          "source": "interlanguage link"
+        }
+      },
+      "missing_wiki": [],
+      "status": "needs_correction",
+      "en_wiki_title": "Giant ibis"
+    },
+    {
+      "slug": "new_caledonian_lorikeet",
+      "en": "New Caledonian Lorikeet",
+      "scientific": "Charmosyna diadema",
+      "corrections": {
+        "es": {
+          "old": "Lori de Nueva Caledonia",
+          "new": "Lori diadema",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Charmosyna diadema"
+        },
+        "fr": {
+          "old": "Lori de Nouvelle-Calédonie",
+          "new": "Lori à diadème",
+          "source": "extracted from fr.wikipedia intro",
+          "wiki_title": "Lori à diadème"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "New Caledonian lorikeet"
+    },
+    {
+      "slug": "swift_parrot",
+      "en": "Swift Parrot",
+      "scientific": "Lathamus discolor",
+      "corrections": {
+        "es": {
+          "old": "Loro veloz",
+          "new": "Periquito migrador",
+          "source": "extracted from es.wikipedia intro",
+          "wiki_title": "Lathamus discolor"
+        }
+      },
+      "missing_wiki": [
+        "he"
+      ],
+      "status": "needs_correction",
+      "en_wiki_title": "Swift parrot"
+    }
+  ],
+  "not_found": []
+}
