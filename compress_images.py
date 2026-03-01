@@ -3,7 +3,7 @@ from PIL import Image
 from pathlib import Path
 
 # Configuration
-BIRDS_DIR = Path(r'c:\Users\matan\Documents\BirdWho_ag\BirdLingo\assets\birds')
+BIRDS_DIR = Path(r'c:\Users\matan\Documents\BirdWho_ag\assets\birds')
 MAX_WIDTH = 800  # Max width in pixels
 MAX_HEIGHT = 800  # Max height in pixels
 JPEG_QUALITY = 70  # JPEG quality (1-100, lower = smaller file)
