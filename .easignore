@@ -5,6 +5,12 @@ web-build/
 # Expo
 .expo/
 
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.py
+
 # IDE
 .idea/
 .vscode/
