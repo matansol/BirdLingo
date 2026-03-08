@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Modal, TouchableOpacity } from 'react-native';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
 import { useLanguage } from '../context/LanguageContext';
 import Button from './Button';
+import BirdImage from './BirdImage';
 
 const FeedbackModal = ({
   visible,
@@ -46,6 +47,17 @@ const FeedbackModal = ({
               <Text style={[styles.birdName, { textAlign: getTextAlign() }]}>
                 {getBirdName(correctBird)}
               </Text>
+            </View>
+          )}
+
+          {/* Bird Image */}
+          {correctBird && (
+            <View style={styles.imageWrapper}>
+              <BirdImage
+                bird={correctBird}
+                size="medium"
+                imageIndex={Number(correctBird.imageIndex) || 0}
+              />
             </View>
           )}
 
@@ -131,6 +143,11 @@ const styles = StyleSheet.create({
     marginBottom: SPACING.lg,
     paddingHorizontal: SPACING.sm,
     lineHeight: 22,
+  },
+  imageWrapper: {
+    marginVertical: SPACING.sm,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   nextButton: {
     width: '100%',

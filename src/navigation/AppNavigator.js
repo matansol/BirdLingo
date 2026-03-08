@@ -7,6 +7,7 @@ import {
   LevelSelectScreen,
   QuizScreen,
   SettingsScreen,
+  GameFormatSelectScreen,
 } from '../screens';
 
 const Stack = createNativeStackNavigator();
@@ -22,6 +23,7 @@ const AppNavigator = () => {
         }}
       >
         <Stack.Screen name="MainMenu" component={MainMenuScreen} />
+        <Stack.Screen name="GameFormatSelect" component={GameFormatSelectScreen} />
         <Stack.Screen name="CategorySelect" component={CategorySelectScreen} />
         <Stack.Screen name="LevelSelect" component={LevelSelectScreen} />
         <Stack.Screen name="Quiz" component={QuizScreen} />

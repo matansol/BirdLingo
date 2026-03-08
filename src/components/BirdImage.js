@@ -4,14 +4,14 @@ import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/th
 import birdImages from '../../assets/birdImages';
 
 // Component that loads local bird images (supports multiple images per bird)
-const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
+const BirdImage = ({ bird, size = 'large', style, imageIndex = 0, disableInteractions = false }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(imageIndex);
 
   // Reset image index when bird or imageIndex prop changes
   useEffect(() => {
     setCurrentImageIndex(imageIndex);
   }, [bird?.id, imageIndex]);
-  
+
   const getSize = () => {
     switch (size) {
       case 'small':
@@ -29,14 +29,15 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
 
   // Get local image source from the image map
   const getImageSource = () => {
-    const imageKey = bird.image;
+    const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
+    if (!imageKey) return null;
     const images = birdImages[imageKey];
-    
+
     if (!images) return null;
-    
+
     // If single image (old format)
     if (!Array.isArray(images)) return images;
-    
+
     // If multiple images (new format)
     return images[currentImageIndex % images.length];
   };
@@ -61,8 +62,8 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
   };
 
   const imageSource = getImageSource();
-  const imageKey = bird.image;
-  const images = birdImages[imageKey];
+  const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
+  const images = imageKey ? birdImages[imageKey] : null;
   const hasMultipleImages = Array.isArray(images) && images.length > 1;
 
   if (!imageSource) {
@@ -79,20 +80,28 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
 
   return (
     <View style={[styles.container, style]}>
-      <TouchableOpacity
-        onPress={() => {
-          if (hasMultipleImages) {
-            setCurrentImageIndex((currentImageIndex + 1) % images.length);
-          }
-        }}
-        disabled={!hasMultipleImages}
-      >
+      {disableInteractions ? (
         <Image
           source={imageSource}
           style={[styles.image, dimensions, SHADOWS.medium]}
           resizeMode="cover"
         />
-      </TouchableOpacity>
+      ) : (
+        <TouchableOpacity
+          onPress={() => {
+            if (hasMultipleImages) {
+              setCurrentImageIndex((currentImageIndex + 1) % images.length);
+            }
+          }}
+          disabled={!hasMultipleImages}
+        >
+          <Image
+            source={imageSource}
+            style={[styles.image, dimensions, SHADOWS.medium]}
+            resizeMode="cover"
+          />
+        </TouchableOpacity>
+      )}
     </View>
   );
 };

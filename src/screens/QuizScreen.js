@@ -5,6 +5,9 @@ import {
   StyleSheet,
   SafeAreaView,
   TouchableOpacity,
+  TextInput,
+  KeyboardAvoidingView,
+  Platform,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
@@ -16,9 +19,10 @@ import birdSimilarity from '../../assets/bird_similarity.json';
 
 // Filter out birds that don't have a matching image file
 const birdsWithImages = birdsData.filter((bird) => {
-  const hasImage = bird.image && birdImages[bird.image];
+  const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
+  const hasImage = imageKey && birdImages[imageKey];
   if (!hasImage) {
-    console.warn(`[BirdLingo] Skipping bird "${bird.names?.en}" (${bird.id}) — no image found for key "${bird.image}"`);
+    console.warn(`[BirdLingo] Skipping bird "${bird.names?.en}" (${bird.id}) — no image found for key "${imageKey}"`);
   }
   return hasImage;
 });
@@ -59,54 +63,77 @@ const getSimilarCount = (mode, level) => {
 };
 
 // Get wrong options: k similar + (5-k) random
-const getWrongOptions = (correctBird, mode, level, excludeIds = []) => {
+const getWrongOptions = (correctBird, mode, level, availablePool, excludeIds = []) => {
   const k = getSimilarCount(mode, level);
   const allExclude = [correctBird.id, ...excludeIds];
   const wrongOptions = [];
 
-  // Pick k similar birds from the similarity map
+  // Pick k similar birds from the similarity map (only if they exist in the available pool)
   if (k > 0) {
     const similarIds = birdSimilarity[correctBird.id] || [];
     const availableSimilar = similarIds
-      .filter((id) => !allExclude.includes(id) && birdById[id])
+      .filter((id) => !allExclude.includes(id) && availablePool.find(b => b.id === id))
       .map((id) => birdById[id]);
     const shuffledSimilar = shuffleArray(availableSimilar);
     const picked = shuffledSimilar.slice(0, k);
     wrongOptions.push(...picked);
   }
 
-  // Fill remaining slots with random birds
+  // Fill remaining slots with random birds from the SAME pool
   const remaining = 5 - wrongOptions.length;
   const usedIds = [...allExclude, ...wrongOptions.map((b) => b.id)];
-  const randomPicks = getRandomItems(birdsWithImages, remaining, usedIds);
+  const randomPicks = getRandomItems(availablePool, remaining, usedIds);
   wrongOptions.push(...randomPicks);
 
   return wrongOptions;
 };
 
 const QuizScreen = ({ navigation, route }) => {
-  const { mode, category, level, filterType } = route.params;
+  const { mode, category, level, filterType, questionFormat = 'classic', difficultyType } = route.params;
   const { t, getBirdName, getTextAlign, isRTL } = useLanguage();
 
   // Filter birds based on mode (only birds with valid images)
   const filteredBirds = useMemo(() => {
     let birds = [...birdsWithImages];
 
-    if (mode === 'endless' && category && category !== 'all') {
-      if (filterType === 'location') {
-        birds = birds.filter((b) => b.locations && b.locations.includes(category));
-      } else if (filterType === 'tag') {
-        const tag = category === 'Big Bird' ? 'Big' : category;
-        birds = birds.filter((b) => b.tags && b.tags.includes(tag));
-      } else {
-        birds = birds.filter((b) => b.category === category);
+    if (mode === 'endless') {
+      if (difficultyType === 'beginner') {
+        birds = birds.filter(b => b.isGroup === true);
+      } else if (difficultyType === 'advanced') {
+        birds = birds.filter(b => !b.isGroup);
+      }
+
+      if (category && category !== 'all') {
+        if (filterType === 'location') {
+          birds = birds.filter((b) => b.locations && b.locations.includes(category));
+        } else if (filterType === 'tag') {
+          const tag = category === 'Big Bird' ? 'Big' : category;
+          birds = birds.filter((b) => b.tags && b.tags.includes(tag));
+        } else {
+          // If the group contains multiple, we assigned it 'Various' or a specific category. 
+          // Endless mode filters out groups that don't match, which is expected.
+          birds = birds.filter((b) => b.category === category);
+        }
       }
     } else if (mode === 'campaign' && level) {
-      birds = birds.filter((bird) => bird.difficulty === level);
+      if (level === 1) {
+        birds = birds.filter(b => b.isGroup === true && b.difficulty <= 2);
+      } else if (level === 2) {
+        const advancedGroups = birds.filter(b => b.isGroup === true && b.difficulty > 2);
+        if (advancedGroups.length >= 6) {
+          birds = advancedGroups;
+        } else {
+          birds = birds.filter(b => b.isGroup === true && b.difficulty > 1);
+        }
+      } else if (level === 3) {
+        birds = birds.filter(b => !b.isGroup && b.difficulty <= 2);
+      } else if (level === 4) {
+        birds = birds.filter(b => !b.isGroup && b.difficulty > 2);
+      }
     }
 
     return birds;
-  }, [mode, category, level, filterType]);
+  }, [mode, category, level, filterType, difficultyType]);
 
   // State
   const [currentBird, setCurrentBird] = useState(null);
@@ -120,6 +147,8 @@ const QuizScreen = ({ navigation, route }) => {
   const [seenBirds, setSeenBirds] = useState([]);
   const [feedbackBird, setFeedbackBird] = useState(null);
   const [feedbackIsCorrect, setFeedbackIsCorrect] = useState(false);
+  const [activeFormat, setActiveFormat] = useState('classic');
+  const [textInput, setTextInput] = useState('');
 
   // Reset seen birds when category changes
   useEffect(() => {
@@ -155,23 +184,38 @@ const QuizScreen = ({ navigation, route }) => {
     const correctBird = availableBirds[randomIndex];
 
     // Pick a random image index for this bird
+    // For groups, we might have multiple images. 
     const imageCount = correctBird.images?.length || 1;
     const randomImageIndex = Math.floor(Math.random() * imageCount);
     const birdWithImageIndex = { ...correctBird, imageIndex: randomImageIndex };
 
-    // Get 5 wrong options: k similar + (5-k) random
-    const wrongOptions = getWrongOptions(correctBird, mode, level);
+    // Get wrong options from the filtered pool so classes (groups vs species) don't mix
+    const wrongOptions = getWrongOptions(correctBird, mode, level, filteredBirds);
 
     // Combine and shuffle options
     const allOptions = shuffleArray([birdWithImageIndex, ...wrongOptions]);
 
+    // Choose what the format will be
+    let nextFormat = questionFormat;
+    if (nextFormat === 'mixed') {
+      const formats = ['classic', 'find_image', 'type_name'];
+      nextFormat = formats[Math.floor(Math.random() * formats.length)];
+    }
+
+    // In find_image, we need 4 options not 6, so slice them
+    const finalOptions = nextFormat === 'find_image'
+      ? shuffleArray([birdWithImageIndex, ...wrongOptions.slice(0, 3)])
+      : allOptions;
+
     setCurrentBird(birdWithImageIndex);
-    setOptions(allOptions);
+    setOptions(finalOptions);
     setSelectedOption(null);
     setWrongGuesses([]);
     setShowFeedback(false);
     setIsCorrect(false);
-  }, [filteredBirds, seenBirds]);
+    setActiveFormat(nextFormat);
+    setTextInput('');
+  }, [filteredBirds, seenBirds, questionFormat, mode, level]);
 
   // Initialize first question
   useEffect(() => {
@@ -216,6 +260,32 @@ const QuizScreen = ({ navigation, route }) => {
         if (wrongGuesses.length === 0) {
           setStats((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
         }
+      }
+    }
+  };
+
+  // Handle text input submission for type_name format
+  const handleTypeSubmit = () => {
+    if (showFeedback || !currentBird || !textInput.trim()) return;
+
+    const correctName = getBirdName(currentBird).toLowerCase().trim();
+    const guessedName = textInput.toLowerCase().trim();
+
+    if (correctName === guessedName) {
+      setIsCorrect(true);
+      if (wrongGuesses.length === 0) {
+        setStats((prev) => ({ ...prev, correct: prev.correct + 1 }));
+      }
+      setSeenBirds((prev) => [...prev, currentBird.id]);
+      setFeedbackBird(currentBird);
+      setFeedbackIsCorrect(true);
+      setTimeout(() => {
+        setShowFeedback(true);
+      }, 300);
+    } else {
+      if (wrongGuesses.length === 0) {
+        setStats((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
+        setWrongGuesses(['typed_wrong']); // Use generic string just to mark as failed first try
       }
     }
   };
@@ -309,31 +379,97 @@ const QuizScreen = ({ navigation, route }) => {
       {/* Question */}
       <View style={styles.questionContainer}>
         <Text style={[styles.questionText, { textAlign: getTextAlign() }]}>
-          {t.whatBird}
+          {activeFormat === 'find_image'
+            ? `${t.whichImage} ${getBirdName(currentBird)}?`
+            : t.whatBird}
         </Text>
       </View>
 
-      {/* Bird Image */}
-      <View style={styles.imageContainer}>
-        <BirdImage bird={currentBird} size="large" imageIndex={Number(currentBird.imageIndex) || 0} />
-      </View>
+      {/* Main Content Area */}
+      {activeFormat === 'find_image' ? (
+        <View style={styles.imageGridContainer}>
+          {options.map((option) => (
+            <TouchableOpacity
+              key={option.id}
+              style={[
+                styles.imageOptionWrapper,
+                showFeedback && option.id === currentBird.id && styles.correctImageBorder,
+                showFeedback && option.id === selectedOption?.id && option.id !== currentBird.id && styles.wrongImageBorder,
+                !showFeedback && wrongGuesses.includes(option.id) && styles.wrongImageBorder,
+                (showFeedback || wrongGuesses.includes(option.id)) && option.id !== currentBird.id && styles.disabledOption,
+              ]}
+              onPress={() => handleOptionSelect(option)}
+              disabled={showFeedback || wrongGuesses.includes(option.id)}
+              activeOpacity={0.8}
+            >
+              <BirdImage
+                bird={option}
+                size="medium"
+                imageIndex={Number(option.imageIndex) || 0}
+                disableInteractions={true}
+              />
+            </TouchableOpacity>
+          ))}
+        </View>
+      ) : (
+        <>
+          {/* Bird Image */}
+          <View style={styles.imageContainer}>
+            <BirdImage bird={currentBird} size="large" imageIndex={Number(currentBird.imageIndex) || 0} />
+          </View>
 
-      {/* Options */}
-      <View style={styles.optionsContainer}>
-        {options.map((option, index) => (
-          <TouchableOpacity
-            key={option.id}
-            style={getOptionStyle(option)}
-            onPress={() => handleOptionSelect(option)}
-            disabled={showFeedback || wrongGuesses.includes(option.id)}
-            activeOpacity={0.8}
-          >
-            <Text style={getOptionTextStyle(option)} numberOfLines={2}>
-              {getBirdName(option)}
-            </Text>
-          </TouchableOpacity>
-        ))}
-      </View>
+          {/* Options or Text Input */}
+          {activeFormat === 'type_name' ? (
+            <KeyboardAvoidingView
+              behavior={Platform.OS === 'ios' ? 'padding' : 'height'}
+              style={styles.keyboardView}
+            >
+              <View style={styles.typeInputContainer}>
+                <TextInput
+                  style={[
+                    styles.textInput,
+                    { textAlign: getTextAlign() },
+                    wrongGuesses.includes('typed_wrong') && styles.wrongInput
+                  ]}
+                  value={textInput}
+                  onChangeText={setTextInput}
+                  placeholder={t.typeBirdName}
+                  placeholderTextColor={COLORS.textSecondary}
+                  editable={!showFeedback}
+                  onSubmitEditing={handleTypeSubmit}
+                  returnKeyType="done"
+                  autoCapitalize="none"
+                  autoCorrect={false}
+                />
+                <Button
+                  title={t.submit}
+                  onPress={handleTypeSubmit}
+                  variant="primary"
+                  size="large"
+                  disabled={showFeedback || !textInput.trim()}
+                  style={styles.submitButton}
+                />
+              </View>
+            </KeyboardAvoidingView>
+          ) : (
+            <View style={styles.optionsContainer}>
+              {options.map((option, index) => (
+                <TouchableOpacity
+                  key={option.id}
+                  style={getOptionStyle(option)}
+                  onPress={() => handleOptionSelect(option)}
+                  disabled={showFeedback || wrongGuesses.includes(option.id)}
+                  activeOpacity={0.8}
+                >
+                  <Text style={getOptionTextStyle(option)} numberOfLines={2}>
+                    {getBirdName(option)}
+                  </Text>
+                </TouchableOpacity>
+              ))}
+            </View>
+          )}
+        </>
+      )}
 
       {/* Feedback Modal */}
       <FeedbackModal
@@ -433,6 +569,57 @@ const styles = StyleSheet.create({
   },
   disabledOptionText: {
     color: COLORS.textSecondary,
+  },
+  imageGridContainer: {
+    flex: 1,
+    paddingHorizontal: SPACING.md,
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-around',
+    alignItems: 'center',
+    paddingBottom: SPACING.xl,
+  },
+  imageOptionWrapper: {
+    padding: 4,
+    borderRadius: BORDER_RADIUS.large + 4,
+    borderWidth: 4,
+    borderColor: 'transparent',
+    marginBottom: SPACING.lg,
+  },
+  correctImageBorder: {
+    borderColor: COLORS.success,
+  },
+  wrongImageBorder: {
+    borderColor: COLORS.error,
+  },
+  keyboardView: {
+    flex: 1,
+    width: '100%',
+  },
+  typeInputContainer: {
+    paddingHorizontal: SPACING.lg,
+    paddingTop: SPACING.md,
+    flex: 1,
+    alignItems: 'center',
+  },
+  textInput: {
+    width: '100%',
+    backgroundColor: COLORS.white,
+    borderRadius: BORDER_RADIUS.md,
+    padding: SPACING.md,
+    fontSize: FONT_SIZES.lg,
+    color: COLORS.textPrimary,
+    borderWidth: 2,
+    borderColor: COLORS.mediumGray,
+    marginBottom: SPACING.lg,
+    ...SHADOWS.small,
+  },
+  wrongInput: {
+    borderColor: COLORS.error,
+    backgroundColor: COLORS.errorLight,
+  },
+  submitButton: {
+    width: '100%',
   },
 });
 

@@ -1,0 +1,201 @@
+house_sparrow - House Sparrow
+rock_pigeon - Rock Dove
+common_blackbird - Common Blackbird
+european_starling - Common Starling
+mallard - Mallard
+canada_goose - Canada Goose
+mute_swan - Mute Swan
+herring_gull - European Herring Gull
+peacock - Indian Peafowl
+american_robin - American Robin
+northern_cardinal - Northern Cardinal
+blue_jay - Blue Jay
+american_crow - American Crow
+eurasian_magpie - Eurasian Magpie
+great_tit - Great Tit
+blue_tit - Eurasian Blue Tit
+barn_swallow - Barn Swallow
+eurasian_collared_dove - Eurasian Collared Dove
+common_wood_pigeon - Common Wood Pigeon
+house_finch - House Finch
+mourning_dove - Mourning Dove
+common_myna - Common Myna
+house_crow - House Crow
+european_robin - European Robin
+goldfinch - European Goldfinch
+great_egret - Great Egret
+flamingo - Greater Flamingo
+common_buzzard - Common Buzzard
+kestrel - Common Kestrel
+barn_owl - Western Barn Owl
+common_swift - Common Swift
+song_thrush - Song Thrush
+pelican - Dalmatian Pelican
+white_stork - White Stork
+common_crane - Common Crane
+grey_heron - Grey Heron
+little_egret - Little Egret
+cormorant - Great Cormorant
+hoopoe - Eurasian Hoopoe
+sparrowhawk - Eurasian Sparrowhawk
+black_headed_gull - Black-headed Gull
+common_kingfisher - Common Kingfisher
+nightingale - Common Nightingale
+skylark - Eurasian Skylark
+chaffinch - Eurasian Chaffinch
+greenfinch - European Greenfinch
+red_tailed_hawk - Red-tailed Hawk
+bald_eagle - Bald Eagle
+osprey - Osprey
+peregrine_falcon - Peregrine Falcon
+great_horned_owl - Great Horned Owl
+snowy_owl - Snowy Owl
+golden_eagle - Golden Eagle
+black_kite - Black Kite
+red_kite - Red Kite
+downy_woodpecker - Downy Woodpecker
+great_spotted_woodpecker - Great Spotted Woodpecker
+green_woodpecker - European Green Woodpecker
+northern_mockingbird - Northern Mockingbird
+american_goldfinch - American Goldfinch
+black_capped_chickadee - Black-capped Chickadee
+tufted_titmouse - Tufted Titmouse
+cedar_waxwing - Cedar Waxwing
+baltimore_oriole - Baltimore Oriole
+scarlet_tanager - Scarlet Tanager
+eastern_bluebird - Eastern Bluebird
+ruby_throated_hummingbird - Ruby-throated Hummingbird
+wood_duck - Wood Duck
+great_blue_heron - Great Blue Heron
+canada_jay - Canada Jay
+eurasian_jay - Eurasian Jay
+common_sandpiper - Common Sandpiper
+lapwing - Northern Lapwing
+little_owl - Little Owl
+tawny_owl - Tawny Owl
+long_eared_owl - Long-eared Owl
+black_redstart - Black Redstart
+wheatear - Northern Wheatear
+stonechat - European Stonechat
+waxwing - Bohemian Waxwing
+puffin - Atlantic Puffin
+gannet - Northern Gannet
+avocet - Pied Avocet
+curlew - Eurasian Curlew
+oystercatcher - Eurasian Oystercatcher
+snipe - Common Snipe
+common_tern - Common Tern
+common_coot - Eurasian Coot
+moorhen - Common Moorhen
+bittern - Eurasian Bittern
+grebe - Great Crested Grebe
+shearwater - Manx Shearwater
+common_swift_apus - Common Swift
+house_martin - Delichon
+sand_martin - Sand Martin
+wryneck - Eurasian Wryneck
+nuthatch - Eurasian Nuthatch
+treecreeper - Eurasian Treecreeper
+wren - Eurasian Wren
+dunnock - Dunnock
+blackcap - Eurasian Blackcap
+garden_warbler - Garden Warbler
+chiffchaff - Common Chiffchaff
+willow_warbler - Willow Warbler
+reed_warbler - Common Reed Warbler
+sedge_warbler - Sedge Warbler
+long_tailed_tit - Long-tailed Tit
+coal_tit - Coal Tit
+marsh_tit - Marsh Tit
+bullfinch - Eurasian Bullfinch
+siskin - Eurasian Siskin
+linnet - Common Linnet
+yellowhammer - Yellowhammer
+corn_bunting - Corn Bunting
+booted_eagle - Booted Eagle
+short_toed_eagle - Short-Toed Snake Eagle
+levant_sparrowhawk - Levant Sparrowhawk
+white_tailed_eagle - White-tailed Eagle
+marsh_harrier - Western Marsh Harrier
+montagu_harrier - Montagu's Harrier
+hobby - Eurasian Hobby
+merlin - Merlin
+lanner_falcon - Lanner Falcon
+scops_owl - Eurasian Scops Owl
+bee_eater - European Bee-eater
+roller - European Roller
+little_bustard - Little Bustard
+common_quail - Common Quail
+pheasant - Common Pheasant
+red_legged_partridge - Red-legged Partridge
+kinglet - Goldcrest
+great_bustard - Great Bustard
+black_grouse - Black Grouse
+capercaillie - Western Capercaillie
+grey_partridge - Grey Partridge
+water_rail - Water Rail
+purple_heron - Purple Heron
+night_heron - Black-crowned Night Heron
+squacco_heron - Squacco Heron
+glossy_ibis - Glossy Ibis
+spoonbill - Eurasian Spoonbill
+ferruginous_duck - Ferruginous Duck
+garganey - Garganey
+black_stork - Black Stork
+saker_falcon - Saker Falcon
+bonelli_eagle - Bonelli's Eagle
+imperial_eagle - Eastern Imperial Eagle
+steppe_eagle - Steppe Eagle
+griffon_vulture - Eurasian Griffon Vulture
+egyptian_vulture - Egyptian Vulture
+black_vulture - Cinereous Vulture
+eagle_owl - Eurasian Eagle-Owl
+ural_owl - Ural Owl
+pygmy_owl - Eurasian Pygmy Owl
+tengmalm_owl - Boreal Owl
+ortolan_bunting - Ortolan Bunting
+hawfinch - Hawfinch
+crossbill - Red Crossbill
+redpoll - Redpoll
+twite - Twite
+snow_bunting - Snow Bunting
+lapland_bunting - Lapland Longspur
+brambling - Brambling
+firecrest - Common Firecrest
+bearded_tit - Bearded Reedling
+penduline_tit - Eurasian Penduline Tit
+wallcreeper - Wallcreeper
+dipper - White-throated Dipper
+ring_ouzel - Ring Ouzel
+bluethroat - Bluethroat
+wryneck_eur - Eurasian Wryneck
+kakapo - Kākāpō
+california_condor - California Condor
+philippine_eagle - Philippine Eagle
+whooping_crane - Whooping Crane
+california_clapper_rail - Ridgway's Rail
+spixs_macaw - Spix's Macaw
+blue_throated_macaw - Blue-throated Macaw
+regent_honeyeater - Regent Honeyeater
+forest_owlet - Forest Owlet
+stellers_sea_eagle - Steller's Sea Eagle
+harpy_eagle - Harpy Eagle
+martial_eagle - Martial Eagle
+secretary_bird - Secretarybird
+shoebill - Shoebill
+african_spoonbill - African Spoonbill
+javan_rhino_hornbill - Rhinoceros Hornbill
+resplendent_quetzal - Resplendent Quetzal
+superb_lyrebird - Superb Lyrebird
+bird_of_paradise - Raggiana Bird-of-paradise
+kiwi - Southern Brown Kiwi
+bali_myna - Bali Myna
+palawan_peacock_pheasant - Palawan Peacock-Pheasant
+blue_crowned_laughingthrush - Blue-crowned Laughingthrush
+amsterdam_albatross - Amsterdam Albatross
+cahow - Bermuda Petrel
+ivory_billed_woodpecker - Ivory-billed Woodpecker
+po_ouli - Po'ouli
+giant_ibis - Giant Ibis
+new_caledonian_lorikeet - New Caledonian Lorikeet
+swift_parrot - Swift Parrot

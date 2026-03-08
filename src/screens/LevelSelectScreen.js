@@ -13,36 +13,20 @@ import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components';
 
 const LEVELS = [
-  { level: 1, icon: '🌱', color: '#4CAF50', difficulty: 1 },
-  { level: 2, icon: '🌿', color: '#8BC34A', difficulty: 2 },
-  { level: 3, icon: '🌳', color: '#FF9800', difficulty: 3 },
-  { level: 4, icon: '🔥', color: '#F44336', difficulty: 4 },
-  { level: 5, icon: '👑', color: '#9C27B0', difficulty: 5 },
+  { level: 1, icon: '🌱', color: '#4CAF50', titleKey: 'level1Title' },
+  { level: 2, icon: '🌿', color: '#8BC34A', titleKey: 'level2Title' },
+  { level: 3, icon: '🌳', color: '#FF9800', titleKey: 'level3Title' },
+  { level: 4, icon: '🔥', color: '#F44336', titleKey: 'level4Title' },
 ];
 
-const getDifficultyLabel = (t, level) => {
-  switch (level) {
-    case 1:
-      return t.easy;
-    case 2:
-      return t.medium;
-    case 3:
-      return t.hard;
-    case 4:
-      return t.expert;
-    case 5:
-      return t.master;
-    default:
-      return '';
-  }
-};
-
-const LevelSelectScreen = ({ navigation }) => {
+const LevelSelectScreen = ({ navigation, route }) => {
   const { t, getTextAlign } = useLanguage();
+  const { questionFormat } = route.params || { questionFormat: 'classic' };
 
   const handleLevelSelect = (levelData) => {
     navigation.navigate('Quiz', {
       mode: 'campaign',
+      questionFormat,
       level: levelData.level,
       category: null,
     });
@@ -82,7 +66,7 @@ const LevelSelectScreen = ({ navigation }) => {
                 {t.level} {levelData.level}
               </Text>
               <Text style={[styles.levelDifficulty, { textAlign: getTextAlign() }]}>
-                {getDifficultyLabel(t, levelData.level)}
+                {t[levelData.titleKey]}
               </Text>
             </View>
             <Text style={styles.levelIcon}>{levelData.icon}</Text>

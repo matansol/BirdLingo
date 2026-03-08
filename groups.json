@@ -1,0 +1,350 @@
+{
+  "group_sparrow": {
+    "en": "Sparrow",
+    "he": "דרור",
+    "es": "Gorrión",
+    "fr": "Moineau"
+  },
+  "group_dove_pigeon": {
+    "en": "Pigeon",
+    "he": "יונה ותור",
+    "es": "Paloma y Tórtola",
+    "fr": "Pigeon et Tourterelle"
+  },
+  "group_thrush": {
+    "en": "Robin",
+    "he": "קיכלי",
+    "es": "Zorzal y Mirlo",
+    "fr": "Grive et Merle"
+  },
+  "group_starling": {
+    "en": "Starling",
+    "he": "זרזיר ומיינה",
+    "es": "Estornino y Miná",
+    "fr": "Étourneau et Martin"
+  },
+  "group_duck": {
+    "en": "Duck",
+    "he": "ברווז",
+    "es": "Pato",
+    "fr": "Canard"
+  },
+  "group_goose": {
+    "en": "Goose",
+    "he": "אווז",
+    "es": "Ganso",
+    "fr": "Oie"
+  },
+  "group_swan": {
+    "en": "Swan",
+    "he": "ברבור",
+    "es": "Cisne",
+    "fr": "Cygne"
+  },
+  "group_gull": {
+    "en": "Gull",
+    "he": "שחף ושחפית",
+    "es": "Gaviota y Charrán",
+    "fr": "Goéland et Sterne"
+  },
+  "group_pheasant": {
+    "en": "Pheasant",
+    "he": "פסיוניים",
+    "es": "Faisán y Perdiz",
+    "fr": "Faisan et Perdrix"
+  },
+  "group_bunting": {
+    "en": "Bunting",
+    "he": "גיבתון",
+    "es": "Escribano",
+    "fr": "Bruant"
+  },
+  "group_crow_jay": {
+    "en": "Crow",
+    "he": "עורב ועורבני",
+    "es": "Cuervo y Arrendajo",
+    "fr": "Corbeau et Geai"
+  },
+  "group_tit": {
+    "en": "Tit",
+    "he": "ירגזי",
+    "es": "Carbonero y Herrerillo",
+    "fr": "Mésange"
+  },
+  "group_swallow": {
+    "en": "Swallow",
+    "he": "סנונית",
+    "es": "Golondrina",
+    "fr": "Hirondelle"
+  },
+  "group_finch": {
+    "en": "Finch",
+    "he": "פרושיים",
+    "es": "Pinzón y Jilguero",
+    "fr": "Pinson"
+  },
+  "group_flycatcher": {
+    "en": "Flycatcher",
+    "he": "חטפית ודוחל",
+    "es": "Papamoscas y Tarabilla",
+    "fr": "Gobemouche et Tarier"
+  },
+  "group_heron": {
+    "en": "Heron",
+    "he": "אנפה",
+    "es": "Garza",
+    "fr": "Héron"
+  },
+  "group_flamingo": {
+    "en": "Flamingo",
+    "he": "פלמינגו",
+    "es": "Flamenco",
+    "fr": "Flamant"
+  },
+  "group_hawk": {
+    "en": "Hawk",
+    "he": "נץ ועקב",
+    "es": "Halcón y Milano",
+    "fr": "Buse et Épervier"
+  },
+  "group_falcon": {
+    "en": "Falcon",
+    "he": "בז",
+    "es": "Halcón",
+    "fr": "Faucon"
+  },
+  "group_owl": {
+    "en": "Owl",
+    "he": "ינשוף ואוח",
+    "es": "Búho y Lechuza",
+    "fr": "Hibou et Chouette"
+  },
+  "group_swift": {
+    "en": "Swift",
+    "he": "סיס",
+    "es": "Vencejo",
+    "fr": "Martinet"
+  },
+  "group_pelican": {
+    "en": "Pelican",
+    "he": "שקנאי",
+    "es": "Pelícano",
+    "fr": "Pélican"
+  },
+  "group_stork": {
+    "en": "Stork",
+    "he": "חסידה",
+    "es": "Cigüeña",
+    "fr": "Cigogne"
+  },
+  "group_crane": {
+    "en": "Crane",
+    "he": "עגור",
+    "es": "Grulla",
+    "fr": "Grue"
+  },
+  "group_cormorant": {
+    "en": "Cormorant",
+    "he": "קורמורן",
+    "es": "Cormorán",
+    "fr": "Cormoran"
+  },
+  "group_hoopoe": {
+    "en": "Hoopoe",
+    "he": "דוכיפת",
+    "es": "Abubilla",
+    "fr": "Huppe"
+  },
+  "group_kingfisher": {
+    "en": "Kingfisher",
+    "he": "שלדג",
+    "es": "Martín Pescador",
+    "fr": "Martin-pêcheur"
+  },
+  "group_lark": {
+    "en": "Lark",
+    "he": "עפרוני",
+    "es": "Alondra",
+    "fr": "Alouette"
+  },
+  "group_eagle": {
+    "en": "Eagle",
+    "he": "עיט ושלך",
+    "es": "Águila",
+    "fr": "Aigle et Balbuzard"
+  },
+  "group_woodpecker": {
+    "en": "Woodpecker",
+    "he": "נקר",
+    "es": "Pájaro Carpintero",
+    "fr": "Pic"
+  },
+  "group_mockingbird": {
+    "en": "Mockingbird",
+    "he": "חקיין",
+    "es": "Sinsonte",
+    "fr": "Moqueur"
+  },
+  "group_waxwing": {
+    "en": "Waxwing",
+    "he": "אמבלרון",
+    "es": "Ampelis",
+    "fr": "Jaseur"
+  },
+  "group_oriole": {
+    "en": "Oriole",
+    "he": "פזאי",
+    "es": "Oropéndola",
+    "fr": "Loriot"
+  },
+  "group_tanager": {
+    "en": "Tanager",
+    "he": "טנאגר",
+    "es": "Tángara",
+    "fr": "Tangara"
+  },
+  "group_hummingbird": {
+    "en": "Hummingbird",
+    "he": "יונק דבש",
+    "es": "Colibrí",
+    "fr": "Colibri"
+  },
+  "group_wader": {
+    "en": "Sandpiper",
+    "he": "חופמאים",
+    "es": "Limícolas",
+    "fr": "Limicoles"
+  },
+  "group_seabird": {
+    "en": "Albatross",
+    "he": "אלבטרוס ויסעור",
+    "es": "Albatros y Petrel",
+    "fr": "Albatros et Pétrel"
+  },
+  "group_rail": {
+    "en": "Coot",
+    "he": "רליתיים",
+    "es": "Rálidos",
+    "fr": "Râles et Foulques"
+  },
+  "group_grebe": {
+    "en": "Grebe",
+    "he": "טבלן",
+    "es": "Somormujo",
+    "fr": "Grèbe"
+  },
+  "group_nuthatch": {
+    "en": "Nuthatch",
+    "he": "סיטה וזחלן",
+    "es": "Trepador y Agateador",
+    "fr": "Sittelle et Grimpereau"
+  },
+  "group_wren": {
+    "en": "Wren",
+    "he": "גדרון",
+    "es": "Chochín",
+    "fr": "Troglodyte"
+  },
+  "group_accentor": {
+    "en": "Accentor",
+    "he": "סתרי",
+    "es": "Acentor",
+    "fr": "Accenteur"
+  },
+  "group_warbler": {
+    "en": "Warbler",
+    "he": "סבכי ועלווית",
+    "es": "Curruca",
+    "fr": "Fauvette"
+  },
+  "group_bee_eater": {
+    "en": "Bee-eater",
+    "he": "שרקרק וכחל",
+    "es": "Abejaruco y Carraca",
+    "fr": "Guêpier et Rollier"
+  },
+  "group_bustard": {
+    "en": "Bustard",
+    "he": "חובה",
+    "es": "Avutarda",
+    "fr": "Outarde"
+  },
+  "group_kinglet": {
+    "en": "Kinglet",
+    "he": "מלכילון",
+    "es": "Reyezuelo",
+    "fr": "Roitelet"
+  },
+  "group_ibis": {
+    "en": "Ibis",
+    "he": "מגלן וכפן",
+    "es": "Ibis y Espátula",
+    "fr": "Ibis et Spatule"
+  },
+  "group_vulture": {
+    "en": "Vulture",
+    "he": "נשר וקונדור",
+    "es": "Buitre y Cóndor",
+    "fr": "Vautour et Condor"
+  },
+  "group_dipper": {
+    "en": "Dipper",
+    "he": "אמודאי",
+    "es": "Mirlo Acuático",
+    "fr": "Cincle"
+  },
+  "group_parrot": {
+    "en": "Parrot",
+    "he": "תוכי",
+    "es": "Loro y Guacamayo",
+    "fr": "Perroquet et Ara"
+  },
+  "group_honeyeater": {
+    "en": "Honeyeater",
+    "he": "דבשן",
+    "es": "Melífago",
+    "fr": "Méliphage"
+  },
+  "group_secretarybird": {
+    "en": "Secretarybird",
+    "he": "לבלר",
+    "es": "Secretario",
+    "fr": "Messager Sagittaire"
+  },
+  "group_shoebill": {
+    "en": "Shoebill",
+    "he": "מנעלן",
+    "es": "Picozapato",
+    "fr": "Bec-en-sabot"
+  },
+  "group_quetzal": {
+    "en": "Quetzal",
+    "he": "קורוקו",
+    "es": "Quetzal",
+    "fr": "Quetzal"
+  },
+  "group_lyrebird": {
+    "en": "Lyrebird",
+    "he": "נבלי",
+    "es": "Ave Lira",
+    "fr": "Ménure"
+  },
+  "group_bird_of_paradise": {
+    "en": "Bird of Paradise",
+    "he": "עדניים",
+    "es": "Ave del Paraíso",
+    "fr": "Paradisier"
+  },
+  "group_kiwi": {
+    "en": "Kiwi",
+    "he": "קיווי",
+    "es": "Kiwi",
+    "fr": "Kiwi"
+  },
+  "group_babbler": {
+    "en": "Babbler",
+    "he": "זנבניים",
+    "es": "Charlatán",
+    "fr": "Cratérope"
+  }
+}

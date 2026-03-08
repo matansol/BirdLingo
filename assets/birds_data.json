@@ -30,7 +30,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Found in most parts of the world"
+    "habitat": "Found in most parts of the world",
+    "groupId": "sparrow",
+    "isGroup": false
   },
   {
     "id": "bird_002",
@@ -69,7 +71,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "dove_pigeon",
+    "isGroup": false
   },
   {
     "id": "bird_003",
@@ -99,7 +103,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Range; a few former asian subspecies are now widely treated as separate species"
+    "habitat": "Range; a few former asian subspecies are now widely treated as separate species",
+    "groupId": "thrush",
+    "isGroup": false
   },
   {
     "id": "bird_004",
@@ -132,7 +138,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "starling",
+    "isGroup": false
   },
   {
     "id": "bird_005",
@@ -164,7 +172,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "duck",
+    "isGroup": false
   },
   {
     "id": "bird_006",
@@ -193,7 +203,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Native to the arctic and temperate regions of north america, and it is occasionally found during migration across the at"
+    "habitat": "Native to the arctic and temperate regions of north america, and it is occasionally found during migration across the at",
+    "groupId": "goose",
+    "isGroup": false
   },
   {
     "id": "bird_007",
@@ -223,7 +235,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Native to much of europe and parts of asia and the far north of africa"
+    "habitat": "Native to much of europe and parts of asia and the far north of africa",
+    "groupId": "swan",
+    "isGroup": false
   },
   {
     "id": "bird_008",
@@ -253,7 +267,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "gull",
+    "isGroup": false
   },
   {
     "id": "bird_009",
@@ -280,7 +296,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Native to the indian subcontinent"
+    "habitat": "Native to the indian subcontinent",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_010",
@@ -309,7 +327,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Distributed throughout north america, wintering from southern canada to central mexico and along the pacific coast"
+    "habitat": "Distributed throughout north america, wintering from southern canada to central mexico and along the pacific coast",
+    "groupId": "thrush",
+    "isGroup": false
   },
   {
     "id": "bird_011",
@@ -338,7 +358,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in southeastern canada, through the eastern united states from maine to minnesota to texas, new mexico, southern a"
+    "habitat": "Found in southeastern canada, through the eastern united states from maine to minnesota to texas, new mexico, southern a",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_012",
@@ -367,7 +389,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Lives in most of the eastern and central united states; some eastern populations may be migratory"
+    "habitat": "Lives in most of the eastern and central united states; some eastern populations may be migratory",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_013",
@@ -395,7 +419,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_014",
@@ -426,7 +452,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_015",
@@ -457,7 +485,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Occurs in parts of north africa where it is generally resident in any sort of woodland"
+    "habitat": "Occurs in parts of north africa where it is generally resident in any sort of woodland",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_016",
@@ -486,7 +516,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Inhabits deciduous or mixed woodlands, often with a high proportion of oak, and it is usually non-migratory"
+    "habitat": "Inhabits deciduous or mixed woodlands, often with a high proportion of oak, and it is usually non-migratory",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_017",
@@ -519,7 +551,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "swallow",
+    "isGroup": false
   },
   {
     "id": "bird_018",
@@ -550,7 +584,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Native to europe, asia, and northern africa"
+    "habitat": "Native to europe, asia, and northern africa",
+    "groupId": "dove_pigeon",
+    "isGroup": false
   },
   {
     "id": "bird_019",
@@ -580,7 +616,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Native to the western palearctic"
+    "habitat": "Native to the western palearctic",
+    "groupId": "dove_pigeon",
+    "isGroup": false
   },
   {
     "id": "bird_020",
@@ -607,7 +645,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Native to mexico and southwestern united states, but has since been introduced to the eastern part of north america and"
+    "habitat": "Native to mexico and southwestern united states, but has since been introduced to the eastern part of north america and",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_021",
@@ -634,7 +674,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "dove_pigeon",
+    "isGroup": false
   },
   {
     "id": "bird_022",
@@ -665,7 +707,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Native to asia"
+    "habitat": "Native to asia",
+    "groupId": "starling",
+    "isGroup": false
   },
   {
     "id": "bird_023",
@@ -696,7 +740,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Found in many parts of the world, where they arrived assisted by shipping"
+    "habitat": "Found in many parts of the world, where they arrived assisted by shipping",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_024",
@@ -726,7 +772,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range, and migratory in the north and east of its range where winters are harsher"
+    "habitat": "Range, and migratory in the north and east of its range where winters are harsher",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_025",
@@ -757,7 +805,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Native to the palearctic zone in europe, northern africa, and western asia"
+    "habitat": "Native to the palearctic zone in europe, northern africa, and western asia",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_026",
@@ -790,7 +840,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Found in asia, africa, the americas, and southern europe"
+    "habitat": "Found in asia, africa, the americas, and southern europe",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_027",
@@ -820,7 +872,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": "Found in northern and sub-saharan africa, the indian subcontinent, the middle east, the levant, the persian gulf, the gu"
+    "habitat": "Found in northern and sub-saharan africa, the indian subcontinent, the middle east, the levant, the persian gulf, the gu",
+    "groupId": "flamingo",
+    "isGroup": false
   },
   {
     "id": "bird_028",
@@ -849,7 +903,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Lives in most of europe and extends its breeding range across much of the palearctic as far as northwestern china, far w"
+    "habitat": "Lives in most of europe and extends its breeding range across much of the palearctic as far as northwestern china, far w",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_029",
@@ -879,7 +935,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range"
+    "habitat": "Range",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_030",
@@ -909,7 +967,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": "Native to europe, southwestern asia, and africa"
+    "habitat": "Native to europe, southwestern asia, and africa",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_031",
@@ -940,7 +1000,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "swift",
+    "isGroup": false
   },
   {
     "id": "bird_032",
@@ -970,7 +1032,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in forests, gardens and parks"
+    "habitat": "Breeds in forests, gardens and parks",
+    "groupId": "thrush",
+    "isGroup": false
   },
   {
     "id": "bird_033",
@@ -1000,7 +1064,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Range spanning across much of central eurasia, from the eastern mediterranean in the west to the taiwan strait in the ea"
+    "habitat": "Range spanning across much of central eurasia, from the eastern mediterranean in the west to the taiwan strait in the ea",
+    "groupId": "pelican",
+    "isGroup": false
   },
   {
     "id": "bird_034",
@@ -1032,7 +1098,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "stork",
+    "isGroup": false
   },
   {
     "id": "bird_035",
@@ -1062,7 +1130,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Found in europe besides the demoiselle crane and the siberian crane that only are regular in the far eastern part of the"
+    "habitat": "Found in europe besides the demoiselle crane and the siberian crane that only are regular in the far eastern part of the",
+    "groupId": "crane",
+    "isGroup": false
   },
   {
     "id": "bird_036",
@@ -1093,7 +1163,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Range, but some populations from the more northern parts migrate southwards in autumn"
+    "habitat": "Range, but some populations from the more northern parts migrate southwards in autumn",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_037",
@@ -1123,7 +1195,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_038",
@@ -1153,7 +1227,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in much of the old world, australasia, and the atlantic coast of north america"
+    "habitat": "Breeds in much of the old world, australasia, and the atlantic coast of north america",
+    "groupId": "cormorant",
+    "isGroup": false
   },
   {
     "id": "bird_039",
@@ -1185,7 +1261,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Native to europe, asia and africa"
+    "habitat": "Native to europe, asia and africa",
+    "groupId": "hoopoe",
+    "isGroup": false
   },
   {
     "id": "bird_040",
@@ -1215,7 +1293,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Found in any habitat and often hunts garden birds in towns and cities"
+    "habitat": "Found in any habitat and often hunts garden birds in towns and cities",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_041",
@@ -1244,7 +1324,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in much of the palearctic in europe and asia, and also locally in smaller numbers in coastal eastern canada"
+    "habitat": "Breeds in much of the palearctic in europe and asia, and also locally in smaller numbers in coastal eastern canada",
+    "groupId": "gull",
+    "isGroup": false
   },
   {
     "id": "bird_042",
@@ -1275,7 +1357,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Range, but migrates from areas where rivers freeze in winter"
+    "habitat": "Range, but migrates from areas where rivers freeze in winter",
+    "groupId": "kingfisher",
+    "isGroup": false
   },
   {
     "id": "bird_043",
@@ -1305,7 +1389,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range partly overlaps with that of the more northerly thrush nightingale, a closely related species with which hybrids h"
+    "habitat": "Range partly overlaps with that of the more northerly thrush nightingale, a closely related species with which hybrids h",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_044",
@@ -1334,7 +1420,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "lark",
+    "isGroup": false
   },
   {
     "id": "bird_045",
@@ -1363,7 +1451,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_046",
@@ -1391,7 +1481,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_047",
@@ -1420,7 +1512,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Habitats and altitudes including deserts, grasslands, coniferous and deciduous forests, agricultural fields and urban ar"
+    "habitat": "Habitats and altitudes including deserts, grasslands, coniferous and deciduous forests, agricultural fields and urban ar",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_048",
@@ -1448,7 +1542,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in north america"
+    "habitat": "Found in north america",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_049",
@@ -1481,7 +1577,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Habitats, nesting in any location near a body of water providing an adequate food supply"
+    "habitat": "Habitats, nesting in any location near a body of water providing an adequate food supply",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_050",
@@ -1514,7 +1612,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_051",
@@ -1542,7 +1642,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Native to the americas"
+    "habitat": "Native to the americas",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_052",
@@ -1572,7 +1674,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Habitat and lifestyle, which are quite distinct from other extant owls"
+    "habitat": "Habitat and lifestyle, which are quite distinct from other extant owls",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_053",
@@ -1603,7 +1707,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Distributed species of eagle"
+    "habitat": "Distributed species of eagle",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_054",
@@ -1635,7 +1741,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_055",
@@ -1664,7 +1772,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range in western europe and northwestern africa, whereas all or most red kites in northern mainland europe wintered to t"
+    "habitat": "Range in western europe and northwestern africa, whereas all or most red kites in northern mainland europe wintered to t",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_056",
@@ -1692,7 +1802,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Ranges from 14 to 18 cm"
+    "habitat": "Ranges from 14 to 18 cm",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_057",
@@ -1721,7 +1833,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range it is resident, but in the north some will migrate if the conifer cone crop fails"
+    "habitat": "Range it is resident, but in the north some will migrate if the conifer cone crop fails",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_058",
@@ -1750,7 +1864,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_059",
@@ -1778,7 +1894,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in north america, of the family mimidae"
+    "habitat": "Found in north america, of the family mimidae",
+    "groupId": "mockingbird",
+    "isGroup": false
   },
   {
     "id": "bird_060",
@@ -1807,7 +1925,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_061",
@@ -1836,7 +1956,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Lives in deciduous and mixed forests"
+    "habitat": "Lives in deciduous and mixed forests",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_062",
@@ -1864,7 +1986,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Native to eastern north america"
+    "habitat": "Native to eastern north america",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_063",
@@ -1892,7 +2016,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "waxwing",
+    "isGroup": false
   },
   {
     "id": "bird_064",
@@ -1921,7 +2047,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "oriole",
+    "isGroup": false
   },
   {
     "id": "bird_065",
@@ -1948,7 +2076,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "tanager",
+    "isGroup": false
   },
   {
     "id": "bird_066",
@@ -1975,7 +2105,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in open woodlands, farmlands, and orchards"
+    "habitat": "Found in open woodlands, farmlands, and orchards",
+    "groupId": "thrush",
+    "isGroup": false
   },
   {
     "id": "bird_067",
@@ -2003,7 +2135,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "hummingbird",
+    "isGroup": false
   },
   {
     "id": "bird_068",
@@ -2032,7 +2166,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in north america"
+    "habitat": "Found in north america",
+    "groupId": "duck",
+    "isGroup": false
   },
   {
     "id": "bird_069",
@@ -2061,7 +2197,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in the azores and is a rare vagrant to europe"
+    "habitat": "Found in the azores and is a rare vagrant to europe",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_070",
@@ -2089,7 +2227,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Found in boreal forests of north america, north to the tree line, and in the rocky mountains subalpine zone south to new"
+    "habitat": "Found in boreal forests of north america, north to the tree line, and in the rocky mountains subalpine zone south to new",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_071",
@@ -2118,7 +2258,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range, several distinct racial forms have evolved which look different from each other, especially when comparing forms"
+    "habitat": "Range, several distinct racial forms have evolved which look different from each other, especially when comparing forms",
+    "groupId": "crow_jay",
+    "isGroup": false
   },
   {
     "id": "bird_072",
@@ -2147,7 +2289,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_073",
@@ -2176,7 +2320,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_074",
@@ -2206,7 +2352,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Inhabits much of the temperate and warmer parts of europe, the palearctic east to korea, and north africa"
+    "habitat": "Inhabits much of the temperate and warmer parts of europe, the palearctic east to korea, and north africa",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_075",
@@ -2235,7 +2383,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in woodlands across europe, as well as western siberia, and has seven recognized subspecies"
+    "habitat": "Found in woodlands across europe, as well as western siberia, and has seven recognized subspecies",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_076",
@@ -2265,7 +2415,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range"
+    "habitat": "Range",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_077",
@@ -2294,7 +2446,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_078",
@@ -2324,7 +2478,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_079",
@@ -2354,7 +2510,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_080",
@@ -2383,7 +2541,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Breeds in the northern forests of the palearctic and north america"
+    "habitat": "Breeds in the northern forests of the palearctic and north america",
+    "groupId": "waxwing",
+    "isGroup": false
   },
   {
     "id": "bird_081",
@@ -2412,7 +2572,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in the northeastern pacific"
+    "habitat": "Found in the northeastern pacific",
+    "groupId": "seabird",
+    "isGroup": false
   },
   {
     "id": "bird_082",
@@ -2441,7 +2603,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Native to the coasts of the north atlantic ocean, breeding in western europe and northeastern north america"
+    "habitat": "Native to the coasts of the north atlantic ocean, breeding in western europe and northeastern north america",
+    "groupId": "seabird",
+    "isGroup": false
   },
   {
     "id": "bird_083",
@@ -2470,7 +2634,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Found in europe"
+    "habitat": "Found in europe",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_084",
@@ -2498,7 +2664,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_085",
@@ -2527,7 +2695,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range-red bill, red eyes and relatively short dull pink legs"
+    "habitat": "Range-red bill, red eyes and relatively short dull pink legs",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_086",
@@ -2556,7 +2726,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Native to the old world, where it breeds in marshes, bogs, tundra and wet meadows"
+    "habitat": "Native to the old world, where it breeds in marshes, bogs, tundra and wet meadows",
+    "groupId": "wader",
+    "isGroup": false
   },
   {
     "id": "bird_087",
@@ -2586,7 +2758,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range-red legs, and a narrow pointed bill"
+    "habitat": "Range-red legs, and a narrow pointed bill",
+    "groupId": "gull",
+    "isGroup": false
   },
   {
     "id": "bird_088",
@@ -2616,7 +2790,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Found in europe, asia, australia, new zealand and parts of north africa"
+    "habitat": "Found in europe, asia, australia, new zealand and parts of north africa",
+    "groupId": "rail",
+    "isGroup": false
   },
   {
     "id": "bird_089",
@@ -2647,7 +2823,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Found in the polar regions or many tropical rainforests; generally it is one of the most common old world rail species,"
+    "habitat": "Found in the polar regions or many tropical rainforests; generally it is one of the most common old world rail species,",
+    "groupId": "rail",
+    "isGroup": false
   },
   {
     "id": "bird_090",
@@ -2676,7 +2854,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_091",
@@ -2706,7 +2886,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range-brown, and white plumage, and elaborate courtship display that involves synchronised dances and displays"
+    "habitat": "Range-brown, and white plumage, and elaborate courtship display that involves synchronised dances and displays",
+    "groupId": "grebe",
+    "isGroup": false
   },
   {
     "id": "bird_092",
@@ -2735,7 +2917,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "seabird",
+    "isGroup": false
   },
   {
     "id": "bird_094",
@@ -2764,7 +2948,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in both open country and near human habitation"
+    "habitat": "Found in both open country and near human habitation",
+    "groupId": "swallow",
+    "isGroup": false
   },
   {
     "id": "bird_095",
@@ -2793,7 +2979,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range in summer, embracing practically the whole holarctic area, from europe, across asia to the pacific ocean, and thro"
+    "habitat": "Range in summer, embracing practically the whole holarctic area, from europe, across asia to the pacific ocean, and thro",
+    "groupId": "swallow",
+    "isGroup": false
   },
   {
     "id": "bird_096",
@@ -2822,7 +3010,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in temperate regions of europe and asia"
+    "habitat": "Breeds in temperate regions of europe and asia",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_097",
@@ -2851,7 +3041,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range have orange-buff underparts and a white throat, those in russia have whitish underparts, and those in the east hav"
+    "habitat": "Range have orange-buff underparts and a white throat, those in russia have whitish underparts, and those in the east hav",
+    "groupId": "nuthatch",
+    "isGroup": false
   },
   {
     "id": "bird_098",
@@ -2880,7 +3072,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range, by its different song"
+    "habitat": "Range, by its different song",
+    "groupId": "nuthatch",
+    "isGroup": false
   },
   {
     "id": "bird_099",
@@ -2909,7 +3103,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in the old world, specifically in eurasia and africa"
+    "habitat": "Found in the old world, specifically in eurasia and africa",
+    "groupId": "wren",
+    "isGroup": false
   },
   {
     "id": "bird_100",
@@ -2938,7 +3134,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Habitats"
+    "habitat": "Habitats",
+    "groupId": "accentor",
+    "isGroup": false
   },
   {
     "id": "bird_101",
@@ -2968,7 +3166,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_102",
@@ -2997,7 +3197,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Ranges overlap"
+    "habitat": "Ranges overlap",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_103",
@@ -3025,7 +3227,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in open woodlands throughout northern and temperate europe and the palearctic"
+    "habitat": "Breeds in open woodlands throughout northern and temperate europe and the palearctic",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_104",
@@ -3054,7 +3258,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Habitats"
+    "habitat": "Habitats",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_105",
@@ -3084,7 +3290,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_106",
@@ -3113,7 +3321,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "warbler",
+    "isGroup": false
   },
   {
     "id": "bird_107",
@@ -3142,7 +3352,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Inhabits deciduous and mixed woodlands as well as scrub, heathland, farmland, parks and gardens"
+    "habitat": "Inhabits deciduous and mixed woodlands as well as scrub, heathland, farmland, parks and gardens",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_108",
@@ -3171,7 +3383,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_109",
@@ -3200,7 +3414,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_110",
@@ -3229,7 +3445,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_111",
@@ -3257,7 +3475,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_112",
@@ -3286,7 +3506,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_113",
@@ -3314,7 +3536,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Native to eurasia and has been introduced to new zealand and australia"
+    "habitat": "Native to eurasia and has been introduced to new zealand and australia",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_114",
@@ -3344,7 +3568,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range extends from western europe and north africa across to northwestern china"
+    "habitat": "Range extends from western europe and north africa across to northwestern china",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_115",
@@ -3374,7 +3600,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_116",
@@ -3404,7 +3632,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_117",
@@ -3433,7 +3663,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_118",
@@ -3462,7 +3694,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Distributed across temperate eurasia"
+    "habitat": "Distributed across temperate eurasia",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_119",
@@ -3492,7 +3726,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_120",
@@ -3522,7 +3758,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in large open areas in the palearctic and is migratory, wintering in africa, the indian subcontinent and parts of"
+    "habitat": "Breeds in large open areas in the palearctic and is migratory, wintering in africa, the indian subcontinent and parts of",
+    "groupId": "hawk",
+    "isGroup": false
   },
   {
     "id": "bird_121",
@@ -3552,7 +3790,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_122",
@@ -3581,7 +3821,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range of sparrows to doves and medium-sized shorebirds"
+    "habitat": "Range of sparrows to doves and medium-sized shorebirds",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_123",
@@ -3609,7 +3851,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Habitat and is mainly resident, but some birds disperse more widely after the breeding season"
+    "habitat": "Habitat and is mainly resident, but some birds disperse more widely after the breeding season",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_124",
@@ -3638,7 +3882,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range extends from southern europe eastwards to southern siberia and the western himalayas"
+    "habitat": "Range extends from southern europe eastwards to southern siberia and the western himalayas",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_125",
@@ -3668,7 +3914,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range, with occasional breeding in northern europe"
+    "habitat": "Range, with occasional breeding in northern europe",
+    "groupId": "bee_eater",
+    "isGroup": false
   },
   {
     "id": "bird_126",
@@ -3698,7 +3946,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Habitats, but avoids treeless plains"
+    "habitat": "Habitats, but avoids treeless plains",
+    "groupId": "bee_eater",
+    "isGroup": false
   },
   {
     "id": "bird_127",
@@ -3727,7 +3977,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Breeds in southern europe and in western and central asia"
+    "habitat": "Breeds in southern europe and in western and central asia",
+    "groupId": "bustard",
+    "isGroup": false
   },
   {
     "id": "bird_128",
@@ -3757,7 +4009,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_129",
@@ -3786,7 +4040,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_130",
@@ -3815,7 +4071,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_131",
@@ -3844,7 +4102,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "kinglet",
+    "isGroup": false
   },
   {
     "id": "bird_132",
@@ -3873,7 +4133,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Breeds in open grasslands and farmland from northern morocco, south and central europe to temperate central and east asi"
+    "habitat": "Breeds in open grasslands and farmland from northern morocco, south and central europe to temperate central and east asi",
+    "groupId": "bustard",
+    "isGroup": false
   },
   {
     "id": "bird_133",
@@ -3902,7 +4164,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Habitat when breeding, often near wooded areas"
+    "habitat": "Habitat when breeding, often near wooded areas",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_134",
@@ -3931,7 +4195,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_135",
@@ -3960,7 +4226,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_136",
@@ -3990,7 +4258,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Inhabits"
+    "habitat": "Inhabits",
+    "groupId": "rail",
+    "isGroup": false
   },
   {
     "id": "bird_137",
@@ -4020,7 +4290,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Habitats whereas the african and tropical-asian populations are primarily sedentary, except for occasional dispersive mo"
+    "habitat": "Habitats whereas the african and tropical-asian populations are primarily sedentary, except for occasional dispersive mo",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_138",
@@ -4049,7 +4321,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_139",
@@ -4078,7 +4352,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "heron",
+    "isGroup": false
   },
   {
     "id": "bird_140",
@@ -4108,7 +4384,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "ibis",
+    "isGroup": false
   },
   {
     "id": "bird_141",
@@ -4138,7 +4416,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Native to europe, africa and asia"
+    "habitat": "Native to europe, africa and asia",
+    "groupId": "ibis",
+    "isGroup": false
   },
   {
     "id": "bird_142",
@@ -4168,7 +4448,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Native to the palearctic"
+    "habitat": "Native to the palearctic",
+    "groupId": "duck",
+    "isGroup": false
   },
   {
     "id": "bird_143",
@@ -4198,7 +4480,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in much of europe and across the palearctic, but is strictly migratory, with the entire population moving to afri"
+    "habitat": "Breeds in much of europe and across the palearctic, but is strictly migratory, with the entire population moving to afri",
+    "groupId": "duck",
+    "isGroup": false
   },
   {
     "id": "bird_144",
@@ -4229,7 +4513,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": "Breeds in scattered locations across europe (predominantly in portugal and spain, and central and eastern parts), and ea"
+    "habitat": "Breeds in scattered locations across europe (predominantly in portugal and spain, and central and eastern parts), and ea",
+    "groupId": "stork",
+    "isGroup": false
   },
   {
     "id": "bird_145",
@@ -4258,7 +4544,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "falcon",
+    "isGroup": false
   },
   {
     "id": "bird_146",
@@ -4287,7 +4575,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_147",
@@ -4317,7 +4607,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in southeastern europe and extensively through west and central asia"
+    "habitat": "Breeds in southeastern europe and extensively through west and central asia",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_148",
@@ -4346,7 +4638,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_149",
@@ -4376,7 +4670,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "vulture",
+    "isGroup": false
   },
   {
     "id": "bird_150",
@@ -4405,7 +4701,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Distributed from the iberian peninsula, north africa, west asia and india"
+    "habitat": "Distributed from the iberian peninsula, north africa, west asia and india",
+    "groupId": "vulture",
+    "isGroup": false
   },
   {
     "id": "bird_151",
@@ -4434,7 +4732,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Distributed through much of temperate eurasia"
+    "habitat": "Distributed through much of temperate eurasia",
+    "groupId": "vulture",
+    "isGroup": false
   },
   {
     "id": "bird_152",
@@ -4463,7 +4763,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_153",
@@ -4491,7 +4793,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_154",
@@ -4519,7 +4823,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in the boreal forests of northern and central europe to siberia"
+    "habitat": "Found in the boreal forests of northern and central europe to siberia",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_155",
@@ -4548,7 +4854,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Habitat, it is rarely seen by humans; when met with, it is however often extremely confiding, showing little or no fear"
+    "habitat": "Habitat, it is rarely seen by humans; when met with, it is however often extremely confiding, showing little or no fear",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_156",
@@ -4578,7 +4886,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_157",
@@ -4607,7 +4917,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_158",
@@ -4636,7 +4948,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range males and green or yellow females, but there is wide variation in beak size and shape, and call types, leading to"
+    "habitat": "Range males and green or yellow females, but there is wide variation in beak size and shape, and call types, leading to",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_159",
@@ -4664,7 +4978,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Breeds in the arctic and north temperate holarctic tundra and taiga"
+    "habitat": "Breeds in the arctic and north temperate holarctic tundra and taiga",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_160",
@@ -4691,7 +5007,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in a strongly disjunct distribution in northern europe, and in asian mountains from eastern turkey to nepal, weste"
+    "habitat": "Found in a strongly disjunct distribution in northern europe, and in asian mountains from eastern turkey to nepal, weste",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_161",
@@ -4720,7 +5038,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range throughout the northern hemisphere"
+    "habitat": "Range throughout the northern hemisphere",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_162",
@@ -4749,7 +5069,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "bunting",
+    "isGroup": false
   },
   {
     "id": "bird_163",
@@ -4778,7 +5100,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "finch",
+    "isGroup": false
   },
   {
     "id": "bird_164",
@@ -4807,7 +5131,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Range"
+    "habitat": "Range",
+    "groupId": "kinglet",
+    "isGroup": false
   },
   {
     "id": "bird_165",
@@ -4836,7 +5162,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in reed beds near water in the temperate zone of eurasia"
+    "habitat": "Found in reed beds near water in the temperate zone of eurasia",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_166",
@@ -4865,7 +5193,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Range but resident in the southern part"
+    "habitat": "Range but resident in the southern part",
+    "groupId": "tit",
+    "isGroup": false
   },
   {
     "id": "bird_167",
@@ -4892,7 +5222,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "nuthatch",
+    "isGroup": false
   },
   {
     "id": "bird_168",
@@ -4921,7 +5253,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": "Found in europe, the middle east, central asia and the indian subcontinent"
+    "habitat": "Found in europe, the middle east, central asia and the indian subcontinent",
+    "groupId": "dipper",
+    "isGroup": false
   },
   {
     "id": "bird_169",
@@ -4950,7 +5284,9 @@
       "Europe"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "thrush",
+    "isGroup": false
   },
   {
     "id": "bird_170",
@@ -4980,7 +5316,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "flycatcher",
+    "isGroup": false
   },
   {
     "id": "bird_171",
@@ -5010,7 +5348,9 @@
       "Israel"
     ],
     "tags": [],
-    "habitat": "Breeds in temperate regions of europe and asia"
+    "habitat": "Breeds in temperate regions of europe and asia",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_172",
@@ -5037,7 +5377,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "parrot",
+    "isGroup": false
   },
   {
     "id": "bird_173",
@@ -5064,7 +5406,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "vulture",
+    "isGroup": false
   },
   {
     "id": "bird_174",
@@ -5093,7 +5437,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_175",
@@ -5122,7 +5468,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Habitat that left just 21 wild cranes by 1941, the whooping crane made a partial recovery through conservation efforts"
+    "habitat": "Habitat that left just 21 wild cranes by 1941, the whooping crane made a partial recovery through conservation efforts",
+    "groupId": "crane",
+    "isGroup": false
   },
   {
     "id": "bird_176",
@@ -5150,7 +5498,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Lives in brackish tidal marshes and rarely flies"
+    "habitat": "Lives in brackish tidal marshes and rarely flies",
+    "groupId": "rail",
+    "isGroup": false
   },
   {
     "id": "bird_177",
@@ -5177,7 +5527,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Range, and following a several-year survey, the iucn officially declared it extinct in the wild in 2019"
+    "habitat": "Range, and following a several-year survey, the iucn officially declared it extinct in the wild in 2019",
+    "groupId": "parrot",
+    "isGroup": false
   },
   {
     "id": "bird_178",
@@ -5202,7 +5554,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Range estimates suggest that about 208–303 adult individuals remain in the wild"
+    "habitat": "Range estimates suggest that about 208–303 adult individuals remain in the wild",
+    "groupId": "parrot",
+    "isGroup": false
   },
   {
     "id": "bird_179",
@@ -5228,7 +5582,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Habitat"
+    "habitat": "Habitat",
+    "groupId": "honeyeater",
+    "isGroup": false
   },
   {
     "id": "bird_180",
@@ -5254,7 +5610,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "owl",
+    "isGroup": false
   },
   {
     "id": "bird_181",
@@ -5283,7 +5641,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_182",
@@ -5310,7 +5670,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Inhabits tropical lowland rainforests in the upper canopy layer"
+    "habitat": "Inhabits tropical lowland rainforests in the upper canopy layer",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_183",
@@ -5339,7 +5701,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": "Native to sub-saharan africa"
+    "habitat": "Native to sub-saharan africa",
+    "groupId": "eagle",
+    "isGroup": false
   },
   {
     "id": "bird_184",
@@ -5368,7 +5732,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": "Found in the open grasslands and savanna of the sub-saharan region"
+    "habitat": "Found in the open grasslands and savanna of the sub-saharan region",
+    "groupId": "secretarybird",
+    "isGroup": false
   },
   {
     "id": "bird_185",
@@ -5397,7 +5763,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "shoebill",
+    "isGroup": false
   },
   {
     "id": "bird_186",
@@ -5426,7 +5794,9 @@
       "Africa"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "ibis",
+    "isGroup": false
   },
   {
     "id": "bird_188",
@@ -5452,7 +5822,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Found in central america and southern mexico that lives in tropical forests, particularly montane cloud forests"
+    "habitat": "Found in central america and southern mexico that lives in tropical forests, particularly montane cloud forests",
+    "groupId": "quetzal",
+    "isGroup": false
   },
   {
     "id": "bird_189",
@@ -5479,7 +5851,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Found in forest in the southeast of the country"
+    "habitat": "Found in forest in the southeast of the country",
+    "groupId": "lyrebird",
+    "isGroup": false
   },
   {
     "id": "bird_190",
@@ -5505,7 +5879,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Distributed widely in southern and northeastern new guinea, where its name is kumul"
+    "habitat": "Distributed widely in southern and northeastern new guinea, where its name is kumul",
+    "groupId": "bird_of_paradise",
+    "isGroup": false
   },
   {
     "id": "bird_191",
@@ -5532,7 +5908,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "kiwi",
+    "isGroup": false
   },
   {
     "id": "bird_192",
@@ -5559,7 +5937,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "starling",
+    "isGroup": false
   },
   {
     "id": "bird_193",
@@ -5586,7 +5966,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "pheasant",
+    "isGroup": false
   },
   {
     "id": "bird_194",
@@ -5614,7 +5996,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "babbler",
+    "isGroup": false
   },
   {
     "id": "bird_195",
@@ -5640,7 +6024,9 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "seabird",
+    "isGroup": false
   },
   {
     "id": "bird_196",
@@ -5667,7 +6053,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "seabird",
+    "isGroup": false
   },
   {
     "id": "bird_197",
@@ -5696,7 +6084,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": "Habitat destruction and hunting have reduced populations so severely that the last universally accepted sighting in the"
+    "habitat": "Habitat destruction and hunting have reduced populations so severely that the last universally accepted sighting in the",
+    "groupId": "woodpecker",
+    "isGroup": false
   },
   {
     "id": "bird_198",
@@ -5722,7 +6112,9 @@
       "US"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "honeyeater",
+    "isGroup": false
   },
   {
     "id": "bird_199",
@@ -5751,7 +6143,9 @@
       "Asia"
     ],
     "tags": [],
-    "habitat": ""
+    "habitat": "",
+    "groupId": "ibis",
+    "isGroup": false
   },
   {
     "id": "bird_201",
@@ -5777,6 +6171,1876 @@
     },
     "locations": [],
     "tags": [],
-    "habitat": "Breeds in tasmania during the summer and migrates north to southeastern mainland australia from griffith-warialda in new"
+    "habitat": "Breeds in tasmania during the summer and migrates north to southeastern mainland australia from griffith-warialda in new",
+    "groupId": "parrot",
+    "isGroup": false
+  },
+  {
+    "id": "group_sparrow",
+    "image": "house_sparrow_2",
+    "names": {
+      "en": "Sparrow",
+      "he": "דרור",
+      "es": "Gorrión",
+      "fr": "Moineau"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "house_sparrow_2.jpg",
+      "house_sparrow_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Sparrow species.",
+      "he": "קבוצה המייצגת מיני דרור.",
+      "es": "Un grupo que representa especies de Gorrión.",
+      "fr": "Un groupe représentant les espèces de Moineau."
+    }
+  },
+  {
+    "id": "group_dove_pigeon",
+    "image": "eurasian_collared_dove_2",
+    "names": {
+      "en": "Pigeon",
+      "he": "יונה",
+      "es": "Paloma",
+      "fr": "Pigeon et Tourterelle"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Urban Bird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "eurasian_collared_dove_2.jpg",
+      "common_wood_pigeon_1.jpg",
+      "mourning_dove_1.jpg",
+      "mourning_dove_2.jpg",
+      "eurasian_collared_dove_1.jpg",
+      "common_wood_pigeon_2.jpg",
+      "rock_pigeon_1.jpg",
+      "rock_pigeon_10.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Dove & Pigeon species.",
+      "he": "קבוצה המייצגת מיני יונה ותור.",
+      "es": "Un grupo que representa especies de Paloma y Tórtola.",
+      "fr": "Un groupe représentant les espèces de Pigeon et Tourterelle."
+    }
+  },
+  {
+    "id": "group_thrush",
+    "image": "eastern_bluebird_2",
+    "names": {
+      "en": "Robin",
+      "he": "קיכלי",
+      "es": "Zorzal",
+      "fr": "Grive et Merle"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "US",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "eastern_bluebird_2.jpg",
+      "american_robin_2.jpg",
+      "american_robin_1.jpg",
+      "ring_ouzel_1.jpg",
+      "song_thrush_2.jpg",
+      "eastern_bluebird_1.jpg",
+      "ring_ouzel_2.jpg",
+      "song_thrush_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Thrush & Robin species.",
+      "he": "קבוצה המייצגת מיני קיכלי.",
+      "es": "Un grupo que representa especies de Zorzal y Mirlo.",
+      "fr": "Un groupe représentant les espèces de Grive et Merle."
+    }
+  },
+  {
+    "id": "group_starling",
+    "image": "common_myna_2",
+    "names": {
+      "en": "Starling",
+      "he": "זרזיר",
+      "es": "Estornino",
+      "fr": "Étourneau et Martin"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Various",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "common_myna_2.jpg",
+      "european_starling_2.jpg",
+      "common_myna_1.jpg",
+      "bali_myna_1.jpg",
+      "european_starling_1.jpg",
+      "bali_myna_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Starling & Myna species.",
+      "he": "קבוצה המייצגת מיני זרזיר ומיינה.",
+      "es": "Un grupo que representa especies de Estornino y Miná.",
+      "fr": "Un groupe représentant les espèces de Étourneau et Martin."
+    }
+  },
+  {
+    "id": "group_duck",
+    "image": "wood_duck_2",
+    "names": {
+      "en": "Duck",
+      "he": "ברווז",
+      "es": "Pato",
+      "fr": "Canard"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "wood_duck_2.jpg",
+      "ferruginous_duck_1.jpg",
+      "garganey_1.jpg",
+      "garganey_2.jpg",
+      "wood_duck_1.jpg",
+      "ferruginous_duck_2.jpg",
+      "mallard_1.jpg",
+      "mallard_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Duck species.",
+      "he": "קבוצה המייצגת מיני ברווז.",
+      "es": "Un grupo que representa especies de Pato.",
+      "fr": "Un groupe représentant les espèces de Canard."
+    }
+  },
+  {
+    "id": "group_goose",
+    "image": "canada_goose_2",
+    "names": {
+      "en": "Goose",
+      "he": "אווז",
+      "es": "Ganso",
+      "fr": "Oie"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "canada_goose_2.jpg",
+      "canada_goose_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Goose species.",
+      "he": "קבוצה המייצגת מיני אווז.",
+      "es": "Un grupo que representa especies de Ganso.",
+      "fr": "Un groupe représentant les espèces de Oie."
+    }
+  },
+  {
+    "id": "group_swan",
+    "image": "mute_swan_2",
+    "names": {
+      "en": "Swan",
+      "he": "ברבור",
+      "es": "Cisne",
+      "fr": "Cygne"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "mute_swan_2.jpg",
+      "mute_swan_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Swan species.",
+      "he": "קבוצה המייצגת מיני ברבור.",
+      "es": "Un grupo que representa especies de Cisne.",
+      "fr": "Un groupe représentant les espèces de Cygne."
+    }
+  },
+  {
+    "id": "group_gull",
+    "image": "black_headed_gull_2",
+    "names": {
+      "en": "Gull",
+      "he": "שחף",
+      "es": "Gaviota",
+      "fr": "Goéland et Sterne"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "black_headed_gull_2.jpg",
+      "herring_gull_2.jpg",
+      "black_headed_gull_1.jpg",
+      "common_tern_1.jpg",
+      "herring_gull_1.jpg",
+      "common_tern_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Gull & Tern species.",
+      "he": "קבוצה המייצגת מיני שחף ושחפית.",
+      "es": "Un grupo que representa especies de Gaviota y Charrán.",
+      "fr": "Un groupe représentant les espèces de Goéland et Sterne."
+    }
+  },
+  {
+    "id": "group_pheasant",
+    "image": "red_legged_partridge_2",
+    "names": {
+      "en": "Pheasant",
+      "he": "פסיון",
+      "es": "Faisán",
+      "fr": "Faisan et Perdrix"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Game Bird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "red_legged_partridge_2.jpg",
+      "black_grouse_2.jpg",
+      "pheasant_2.jpg",
+      "red_legged_partridge_1.jpg",
+      "palawan_peacock_pheasant_1.jpg",
+      "capercaillie_1.jpg",
+      "grey_partridge_1.jpg",
+      "black_grouse_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Pheasant & Partridge species.",
+      "he": "קבוצה המייצגת מיני פסיוניים.",
+      "es": "Un grupo que representa especies de Faisán y Perdiz.",
+      "fr": "Un groupe représentant les espèces de Faisan et Perdrix."
+    }
+  },
+  {
+    "id": "group_bunting",
+    "image": "ortolan_bunting_2",
+    "names": {
+      "en": "Bunting",
+      "he": "גיבתון",
+      "es": "Escribano",
+      "fr": "Bruant"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "ortolan_bunting_2.jpg",
+      "corn_bunting_2.jpg",
+      "yellowhammer_1.jpg",
+      "snow_bunting_1.jpg",
+      "snow_bunting_2.jpg",
+      "ortolan_bunting_1.jpg",
+      "lapland_bunting_2.jpg",
+      "yellowhammer_3.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Bunting species.",
+      "he": "קבוצה המייצגת מיני גיבתון.",
+      "es": "Un grupo que representa especies de Escribano.",
+      "fr": "Un groupe représentant les espèces de Bruant."
+    }
+  },
+  {
+    "id": "group_crow_jay",
+    "image": "house_crow_2",
+    "names": {
+      "en": "Crow",
+      "he": "עורב",
+      "es": "Cuervo",
+      "fr": "Corbeau et Geai"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Various",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "house_crow_2.jpg",
+      "eurasian_magpie_2.jpg",
+      "american_crow_2.jpg",
+      "canada_jay_1.jpg",
+      "canada_jay_2.jpg",
+      "house_crow_1.jpg",
+      "eurasian_jay_2.jpg",
+      "american_crow_3.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Crow & Jay species.",
+      "he": "קבוצה המייצגת מיני עורב ועורבני.",
+      "es": "Un grupo que representa especies de Cuervo y Arrendajo.",
+      "fr": "Un groupe représentant les espèces de Corbeau et Geai."
+    }
+  },
+  {
+    "id": "group_tit",
+    "image": "marsh_tit_2",
+    "names": {
+      "en": "Tit",
+      "he": "ירגזי",
+      "es": "Carbonero",
+      "fr": "Mésange"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "US",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "marsh_tit_2.jpg",
+      "marsh_tit_1.jpg",
+      "black_capped_chickadee_1.jpg",
+      "long_tailed_tit_2.jpg",
+      "black_capped_chickadee_2.jpg",
+      "tufted_titmouse_2.jpg",
+      "penduline_tit_1.jpg",
+      "tufted_titmouse_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Tit & Chickadee species.",
+      "he": "קבוצה המייצגת מיני ירגזי.",
+      "es": "Un grupo que representa especies de Carbonero y Herrerillo.",
+      "fr": "Un groupe représentant les espèces de Mésange."
+    }
+  },
+  {
+    "id": "group_swallow",
+    "image": "house_martin_2",
+    "names": {
+      "en": "Swallow",
+      "he": "סנונית",
+      "es": "Golondrina",
+      "fr": "Hirondelle"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "house_martin_2.jpg",
+      "barn_swallow_2.jpg",
+      "house_martin_1.jpg",
+      "sand_martin_1.jpg",
+      "barn_swallow_1.jpg",
+      "sand_martin_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Swallow & Martin species.",
+      "he": "קבוצה המייצגת מיני סנונית.",
+      "es": "Un grupo que representa especies de Golondrina.",
+      "fr": "Un groupe représentant les espèces de Hirondelle."
+    }
+  },
+  {
+    "id": "group_finch",
+    "image": "hawfinch_1",
+    "names": {
+      "en": "Finch",
+      "he": "פרוש",
+      "es": "Pinzón",
+      "fr": "Pinson"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "US",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "hawfinch_1.jpg",
+      "siskin_1.jpg",
+      "american_goldfinch_2.jpg",
+      "brambling_2.jpg",
+      "crossbill_2.jpg",
+      "greenfinch_1.jpg",
+      "chaffinch_2.jpg",
+      "bullfinch_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Finch species.",
+      "he": "קבוצה המייצגת מיני פרושיים.",
+      "es": "Un grupo que representa especies de Pinzón y Jilguero.",
+      "fr": "Un groupe représentant les espèces de Pinson."
+    }
+  },
+  {
+    "id": "group_flycatcher",
+    "image": "wheatear_2",
+    "names": {
+      "en": "Flycatcher",
+      "he": "חטפית",
+      "es": "Papamoscas",
+      "fr": "Gobemouche et Tarier"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "wheatear_2.jpg",
+      "black_redstart_2.jpg",
+      "nightingale_1.jpg",
+      "stonechat_1.jpg",
+      "stonechat_2.jpg",
+      "wheatear_1.jpg",
+      "bluethroat_2.jpg",
+      "nightingale_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Chat & Flycatcher species.",
+      "he": "קבוצה המייצגת מיני חטפית ודוחל.",
+      "es": "Un grupo que representa especies de Papamoscas y Tarabilla.",
+      "fr": "Un groupe représentant les espèces de Gobemouche et Tarier."
+    }
+  },
+  {
+    "id": "group_heron",
+    "image": "great_blue_heron_2",
+    "names": {
+      "en": "Heron",
+      "he": "אנפה",
+      "es": "Garza",
+      "fr": "Héron"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "great_blue_heron_2.jpg",
+      "bittern_2.jpg",
+      "little_egret_2.jpg",
+      "great_blue_heron_1.jpg",
+      "squacco_heron_1.jpg",
+      "purple_heron_1.jpg",
+      "night_heron_1.jpg",
+      "bittern_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Heron & Egret species.",
+      "he": "קבוצה המייצגת מיני אנפה.",
+      "es": "Un grupo que representa especies de Garza.",
+      "fr": "Un groupe représentant les espèces de Héron."
+    }
+  },
+  {
+    "id": "group_flamingo",
+    "image": "flamingo_2",
+    "names": {
+      "en": "Flamingo",
+      "he": "פלמינגו",
+      "es": "Flamenco",
+      "fr": "Flamant"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "flamingo_2.jpg",
+      "flamingo_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Flamingo species.",
+      "he": "קבוצה המייצגת מיני פלמינגו.",
+      "es": "Un grupo que representa especies de Flamenco.",
+      "fr": "Un groupe représentant les espèces de Flamant."
+    }
+  },
+  {
+    "id": "group_hawk",
+    "image": "black_kite_2",
+    "names": {
+      "en": "Hawk",
+      "he": "נץ",
+      "es": "Halcón",
+      "fr": "Buse et Épervier"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Raptor",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "black_kite_2.jpg",
+      "red_kite_2.jpg",
+      "red_tailed_hawk_2.jpg",
+      "black_kite_1.jpg",
+      "montagu_harrier_1.jpg",
+      "levant_sparrowhawk_1.jpg",
+      "marsh_harrier_1.jpg",
+      "red_kite_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Hawk & Kite species.",
+      "he": "קבוצה המייצגת מיני נץ ועקב.",
+      "es": "Un grupo que representa especies de Halcón y Milano.",
+      "fr": "Un groupe représentant les espèces de Buse et Épervier."
+    }
+  },
+  {
+    "id": "group_falcon",
+    "image": "merlin_2",
+    "names": {
+      "en": "Falcon",
+      "he": "בז",
+      "es": "Halcón",
+      "fr": "Faucon"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Raptor",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "merlin_2.jpg",
+      "hobby_2.jpg",
+      "peregrine_falcon_1.jpg",
+      "lanner_falcon_1.jpg",
+      "lanner_falcon_2.jpg",
+      "merlin_1.jpg",
+      "saker_falcon_3.jpg",
+      "peregrine_falcon_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Falcon species.",
+      "he": "קבוצה המייצגת מיני בז.",
+      "es": "Un grupo que representa especies de Halcón.",
+      "fr": "Un groupe représentant les espèces de Faucon."
+    }
+  },
+  {
+    "id": "group_owl",
+    "image": "eagle_owl_2",
+    "names": {
+      "en": "Owl",
+      "he": "ינשוף",
+      "es": "Búho",
+      "fr": "Hibou et Chouette"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Raptor",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "eagle_owl_2.jpg",
+      "snowy_owl_2.jpg",
+      "pygmy_owl_1.jpg",
+      "forest_owlet_2.jpg",
+      "scops_owl_2.jpg",
+      "long_eared_owl_1.jpg",
+      "ural_owl_3.jpg",
+      "long_eared_owl_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Owl species.",
+      "he": "קבוצה המייצגת מיני ינשוף ואוח.",
+      "es": "Un grupo que representa especies de Búho y Lechuza.",
+      "fr": "Un groupe représentant les espèces de Hibou et Chouette."
+    }
+  },
+  {
+    "id": "group_swift",
+    "image": "common_swift_3",
+    "names": {
+      "en": "Swift",
+      "he": "סיס",
+      "es": "Vencejo",
+      "fr": "Martinet"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Songbird",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "common_swift_3.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Swift species.",
+      "he": "קבוצה המייצגת מיני סיס.",
+      "es": "Un grupo que representa especies de Vencejo.",
+      "fr": "Un groupe représentant les espèces de Martinet."
+    }
+  },
+  {
+    "id": "group_pelican",
+    "image": "pelican_2",
+    "names": {
+      "en": "Pelican",
+      "he": "שקנאי",
+      "es": "Pelícano",
+      "fr": "Pélican"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "pelican_2.jpg",
+      "pelican_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Pelican species.",
+      "he": "קבוצה המייצגת מיני שקנאי.",
+      "es": "Un grupo que representa especies de Pelícano.",
+      "fr": "Un groupe représentant les espèces de Pélican."
+    }
+  },
+  {
+    "id": "group_stork",
+    "image": "black_stork_1",
+    "names": {
+      "en": "Stork",
+      "he": "חסידה",
+      "es": "Cigüeña",
+      "fr": "Cigogne"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "black_stork_1.jpg",
+      "white_stork_2.jpg",
+      "black_stork_2.jpg",
+      "white_stork_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Stork species.",
+      "he": "קבוצה המייצגת מיני חסידה.",
+      "es": "Un grupo que representa especies de Cigüeña.",
+      "fr": "Un groupe représentant les espèces de Cigogne."
+    }
+  },
+  {
+    "id": "group_crane",
+    "image": "whooping_crane_1",
+    "names": {
+      "en": "Crane",
+      "he": "עגור",
+      "es": "Grulla",
+      "fr": "Grue"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "whooping_crane_1.jpg",
+      "common_crane_2.jpg",
+      "whooping_crane_2.jpg",
+      "common_crane_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Crane species.",
+      "he": "קבוצה המייצגת מיני עגור.",
+      "es": "Un grupo que representa especies de Grulla.",
+      "fr": "Un groupe représentant les espèces de Grue."
+    }
+  },
+  {
+    "id": "group_cormorant",
+    "image": "cormorant_2",
+    "names": {
+      "en": "Cormorant",
+      "he": "קורמורן",
+      "es": "Cormorán",
+      "fr": "Cormoran"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "cormorant_2.jpg",
+      "cormorant_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Cormorant species.",
+      "he": "קבוצה המייצגת מיני קורמורן.",
+      "es": "Un grupo que representa especies de Cormorán.",
+      "fr": "Un groupe représentant les espèces de Cormoran."
+    }
+  },
+  {
+    "id": "group_hoopoe",
+    "image": "hoopoe_2",
+    "names": {
+      "en": "Hoopoe",
+      "he": "דוכיפת",
+      "es": "Abubilla",
+      "fr": "Huppe"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 1,
+    "category": "Exotic Bird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "hoopoe_2.jpg",
+      "hoopoe_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Hoopoe species.",
+      "he": "קבוצה המייצגת מיני דוכיפת.",
+      "es": "Un grupo que representa especies de Abubilla.",
+      "fr": "Un groupe représentant les espèces de Huppe."
+    }
+  },
+  {
+    "id": "group_kingfisher",
+    "image": "common_kingfisher_2",
+    "names": {
+      "en": "Kingfisher",
+      "he": "שלדג",
+      "es": "Martín Pescador",
+      "fr": "Martin-pêcheur"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "common_kingfisher_2.jpg",
+      "common_kingfisher_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Kingfisher species.",
+      "he": "קבוצה המייצגת מיני שלדג.",
+      "es": "Un grupo que representa especies de Martín Pescador.",
+      "fr": "Un groupe représentant les espèces de Martin-pêcheur."
+    }
+  },
+  {
+    "id": "group_lark",
+    "image": "skylark_2",
+    "names": {
+      "en": "Lark",
+      "he": "עפרוני",
+      "es": "Alondra",
+      "fr": "Alouette"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "skylark_2.jpg",
+      "skylark_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Lark species.",
+      "he": "קבוצה המייצגת מיני עפרוני.",
+      "es": "Un grupo que representa especies de Alondra.",
+      "fr": "Un groupe représentant les espèces de Alouette."
+    }
+  },
+  {
+    "id": "group_eagle",
+    "image": "steppe_eagle_1",
+    "names": {
+      "en": "Eagle",
+      "he": "עיט",
+      "es": "Águila",
+      "fr": "Aigle et Balbuzard"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Raptor",
+    "locations": [
+      "US",
+      "Asia",
+      "Israel",
+      "Europe",
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "steppe_eagle_1.jpg",
+      "bonelli_eagle_2.jpg",
+      "short_toed_eagle_2.jpg",
+      "martial_eagle_2.jpg",
+      "philippine_eagle_2.jpg",
+      "booted_eagle_1.jpg",
+      "golden_eagle_2.jpg",
+      "white_tailed_eagle_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Eagle & Osprey species.",
+      "he": "קבוצה המייצגת מיני עיט ושלך.",
+      "es": "Un grupo que representa especies de Águila.",
+      "fr": "Un groupe représentant les espèces de Aigle et Balbuzard."
+    }
+  },
+  {
+    "id": "group_woodpecker",
+    "image": "wryneck_2",
+    "names": {
+      "en": "Woodpecker",
+      "he": "נקר",
+      "es": "Pájaro Carpintero",
+      "fr": "Pic"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "wryneck_2.jpg",
+      "green_woodpecker_2.jpg",
+      "great_spotted_woodpecker_1.jpg",
+      "wryneck_eur_1.jpg",
+      "wryneck_eur_2.jpg",
+      "wryneck_1.jpg",
+      "ivory_billed_woodpecker_2.jpg",
+      "great_spotted_woodpecker_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Woodpecker species.",
+      "he": "קבוצה המייצגת מיני נקר.",
+      "es": "Un grupo que representa especies de Pájaro Carpintero.",
+      "fr": "Un groupe représentant les espèces de Pic."
+    }
+  },
+  {
+    "id": "group_mockingbird",
+    "image": "northern_mockingbird_2",
+    "names": {
+      "en": "Mockingbird",
+      "he": "חקיין",
+      "es": "Sinsonte",
+      "fr": "Moqueur"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "northern_mockingbird_2.jpg",
+      "northern_mockingbird_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Mockingbird species.",
+      "he": "קבוצה המייצגת מיני חקיין.",
+      "es": "Un grupo que representa especies de Sinsonte.",
+      "fr": "Un groupe représentant les espèces de Moqueur."
+    }
+  },
+  {
+    "id": "group_waxwing",
+    "image": "waxwing_1",
+    "names": {
+      "en": "Waxwing",
+      "he": "אמבלרון",
+      "es": "Ampelis",
+      "fr": "Jaseur"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "waxwing_1.jpg",
+      "cedar_waxwing_2.jpg",
+      "waxwing_2.jpg",
+      "cedar_waxwing_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Waxwing species.",
+      "he": "קבוצה המייצגת מיני אמבלרון.",
+      "es": "Un grupo que representa especies de Ampelis.",
+      "fr": "Un groupe représentant les espèces de Jaseur."
+    }
+  },
+  {
+    "id": "group_oriole",
+    "image": "baltimore_oriole_2",
+    "names": {
+      "en": "Oriole",
+      "he": "פזאי",
+      "es": "Oropéndola",
+      "fr": "Loriot"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "baltimore_oriole_2.jpg",
+      "baltimore_oriole_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Oriole species.",
+      "he": "קבוצה המייצגת מיני פזאי.",
+      "es": "Un grupo que representa especies de Oropéndola.",
+      "fr": "Un groupe représentant les espèces de Loriot."
+    }
+  },
+  {
+    "id": "group_tanager",
+    "image": "scarlet_tanager_2",
+    "names": {
+      "en": "Tanager",
+      "he": "טנאגר",
+      "es": "Tángara",
+      "fr": "Tangara"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "scarlet_tanager_2.jpg",
+      "scarlet_tanager_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Tanager species.",
+      "he": "קבוצה המייצגת מיני טנאגר.",
+      "es": "Un grupo que representa especies de Tángara.",
+      "fr": "Un groupe représentant les espèces de Tangara."
+    }
+  },
+  {
+    "id": "group_hummingbird",
+    "image": "ruby_throated_hummingbird_2",
+    "names": {
+      "en": "Hummingbird",
+      "he": "יונק דבש",
+      "es": "Colibrí",
+      "fr": "Colibri"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Songbird",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "ruby_throated_hummingbird_2.jpg",
+      "ruby_throated_hummingbird_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Hummingbird species.",
+      "he": "קבוצה המייצגת מיני יונק דבש.",
+      "es": "Un grupo que representa especies de Colibrí.",
+      "fr": "Un groupe représentant les espèces de Colibri."
+    }
+  },
+  {
+    "id": "group_wader",
+    "image": "curlew_3",
+    "names": {
+      "en": "Sandpiper",
+      "he": "חופמאים",
+      "es": "Limícolas",
+      "fr": "Limicoles"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 2,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "curlew_3.jpg",
+      "avocet_3.jpg",
+      "lapwing_1.jpg",
+      "oystercatcher_1.jpg",
+      "oystercatcher_2.jpg",
+      "curlew_2.jpg",
+      "snipe_2.jpg",
+      "lapwing_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Wader & Sandpiper species.",
+      "he": "קבוצה המייצגת מיני חופמאים.",
+      "es": "Un grupo que representa especies de Limícolas.",
+      "fr": "Un groupe représentant les espèces de Limicoles."
+    }
+  },
+  {
+    "id": "group_seabird",
+    "image": "amsterdam_albatross_2",
+    "names": {
+      "en": "Albatross",
+      "he": "אלבטרוס",
+      "es": "Albatros",
+      "fr": "Albatros et Pétrel"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Water Bird",
+    "locations": [
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "amsterdam_albatross_2.jpg",
+      "gannet_2.jpg",
+      "gannet_1.jpg",
+      "cahow_1.jpg",
+      "shearwater_2.jpg",
+      "amsterdam_albatross_1.jpg",
+      "cahow_3.jpg",
+      "shearwater_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Albatross & Petrel species.",
+      "he": "קבוצה המייצגת מיני אלבטרוס ויסעור.",
+      "es": "Un grupo que representa especies de Albatros y Petrel.",
+      "fr": "Un groupe représentant les espèces de Albatros et Pétrel."
+    }
+  },
+  {
+    "id": "group_rail",
+    "image": "moorhen_2",
+    "names": {
+      "en": "Coot",
+      "he": "רליתיים",
+      "es": "Rálidos",
+      "fr": "Râles et Foulques"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "US",
+      "Asia",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "moorhen_2.jpg",
+      "water_rail_1.jpg",
+      "california_clapper_rail_1.jpg",
+      "california_clapper_rail_2.jpg",
+      "moorhen_1.jpg",
+      "water_rail_2.jpg",
+      "common_coot_1.jpg",
+      "common_coot_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Rail, Coot & Moorhen species.",
+      "he": "קבוצה המייצגת מיני רליתיים.",
+      "es": "Un grupo que representa especies de Rálidos.",
+      "fr": "Un groupe représentant les espèces de Râles et Foulques."
+    }
+  },
+  {
+    "id": "group_grebe",
+    "image": "grebe_2",
+    "names": {
+      "en": "Grebe",
+      "he": "טבלן",
+      "es": "Somormujo",
+      "fr": "Grèbe"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "grebe_2.jpg",
+      "grebe_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Grebe species.",
+      "he": "קבוצה המייצגת מיני טבלן.",
+      "es": "Un grupo que representa especies de Somormujo.",
+      "fr": "Un groupe représentant les espèces de Grèbe."
+    }
+  },
+  {
+    "id": "group_nuthatch",
+    "image": "treecreeper_2",
+    "names": {
+      "en": "Nuthatch",
+      "he": "סיטה",
+      "es": "Trepador",
+      "fr": "Sittelle et Grimpereau"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "treecreeper_2.jpg",
+      "nuthatch_2.jpg",
+      "treecreeper_1.jpg",
+      "wallcreeper_2.jpg",
+      "nuthatch_1.jpg",
+      "wallcreeper_3.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Nuthatch & Creeper species.",
+      "he": "קבוצה המייצגת מיני סיטה וזחלן.",
+      "es": "Un grupo que representa especies de Trepador y Agateador.",
+      "fr": "Un groupe représentant les espèces de Sittelle et Grimpereau."
+    }
+  },
+  {
+    "id": "group_wren",
+    "image": "wren_2",
+    "names": {
+      "en": "Wren",
+      "he": "גדרון",
+      "es": "Chochín",
+      "fr": "Troglodyte"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "wren_2.jpg",
+      "wren_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Wren species.",
+      "he": "קבוצה המייצגת מיני גדרון.",
+      "es": "Un grupo que representa especies de Chochín.",
+      "fr": "Un groupe représentant les espèces de Troglodyte."
+    }
+  },
+  {
+    "id": "group_accentor",
+    "image": "dunnock_2",
+    "names": {
+      "en": "Accentor",
+      "he": "סתרי",
+      "es": "Acentor",
+      "fr": "Accenteur"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "dunnock_2.jpg",
+      "dunnock_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Accentor species.",
+      "he": "קבוצה המייצגת מיני סתרי.",
+      "es": "Un grupo que representa especies de Acentor.",
+      "fr": "Un groupe représentant les espèces de Accenteur."
+    }
+  },
+  {
+    "id": "group_warbler",
+    "image": "reed_warbler_1",
+    "names": {
+      "en": "Warbler",
+      "he": "סבכי ועלווית",
+      "es": "Curruca",
+      "fr": "Fauvette"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Songbird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "reed_warbler_1.jpg",
+      "garden_warbler_2.jpg",
+      "garden_warbler_1.jpg",
+      "reed_warbler_2.jpg",
+      "willow_warbler_1.jpg",
+      "willow_warbler_2.jpg",
+      "sedge_warbler_1.jpg",
+      "chiffchaff_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Warbler species.",
+      "he": "קבוצה המייצגת מיני סבכי ועלווית.",
+      "es": "Un grupo que representa especies de Curruca.",
+      "fr": "Un groupe représentant les espèces de Fauvette."
+    }
+  },
+  {
+    "id": "group_bee_eater",
+    "image": "roller_1",
+    "names": {
+      "en": "Bee-eater",
+      "he": "שרקרק",
+      "es": "Abejaruco",
+      "fr": "Guêpier et Rollier"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Exotic Bird",
+    "locations": [
+      "Israel",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "roller_1.jpg",
+      "bee_eater_2.jpg",
+      "roller_2.jpg",
+      "bee_eater_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Bee-eater & Roller species.",
+      "he": "קבוצה המייצגת מיני שרקרק וכחל.",
+      "es": "Un grupo que representa especies de Abejaruco y Carraca.",
+      "fr": "Un groupe représentant les espèces de Guêpier et Rollier."
+    }
+  },
+  {
+    "id": "group_bustard",
+    "image": "great_bustard_1",
+    "names": {
+      "en": "Bustard",
+      "he": "חובה",
+      "es": "Avutarda",
+      "fr": "Outarde"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Game Bird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "great_bustard_1.jpg",
+      "little_bustard_2.jpg",
+      "great_bustard_2.jpg",
+      "little_bustard_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Bustard species.",
+      "he": "קבוצה המייצגת מיני חובה.",
+      "es": "Un grupo que representa especies de Avutarda.",
+      "fr": "Un groupe représentant les espèces de Outarde."
+    }
+  },
+  {
+    "id": "group_kinglet",
+    "image": "firecrest_1",
+    "names": {
+      "en": "Kinglet",
+      "he": "מלכילון",
+      "es": "Reyezuelo",
+      "fr": "Roitelet"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 3,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "firecrest_1.jpg",
+      "kinglet_2.jpg",
+      "firecrest_2.jpg",
+      "kinglet_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Kinglet / Crest species.",
+      "he": "קבוצה המייצגת מיני מלכילון.",
+      "es": "Un grupo que representa especies de Reyezuelo.",
+      "fr": "Un groupe représentant les espèces de Roitelet."
+    }
+  },
+  {
+    "id": "group_ibis",
+    "image": "spoonbill_2",
+    "names": {
+      "en": "Ibis",
+      "he": "מגלן",
+      "es": "Ibis",
+      "fr": "Ibis et Spatule"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 4,
+    "category": "Water Bird",
+    "locations": [
+      "Israel",
+      "Asia",
+      "Africa",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "spoonbill_2.jpg",
+      "african_spoonbill_1.jpg",
+      "giant_ibis_1.jpg",
+      "giant_ibis_2.jpg",
+      "spoonbill_1.jpg",
+      "african_spoonbill_2.jpg",
+      "glossy_ibis_1.jpg",
+      "glossy_ibis_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Ibis & Spoonbill species.",
+      "he": "קבוצה המייצגת מיני מגלן וכפן.",
+      "es": "Un grupo que representa especies de Ibis y Espátula.",
+      "fr": "Un groupe représentant les espèces de Ibis et Spatule."
+    }
+  },
+  {
+    "id": "group_vulture",
+    "image": "griffon_vulture_2",
+    "names": {
+      "en": "Vulture",
+      "he": "נשר",
+      "es": "Buitre",
+      "fr": "Vautour et Condor"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 4,
+    "category": "Raptor",
+    "locations": [
+      "Israel",
+      "US",
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "griffon_vulture_2.jpg",
+      "egyptian_vulture_2.jpg",
+      "black_vulture_1.jpg",
+      "egyptian_vulture_1.jpg",
+      "california_condor_2.jpg",
+      "griffon_vulture_1.jpg",
+      "black_vulture_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Vulture & Condor species.",
+      "he": "קבוצה המייצגת מיני נשר וקונדור.",
+      "es": "Un grupo que representa especies de Buitre y Cóndor.",
+      "fr": "Un groupe représentant les espèces de Vautour et Condor."
+    }
+  },
+  {
+    "id": "group_dipper",
+    "image": "dipper_2",
+    "names": {
+      "en": "Dipper",
+      "he": "אמודאי",
+      "es": "Mirlo Acuático",
+      "fr": "Cincle"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 4,
+    "category": "Songbird",
+    "locations": [
+      "Europe"
+    ],
+    "tags": [],
+    "images": [
+      "dipper_2.jpg",
+      "dipper_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Dipper species.",
+      "he": "קבוצה המייצגת מיני אמודאי.",
+      "es": "Un grupo que representa especies de Mirlo Acuático.",
+      "fr": "Un groupe représentant les espèces de Cincle."
+    }
+  },
+  {
+    "id": "group_parrot",
+    "image": "spixs_macaw_2",
+    "names": {
+      "en": "Parrot",
+      "he": "תוכי",
+      "es": "Loro",
+      "fr": "Perroquet et Ara"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Exotic Bird",
+    "locations": [],
+    "tags": [],
+    "images": [
+      "spixs_macaw_2.jpg",
+      "blue_throated_macaw_1.jpg",
+      "swift_parrot_1.jpg",
+      "swift_parrot_2.jpg",
+      "spixs_macaw_1.jpg",
+      "blue_throated_macaw_2.jpg",
+      "kakapo_1.jpg",
+      "kakapo_2.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Parrot & Macaw species.",
+      "he": "קבוצה המייצגת מיני תוכי.",
+      "es": "Un grupo que representa especies de Loro y Guacamayo.",
+      "fr": "Un groupe représentant les espèces de Perroquet et Ara."
+    }
+  },
+  {
+    "id": "group_honeyeater",
+    "image": "po_ouli_1",
+    "names": {
+      "en": "Honeyeater",
+      "he": "דבשן",
+      "es": "Melífago",
+      "fr": "Méliphage"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Various",
+    "locations": [
+      "US"
+    ],
+    "tags": [],
+    "images": [
+      "po_ouli_1.jpg",
+      "regent_honeyeater_2.jpg",
+      "po_ouli_2.jpg",
+      "regent_honeyeater_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Honeyeater species.",
+      "he": "קבוצה המייצגת מיני דבשן.",
+      "es": "Un grupo que representa especies de Melífago.",
+      "fr": "Un groupe représentant les espèces de Méliphage."
+    }
+  },
+  {
+    "id": "group_secretarybird",
+    "image": "secretary_bird_2",
+    "names": {
+      "en": "Secretarybird",
+      "he": "לבלר",
+      "es": "Secretario",
+      "fr": "Messager Sagittaire"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Raptor",
+    "locations": [
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "secretary_bird_2.jpg",
+      "secretary_bird_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Secretarybird species.",
+      "he": "קבוצה המייצגת מיני לבלר.",
+      "es": "Un grupo que representa especies de Secretario.",
+      "fr": "Un groupe représentant les espèces de Messager Sagittaire."
+    }
+  },
+  {
+    "id": "group_shoebill",
+    "image": "shoebill_2",
+    "names": {
+      "en": "Shoebill",
+      "he": "מנעלן",
+      "es": "Picozapato",
+      "fr": "Bec-en-sabot"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Water Bird",
+    "locations": [
+      "Africa"
+    ],
+    "tags": [],
+    "images": [
+      "shoebill_2.jpg",
+      "shoebill_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Shoebill species.",
+      "he": "קבוצה המייצגת מיני מנעלן.",
+      "es": "Un grupo que representa especies de Picozapato.",
+      "fr": "Un groupe représentant les espèces de Bec-en-sabot."
+    }
+  },
+  {
+    "id": "group_quetzal",
+    "image": "resplendent_quetzal_2",
+    "names": {
+      "en": "Quetzal",
+      "he": "קורוקו",
+      "es": "Quetzal",
+      "fr": "Quetzal"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Exotic Bird",
+    "locations": [],
+    "tags": [],
+    "images": [
+      "resplendent_quetzal_2.jpg",
+      "resplendent_quetzal_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Quetzal species.",
+      "he": "קבוצה המייצגת מיני קורוקו.",
+      "es": "Un grupo que representa especies de Quetzal.",
+      "fr": "Un groupe représentant les espèces de Quetzal."
+    }
+  },
+  {
+    "id": "group_lyrebird",
+    "image": "superb_lyrebird_2",
+    "names": {
+      "en": "Lyrebird",
+      "he": "נבלי",
+      "es": "Ave Lira",
+      "fr": "Ménure"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Exotic Bird",
+    "locations": [],
+    "tags": [],
+    "images": [
+      "superb_lyrebird_2.jpg",
+      "superb_lyrebird_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Lyrebird species.",
+      "he": "קבוצה המייצגת מיני נבלי.",
+      "es": "Un grupo que representa especies de Ave Lira.",
+      "fr": "Un groupe représentant les espèces de Ménure."
+    }
+  },
+  {
+    "id": "group_bird_of_paradise",
+    "image": "bird_of_paradise_2",
+    "names": {
+      "en": "Bird of Paradise",
+      "he": "עדניים",
+      "es": "Ave del Paraíso",
+      "fr": "Paradisier"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Exotic Bird",
+    "locations": [],
+    "tags": [],
+    "images": [
+      "bird_of_paradise_2.jpg",
+      "bird_of_paradise_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Bird of Paradise species.",
+      "he": "קבוצה המייצגת מיני עדניים.",
+      "es": "Un grupo que representa especies de Ave del Paraíso.",
+      "fr": "Un groupe représentant les espèces de Paradisier."
+    }
+  },
+  {
+    "id": "group_kiwi",
+    "image": "kiwi_2",
+    "names": {
+      "en": "Kiwi",
+      "he": "קיווי",
+      "es": "Kiwi",
+      "fr": "Kiwi"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Flightless Bird",
+    "locations": [],
+    "tags": [],
+    "images": [
+      "kiwi_2.jpg",
+      "kiwi_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Kiwi species.",
+      "he": "קבוצה המייצגת מיני קיווי.",
+      "es": "Un grupo que representa especies de Kiwi.",
+      "fr": "Un groupe représentant les espèces de Kiwi."
+    }
+  },
+  {
+    "id": "group_babbler",
+    "image": "blue_crowned_laughingthrush_2",
+    "names": {
+      "en": "Babbler",
+      "he": "זנבניים",
+      "es": "Charlatán",
+      "fr": "Cratérope"
+    },
+    "isGroup": true,
+    "scientificName": "Various Species",
+    "difficulty": 5,
+    "category": "Songbird",
+    "locations": [
+      "Asia"
+    ],
+    "tags": [],
+    "images": [
+      "blue_crowned_laughingthrush_2.jpg",
+      "blue_crowned_laughingthrush_1.jpg"
+    ],
+    "description": {
+      "en": "A classification representing Babbler species.",
+      "he": "קבוצה המייצגת מיני זנבניים.",
+      "es": "Un grupo que representa especies de Charlatán.",
+      "fr": "Un groupe représentant les espèces de Cratérope."
+    }
   }
 ]

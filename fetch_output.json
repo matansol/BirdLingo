@@ -5834,9 +5834,9 @@
   "group_dove_pigeon": {
     "name": "dove_pigeon",
     "names": {
-      "en": "Pigeon",
-      "he": "יונה",
-      "es": "Paloma",
+      "en": "Dove & Pigeon",
+      "he": "יונה ותור",
+      "es": "Paloma y Tórtola",
       "fr": "Pigeon et Tourterelle"
     },
     "isGroup": true,
@@ -5870,9 +5870,9 @@
   "group_thrush": {
     "name": "thrush",
     "names": {
-      "en": "Robin",
+      "en": "Thrush & Robin",
       "he": "קיכלי",
-      "es": "Zorzal",
+      "es": "Zorzal y Mirlo",
       "fr": "Grive et Merle"
     },
     "isGroup": true,
@@ -5905,9 +5905,9 @@
   "group_starling": {
     "name": "starling",
     "names": {
-      "en": "Starling",
-      "he": "זרזיר",
-      "es": "Estornino",
+      "en": "Starling & Myna",
+      "he": "זרזיר ומיינה",
+      "es": "Estornino y Miná",
       "fr": "Étourneau et Martin"
     },
     "isGroup": true,
@@ -6034,9 +6034,9 @@
   "group_gull": {
     "name": "gull",
     "names": {
-      "en": "Gull",
-      "he": "שחף",
-      "es": "Gaviota",
+      "en": "Gull & Tern",
+      "he": "שחף ושחפית",
+      "es": "Gaviota y Charrán",
       "fr": "Goéland et Sterne"
     },
     "isGroup": true,
@@ -6067,9 +6067,9 @@
   "group_pheasant": {
     "name": "pheasant",
     "names": {
-      "en": "Pheasant",
-      "he": "פסיון",
-      "es": "Faisán",
+      "en": "Pheasant & Partridge",
+      "he": "פסיוניים",
+      "es": "Faisán y Perdiz",
       "fr": "Faisan et Perdrix"
     },
     "isGroup": true,
@@ -6135,9 +6135,9 @@
   "group_crow_jay": {
     "name": "crow_jay",
     "names": {
-      "en": "Crow",
-      "he": "עורב",
-      "es": "Cuervo",
+      "en": "Crow & Jay",
+      "he": "עורב ועורבני",
+      "es": "Cuervo y Arrendajo",
       "fr": "Corbeau et Geai"
     },
     "isGroup": true,
@@ -6171,9 +6171,9 @@
   "group_tit": {
     "name": "tit",
     "names": {
-      "en": "Tit",
+      "en": "Tit & Chickadee",
       "he": "ירגזי",
-      "es": "Carbonero",
+      "es": "Carbonero y Herrerillo",
       "fr": "Mésange"
     },
     "isGroup": true,
@@ -6206,7 +6206,7 @@
   "group_swallow": {
     "name": "swallow",
     "names": {
-      "en": "Swallow",
+      "en": "Swallow & Martin",
       "he": "סנונית",
       "es": "Golondrina",
       "fr": "Hirondelle"
@@ -6243,8 +6243,8 @@
     "name": "finch",
     "names": {
       "en": "Finch",
-      "he": "פרוש",
-      "es": "Pinzón",
+      "he": "פרושיים",
+      "es": "Pinzón y Jilguero",
       "fr": "Pinson"
     },
     "isGroup": true,
@@ -6277,9 +6277,9 @@
   "group_flycatcher": {
     "name": "flycatcher",
     "names": {
-      "en": "Flycatcher",
-      "he": "חטפית",
-      "es": "Papamoscas",
+      "en": "Chat & Flycatcher",
+      "he": "חטפית ודוחל",
+      "es": "Papamoscas y Tarabilla",
       "fr": "Gobemouche et Tarier"
     },
     "isGroup": true,
@@ -6310,7 +6310,7 @@
   "group_heron": {
     "name": "heron",
     "names": {
-      "en": "Heron",
+      "en": "Heron & Egret",
       "he": "אנפה",
       "es": "Garza",
       "fr": "Héron"
@@ -6375,9 +6375,9 @@
   "group_hawk": {
     "name": "hawk",
     "names": {
-      "en": "Hawk",
-      "he": "נץ",
-      "es": "Halcón",
+      "en": "Hawk & Kite",
+      "he": "נץ ועקב",
+      "es": "Halcón y Milano",
       "fr": "Buse et Épervier"
     },
     "isGroup": true,
@@ -6448,8 +6448,8 @@
     "name": "owl",
     "names": {
       "en": "Owl",
-      "he": "ינשוף",
-      "es": "Búho",
+      "he": "ינשוף ואוח",
+      "es": "Búho y Lechuza",
       "fr": "Hibou et Chouette"
     },
     "isGroup": true,
@@ -6730,8 +6730,8 @@
   "group_eagle": {
     "name": "eagle",
     "names": {
-      "en": "Eagle",
-      "he": "עיט",
+      "en": "Eagle & Osprey",
+      "he": "עיט ושלך",
       "es": "Águila",
       "fr": "Aigle et Balbuzard"
     },
@@ -6943,7 +6943,7 @@
   "group_wader": {
     "name": "wader",
     "names": {
-      "en": "Sandpiper",
+      "en": "Wader & Sandpiper",
       "he": "חופמאים",
       "es": "Limícolas",
       "fr": "Limicoles"
@@ -6976,9 +6976,9 @@
   "group_seabird": {
     "name": "seabird",
     "names": {
-      "en": "Albatross",
-      "he": "אלבטרוס",
-      "es": "Albatros",
+      "en": "Albatross & Petrel",
+      "he": "אלבטרוס ויסעור",
+      "es": "Albatros y Petrel",
       "fr": "Albatros et Pétrel"
     },
     "isGroup": true,
@@ -7009,7 +7009,7 @@
   "group_rail": {
     "name": "rail",
     "names": {
-      "en": "Coot",
+      "en": "Rail, Coot & Moorhen",
       "he": "רליתיים",
       "es": "Rálidos",
       "fr": "Râles et Foulques"
@@ -7073,9 +7073,9 @@
   "group_nuthatch": {
     "name": "nuthatch",
     "names": {
-      "en": "Nuthatch",
-      "he": "סיטה",
-      "es": "Trepador",
+      "en": "Nuthatch & Creeper",
+      "he": "סיטה וזחלן",
+      "es": "Trepador y Agateador",
       "fr": "Sittelle et Grimpereau"
     },
     "isGroup": true,
@@ -7194,9 +7194,9 @@
   "group_bee_eater": {
     "name": "bee_eater",
     "names": {
-      "en": "Bee-eater",
-      "he": "שרקרק",
-      "es": "Abejaruco",
+      "en": "Bee-eater & Roller",
+      "he": "שרקרק וכחל",
+      "es": "Abejaruco y Carraca",
       "fr": "Guêpier et Rollier"
     },
     "isGroup": true,
@@ -7255,7 +7255,7 @@
   "group_kinglet": {
     "name": "kinglet",
     "names": {
-      "en": "Kinglet",
+      "en": "Kinglet / Crest",
       "he": "מלכילון",
       "es": "Reyezuelo",
       "fr": "Roitelet"
@@ -7285,9 +7285,9 @@
   "group_ibis": {
     "name": "ibis",
     "names": {
-      "en": "Ibis",
-      "he": "מגלן",
-      "es": "Ibis",
+      "en": "Ibis & Spoonbill",
+      "he": "מגלן וכפן",
+      "es": "Ibis y Espátula",
       "fr": "Ibis et Spatule"
     },
     "isGroup": true,
@@ -7320,9 +7320,9 @@
   "group_vulture": {
     "name": "vulture",
     "names": {
-      "en": "Vulture",
-      "he": "נשר",
-      "es": "Buitre",
+      "en": "Vulture & Condor",
+      "he": "נשר וקונדור",
+      "es": "Buitre y Cóndor",
       "fr": "Vautour et Condor"
     },
     "isGroup": true,
@@ -7382,9 +7382,9 @@
   "group_parrot": {
     "name": "parrot",
     "names": {
-      "en": "Parrot",
+      "en": "Parrot & Macaw",
       "he": "תוכי",
-      "es": "Loro",
+      "es": "Loro y Guacamayo",
       "fr": "Perroquet et Ara"
     },
     "isGroup": true,

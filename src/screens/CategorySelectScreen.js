@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   View,
   Text,
@@ -6,6 +6,7 @@ import {
   SafeAreaView,
   TouchableOpacity,
   ScrollView,
+  Modal,
 } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
@@ -35,14 +36,25 @@ const CATEGORIES = [
 
 const CategorySelectScreen = ({ navigation, route }) => {
   const { t, getTextAlign } = useLanguage();
-  const { mode } = route.params;
+  const { mode, questionFormat } = route.params;
+
+  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [modalVisible, setModalVisible] = useState(false);
 
   const handleCategorySelect = (category) => {
+    setSelectedCategory(category);
+    setModalVisible(true);
+  };
+
+  const startQuiz = (difficultyType) => {
+    setModalVisible(false);
     navigation.navigate('Quiz', {
       mode,
-      category: category.id,
-      filterType: category.type || 'category',
-      level: null
+      questionFormat,
+      category: selectedCategory.id,
+      filterType: selectedCategory.type || 'category',
+      level: null,
+      difficultyType // 'beginner' or 'advanced'
     });
   };
 
@@ -111,6 +123,43 @@ const CategorySelectScreen = ({ navigation, route }) => {
           size="medium"
         />
       </View>
+
+      {/* Difficulty Selection Modal */}
+      <Modal
+        animationType="fade"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => setModalVisible(false)}
+      >
+        <View style={styles.modalOverlay}>
+          <View style={styles.modalContent}>
+            <Text style={[styles.modalTitle, { textAlign: getTextAlign() }]}>
+              {t.selectDifficulty}
+            </Text>
+
+            <View style={styles.modalButtons}>
+              <Button
+                title={t.beginnerMode || 'Beginner (Groups)'}
+                onPress={() => startQuiz('beginner')}
+                variant="primary"
+                style={styles.modalButton}
+              />
+              <Button
+                title={t.advancedMode || 'Advanced (Species)'}
+                onPress={() => startQuiz('advanced')}
+                variant="secondary"
+                style={styles.modalButton}
+              />
+              <Button
+                title={t.backToMenu || 'Cancel'}
+                onPress={() => setModalVisible(false)}
+                variant="outline"
+                style={styles.modalButton}
+              />
+            </View>
+          </View>
+        </View>
+      </Modal>
     </SafeAreaView>
   );
 };
@@ -163,6 +212,34 @@ const styles = StyleSheet.create({
   footer: {
     padding: SPACING.lg,
     alignItems: 'center',
+  },
+  modalOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: SPACING.xl,
+  },
+  modalContent: {
+    backgroundColor: COLORS.white,
+    borderRadius: BORDER_RADIUS.xl,
+    padding: SPACING.xl,
+    width: '100%',
+    maxWidth: 400,
+    alignItems: 'center',
+    ...SHADOWS.large,
+  },
+  modalTitle: {
+    fontSize: FONT_SIZES.xl,
+    fontWeight: 'bold',
+    color: COLORS.textPrimary,
+    marginBottom: SPACING.xl,
+  },
+  modalButtons: {
+    width: '100%',
+  },
+  modalButton: {
+    marginBottom: SPACING.md,
   },
 });
 
