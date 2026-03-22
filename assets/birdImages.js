@@ -66,6 +66,7 @@ const birdImages = {
   "eagle_owl": ["eagle_owl_2.jpg", "eagle_owl_3.jpg", "eagle_owl_4.jpg", "eagle_owl_5.jpg"],
   "eastern_bluebird": ["eastern_bluebird_1.jpg", "eastern_bluebird_2.jpg", "eastern_bluebird_3.jpg", "eastern_bluebird_4.jpg", "eastern_bluebird_5.jpg"],
   "egyptian_vulture": ["egyptian_vulture_2.jpg", "egyptian_vulture_3.jpg", "egyptian_vulture_4.jpg", "egyptian_vulture_5.jpg"],
+  "emperor_penguin": ["emperor_penguin_1.jpg", "emperor_penguin_2.jpg", "emperor_penguin_3.jpg", "emperor_penguin_4.jpg", "emperor_penguin_5.jpg"],
   "eurasian_collared_dove": ["eurasian_collared_dove_1.jpg", "eurasian_collared_dove_2.jpg", "eurasian_collared_dove_3.jpg", "eurasian_collared_dove_4.jpg", "eurasian_collared_dove_5.jpg"],
   "eurasian_jay": ["eurasian_jay_1.jpg", "eurasian_jay_2.jpg", "eurasian_jay_3.jpg", "eurasian_jay_5.jpg"],
   "eurasian_magpie": ["eurasian_magpie_1.jpg", "eurasian_magpie_3.jpg", "eurasian_magpie_4.jpg", "eurasian_magpie_5.jpg"],

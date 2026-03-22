@@ -6471,5 +6471,36 @@
     "habitat": "Breeds in tasmania during the summer and migrates north to southeastern mainland australia from griffith-warialda in new",
     "groupId": "parrot",
     "isGroup": false
+  },
+  {
+    "id": "bird_198",
+    "names": {
+      "en": "Emperor penguin",
+      "he": "פינגווין קיסרי",
+      "es": "Aptenodytes forsteri",
+      "fr": "Manchot empereur"
+    },
+    "scientificName": "Aptenodytes forsteri",
+    "category": "Water Bird",
+    "difficulty": 3,
+    "image": "emperor_penguin",
+    "images": [
+      "emperor_penguin_1.jpg",
+      "emperor_penguin_2.jpg",
+      "emperor_penguin_3.jpg",
+      "emperor_penguin_4.jpg",
+      "emperor_penguin_5.jpg"
+    ],
+    "description": {
+      "en": "The emperor penguin is the largest penguin species, native to Antarctica, and lives in extreme cold in tightly coordinated colonies.",
+      "he": "הפינגווין הקיסרי הוא מין הפינגווין הגדול ביותר, אנדמי לאנטארקטיקה וחי בתנאי קור קיצוניים במושבות מאורגנות.",
+      "es": "El pingüino emperador es la especie de pingüino más grande, endémica de la Antártida y adaptada a vivir en frío extremo en colonias.",
+      "fr": "Le manchot empereur est la plus grande espèce de manchot, endémique de l’Antarctique, adaptée au froid extrême et à la vie en colonie."
+    },
+    "locations": [],
+    "tags": [],
+    "habitat": "",
+    "groupId": "penguin",
+    "isGroup": false
   }
 ]

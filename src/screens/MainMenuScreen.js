@@ -45,18 +45,9 @@ const MainMenuScreen = ({ navigation }) => {
           size="large"
           style={styles.menuButton}
         />
-
         <Button
-          title={`🏆  ${t.campaignMode}`}
-          onPress={() => navigation.navigate('GameFormatSelect', { mode: 'campaign' })}
-          variant="primary"
-          size="large"
-          style={styles.menuButton}
-        />
-
-        <Button
-          title={`⚙️  ${t.settings}`}
-          onPress={() => navigation.navigate('Settings')}
+          title={`📊  ${t.viewStatistics}`}
+          onPress={() => navigation.navigate('Statistics')}
           variant="outline"
           size="large"
           style={styles.menuButton}

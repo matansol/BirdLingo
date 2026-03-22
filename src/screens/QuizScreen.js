@@ -12,24 +12,92 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
 import { useLanguage } from '../context/LanguageContext';
+import { useProgress } from '../context/ProgressContext';
 import { Button, BirdImage, SessionStats, FeedbackModal } from '../components';
-import birdsData from '../../assets/birds_data.json';
-import birdImages from '../../assets/birdImages';
+import { birdsWithImages, birdById, tierIds } from '../data/birdsCatalog';
 import birdSimilarity from '../../assets/bird_similarity.json';
 
-// Filter out birds that don't have a matching image file
-const birdsWithImages = birdsData.filter((bird) => {
-  const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
-  const hasImage = imageKey && birdImages[imageKey];
-  if (!hasImage) {
-    console.warn(`[BirdLingo] Skipping bird "${bird.names?.en}" (${bird.id}) — no image found for key "${imageKey}"`);
-  }
-  return hasImage;
-});
+const TYPE_NAME_MAX_ATTEMPTS = 5;
 
-// Build a lookup map for quick bird access by ID
-const birdById = {};
-birdsWithImages.forEach((bird) => { birdById[bird.id] = bird; });
+const normalizeAnswer = (value = '') => value
+  .toString()
+  .trim()
+  .toLowerCase()
+  .normalize('NFD')
+  .replace(/[\u0300-\u036f]/g, '')
+  .replace(/[^\p{L}\p{N}\s-]/gu, ' ')
+  .replace(/\s+/g, ' ')
+  .trim();
+
+const buildCharNgramEmbedding = (value = '', minN = 2, maxN = 3) => {
+  const text = normalizeAnswer(value).replace(/\s+/g, '');
+  const vector = new Map();
+
+  if (!text) return vector;
+
+  for (let n = minN; n <= maxN; n += 1) {
+    if (text.length < n) continue;
+    for (let i = 0; i <= text.length - n; i += 1) {
+      const gram = text.slice(i, i + n);
+      vector.set(gram, (vector.get(gram) || 0) + 1);
+    }
+  }
+
+  return vector;
+};
+
+const cosineSimilarity = (a, b) => {
+  if (!a.size || !b.size) return 0;
+
+  let dot = 0;
+  let normA = 0;
+  let normB = 0;
+
+  a.forEach((value, key) => {
+    normA += value * value;
+    dot += value * (b.get(key) || 0);
+  });
+
+  b.forEach((value) => {
+    normB += value * value;
+  });
+
+  const denom = Math.sqrt(normA) * Math.sqrt(normB);
+  return denom === 0 ? 0 : dot / denom;
+};
+
+const isCloseEnoughGuess = (guess, answer) => {
+  const normalizedGuess = normalizeAnswer(guess);
+  const normalizedAnswer = normalizeAnswer(answer);
+
+  if (!normalizedGuess || !normalizedAnswer) return false;
+  if (normalizedGuess === normalizedAnswer) return true;
+
+  const answerTokens = normalizedAnswer.split(' ').filter(Boolean);
+  const firstToken = answerTokens[0] || '';
+
+  // Accept leading part of the official name, but not trailing words alone.
+  // Example: "בז" should match "בז מצוי", but "מצוי" should not.
+  if (firstToken && normalizedGuess === firstToken) return true;
+  if (normalizedAnswer.startsWith(`${normalizedGuess} `) && normalizedGuess.length >= 2) return true;
+
+  // Allow close-enough typo tolerance on first token (short single-word guess)
+  if (firstToken && !normalizedGuess.includes(' ') && normalizedGuess.length >= 2) {
+    const guessVecFirst = buildCharNgramEmbedding(normalizedGuess);
+    const firstVec = buildCharNgramEmbedding(firstToken);
+    if (cosineSimilarity(guessVecFirst, firstVec) >= 0.78) return true;
+  }
+
+  const guessVec = buildCharNgramEmbedding(normalizedGuess);
+  const answerVec = buildCharNgramEmbedding(normalizedAnswer);
+  const similarity = cosineSimilarity(guessVec, answerVec);
+
+  // Slightly stricter for very short words to avoid false positives
+  const minLen = Math.min(normalizedGuess.length, normalizedAnswer.length);
+  const threshold = minLen <= 4 ? 0.86 : 0.74;
+
+  return similarity >= threshold;
+};
 
 // Utility to shuffle array
 const shuffleArray = (array) => {
@@ -48,23 +116,15 @@ const getRandomItems = (array, count, exclude = []) => {
   return shuffled.slice(0, count);
 };
 
-// Determine how many similar distractors to use based on mode/level
-// level1,2: k=0 (all random), level3: k=1, level4: k=2, level5: k=3
-// endless: k=2
-const getSimilarCount = (mode, level) => {
-  if (mode === 'endless') return 3;
-  if (mode === 'campaign') {
-    if (level <= 2) return 2;
-    if (level === 3) return 2;
-    if (level === 4) return 3;
-    return 5; // level 5
-  }
-  return 0;
+// Determine how many similar distractors to use by selected tier
+const getSimilarCount = (difficultyType) => {
+  if (difficultyType === 'tier3') return 3;
+  return 2;
 };
 
 // Get wrong options: k similar + (5-k) random
-const getWrongOptions = (correctBird, mode, level, availablePool, excludeIds = []) => {
-  const k = getSimilarCount(mode, level);
+const getWrongOptions = (correctBird, difficultyType, availablePool, excludeIds = []) => {
+  const k = getSimilarCount(difficultyType);
   const allExclude = [correctBird.id, ...excludeIds];
   const wrongOptions = [];
 
@@ -89,51 +149,41 @@ const getWrongOptions = (correctBird, mode, level, availablePool, excludeIds = [
 };
 
 const QuizScreen = ({ navigation, route }) => {
-  const { mode, category, level, filterType, questionFormat = 'classic', difficultyType } = route.params;
-  const { t, getBirdName, getTextAlign, isRTL } = useLanguage();
+  const { category, filterType, questionFormat = 'classic', difficultyType } = route.params;
+  const { t, getBirdName, getTextAlign } = useLanguage();
+  const {
+    isLoaded,
+    getBirdProgress,
+    recordCorrectChoice,
+    recordCorrectTyped,
+    recordWrong,
+  } = useProgress();
 
-  // Filter birds based on mode (only birds with valid images)
+  // Filter birds (only birds with valid images)
   const filteredBirds = useMemo(() => {
     let birds = [...birdsWithImages];
 
-    if (mode === 'endless') {
-      if (difficultyType === 'beginner') {
-        birds = birds.filter(b => b.isGroup === true);
-      } else if (difficultyType === 'advanced') {
-        birds = birds.filter(b => !b.isGroup);
-      }
+    if (difficultyType === 'tier1') {
+      birds = birds.filter((b) => tierIds[1].has(b.id));
+    } else if (difficultyType === 'tier2') {
+      birds = birds.filter((b) => tierIds[2].has(b.id));
+    } else if (difficultyType === 'tier3') {
+      birds = birds.filter((b) => tierIds[3].has(b.id));
+    }
 
-      if (category && category !== 'all') {
-        if (filterType === 'location') {
-          birds = birds.filter((b) => b.locations && b.locations.includes(category));
-        } else if (filterType === 'tag') {
-          const tag = category === 'Big Bird' ? 'Big' : category;
-          birds = birds.filter((b) => b.tags && b.tags.includes(tag));
-        } else {
-          // If the group contains multiple, we assigned it 'Various' or a specific category. 
-          // Endless mode filters out groups that don't match, which is expected.
-          birds = birds.filter((b) => b.category === category);
-        }
-      }
-    } else if (mode === 'campaign' && level) {
-      if (level === 1) {
-        birds = birds.filter(b => b.isGroup === true && b.difficulty <= 2);
-      } else if (level === 2) {
-        const advancedGroups = birds.filter(b => b.isGroup === true && b.difficulty > 2);
-        if (advancedGroups.length >= 6) {
-          birds = advancedGroups;
-        } else {
-          birds = birds.filter(b => b.isGroup === true && b.difficulty > 1);
-        }
-      } else if (level === 3) {
-        birds = birds.filter(b => !b.isGroup && b.difficulty <= 2);
-      } else if (level === 4) {
-        birds = birds.filter(b => !b.isGroup && b.difficulty > 2);
+    if (category && category !== 'all') {
+      if (filterType === 'location') {
+        birds = birds.filter((b) => b.locations && b.locations.includes(category));
+      } else if (filterType === 'tag') {
+        const tag = category === 'Big Bird' ? 'Big' : category;
+        birds = birds.filter((b) => b.tags && b.tags.includes(tag));
+      } else {
+        birds = birds.filter((b) => b.category === category);
       }
     }
 
     return birds;
-  }, [mode, category, level, filterType, difficultyType]);
+  }, [category, filterType, difficultyType]);
 
   // State
   const [currentBird, setCurrentBird] = useState(null);
@@ -144,19 +194,29 @@ const QuizScreen = ({ navigation, route }) => {
   const [isCorrect, setIsCorrect] = useState(false);
   const [stats, setStats] = useState({ correct: 0, wrong: 0 });
   const [questionIndex, setQuestionIndex] = useState(0);
-  const [seenBirds, setSeenBirds] = useState([]);
   const [feedbackBird, setFeedbackBird] = useState(null);
   const [feedbackIsCorrect, setFeedbackIsCorrect] = useState(false);
   const [activeFormat, setActiveFormat] = useState('classic');
   const [textInput, setTextInput] = useState('');
+  const [typeAttempts, setTypeAttempts] = useState(0);
 
   // Reset seen birds when category changes
   useEffect(() => {
-    setSeenBirds([]);
     setStats({ correct: 0, wrong: 0 });
     setQuestionIndex(0);
     setCurrentBird(null);
-  }, [mode, category, level, filterType]);
+    setTypeAttempts(0);
+  }, [category, filterType, difficultyType]);
+
+  const revealTypeAnswerAsWrong = useCallback(() => {
+    if (!currentBird || showFeedback) return;
+
+    setIsCorrect(false);
+    setStats((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
+    setFeedbackBird(currentBird);
+    setFeedbackIsCorrect(false);
+    setShowFeedback(true);
+  }, [currentBird, showFeedback]);
 
   // Generate a new question
   const generateQuestion = useCallback(() => {
@@ -165,13 +225,11 @@ const QuizScreen = ({ navigation, route }) => {
       return;
     }
 
-    // Filter out birds that have already been correctly identified
-    let availableBirds = filteredBirds.filter((bird) => !seenBirds.includes(bird.id));
+    let availableBirds = [...filteredBirds];
 
-    // If all birds have been seen, reset the seen list
-    if (availableBirds.length === 0) {
-      availableBirds = filteredBirds;
-      setSeenBirds([]);
+    // Avoid immediate repeats when possible
+    if (currentBird && availableBirds.length > 1) {
+      availableBirds = availableBirds.filter((bird) => bird.id !== currentBird.id);
     }
 
     if (availableBirds.length === 0) {
@@ -179,9 +237,20 @@ const QuizScreen = ({ navigation, route }) => {
       return;
     }
 
-    // Pick a random bird as the correct answer
-    const randomIndex = Math.floor(Math.random() * availableBirds.length);
-    const correctBird = availableBirds[randomIndex];
+    const unrecognizedBirds = availableBirds.filter((bird) => !getBirdProgress(bird.id).recognized);
+    const recognizedBirds = availableBirds.filter((bird) => getBirdProgress(bird.id).recognized);
+
+    let weightedPool = availableBirds;
+    if (unrecognizedBirds.length > 0 && recognizedBirds.length > 0) {
+      weightedPool = Math.random() < 0.8 ? unrecognizedBirds : recognizedBirds;
+    } else if (unrecognizedBirds.length > 0) {
+      weightedPool = unrecognizedBirds;
+    } else if (recognizedBirds.length > 0) {
+      weightedPool = recognizedBirds;
+    }
+
+    const randomIndex = Math.floor(Math.random() * weightedPool.length);
+    const correctBird = weightedPool[randomIndex];
 
     // Pick a random image index for this bird
     // For groups, we might have multiple images. 
@@ -190,7 +259,7 @@ const QuizScreen = ({ navigation, route }) => {
     const birdWithImageIndex = { ...correctBird, imageIndex: randomImageIndex };
 
     // Get wrong options from the filtered pool so classes (groups vs species) don't mix
-    const wrongOptions = getWrongOptions(correctBird, mode, level, filteredBirds);
+    const wrongOptions = getWrongOptions(correctBird, difficultyType, filteredBirds);
 
     // Combine and shuffle options
     const allOptions = shuffleArray([birdWithImageIndex, ...wrongOptions]);
@@ -215,14 +284,16 @@ const QuizScreen = ({ navigation, route }) => {
     setIsCorrect(false);
     setActiveFormat(nextFormat);
     setTextInput('');
-  }, [filteredBirds, seenBirds, questionFormat, mode, level]);
+    setTypeAttempts(0);
+  }, [filteredBirds, currentBird, questionFormat, difficultyType, getBirdProgress]);
 
   // Initialize first question
   useEffect(() => {
+    if (!isLoaded) return;
     if (!currentBird) {
       generateQuestion();
     }
-  }, [generateQuestion, currentBird]);
+  }, [generateQuestion, currentBird, isLoaded]);
 
   // Handle option selection
   const handleOptionSelect = (option) => {
@@ -234,14 +305,12 @@ const QuizScreen = ({ navigation, route }) => {
     if (correct) {
       setSelectedOption(option);
       setIsCorrect(true);
+      recordCorrectChoice(currentBird.id);
 
       // Update stats: correct only if no wrong guesses yet
       if (wrongGuesses.length === 0) {
         setStats((prev) => ({ ...prev, correct: prev.correct + 1 }));
       }
-
-      // Add to seen list
-      setSeenBirds((prev) => [...prev, currentBird.id]);
 
       // Set feedback bird to stable current bird for the modal
       setFeedbackBird(currentBird);
@@ -252,6 +321,8 @@ const QuizScreen = ({ navigation, route }) => {
         setShowFeedback(true);
       }, 300);
     } else {
+      recordWrong(currentBird.id);
+
       // Wrong guess
       if (!wrongGuesses.includes(option.id)) {
         setWrongGuesses((prev) => [...prev, option.id]);
@@ -268,26 +339,40 @@ const QuizScreen = ({ navigation, route }) => {
   const handleTypeSubmit = () => {
     if (showFeedback || !currentBird || !textInput.trim()) return;
 
-    const correctName = getBirdName(currentBird).toLowerCase().trim();
-    const guessedName = textInput.toLowerCase().trim();
+    const nextAttempts = typeAttempts + 1;
+    setTypeAttempts(nextAttempts);
 
-    if (correctName === guessedName) {
+    const correctName = getBirdName(currentBird);
+    const guessedName = textInput;
+    const closeEnough = isCloseEnoughGuess(guessedName, correctName);
+
+    if (closeEnough) {
       setIsCorrect(true);
-      if (wrongGuesses.length === 0) {
-        setStats((prev) => ({ ...prev, correct: prev.correct + 1 }));
-      }
-      setSeenBirds((prev) => [...prev, currentBird.id]);
+      recordCorrectTyped(currentBird.id);
+      setStats((prev) => ({ ...prev, correct: prev.correct + 1 }));
       setFeedbackBird(currentBird);
       setFeedbackIsCorrect(true);
       setTimeout(() => {
         setShowFeedback(true);
       }, 300);
-    } else {
-      if (wrongGuesses.length === 0) {
-        setStats((prev) => ({ ...prev, wrong: prev.wrong + 1 }));
-        setWrongGuesses(['typed_wrong']); // Use generic string just to mark as failed first try
-      }
+      return;
     }
+
+    recordWrong(currentBird.id);
+
+    if (nextAttempts >= TYPE_NAME_MAX_ATTEMPTS) {
+      revealTypeAnswerAsWrong();
+      return;
+    } else {
+      setWrongGuesses(['typed_wrong']); // visual hint while user still has attempts
+    }
+  };
+
+  const handleIDontKnow = () => {
+    if (showFeedback || !currentBird) return;
+    setTypeAttempts((prev) => Math.min(prev + 1, TYPE_NAME_MAX_ATTEMPTS));
+    recordWrong(currentBird.id);
+    revealTypeAnswerAsWrong();
   };
 
   // Handle next question
@@ -343,7 +428,9 @@ const QuizScreen = ({ navigation, route }) => {
     return (
       <SafeAreaView style={styles.container}>
         <Text style={styles.loadingText}>
-          {notEnough
+          {!isLoaded
+            ? 'Loading progress...'
+            : notEnough
             ? `Not enough birds in this category (${filteredBirds.length} found, need 6). Try a different category.`
             : 'Loading...'}
         </Text>
@@ -429,7 +516,7 @@ const QuizScreen = ({ navigation, route }) => {
                   style={[
                     styles.textInput,
                     { textAlign: getTextAlign() },
-                    wrongGuesses.includes('typed_wrong') && styles.wrongInput
+                    typeAttempts > 0 && !showFeedback && styles.wrongInput
                   ]}
                   value={textInput}
                   onChangeText={setTextInput}
@@ -449,6 +536,17 @@ const QuizScreen = ({ navigation, route }) => {
                   disabled={showFeedback || !textInput.trim()}
                   style={styles.submitButton}
                 />
+                <Button
+                  title={t.iDontKnow || "I don't know"}
+                  onPress={handleIDontKnow}
+                  variant="outline"
+                  size="large"
+                  disabled={showFeedback}
+                  style={styles.submitButton}
+                />
+                <Text style={styles.attemptsText}>
+                  {(t.attemptsLeft || 'Attempts left')}: {Math.max(0, TYPE_NAME_MAX_ATTEMPTS - typeAttempts)}
+                </Text>
               </View>
             </KeyboardAvoidingView>
           ) : (
@@ -620,6 +718,12 @@ const styles = StyleSheet.create({
   },
   submitButton: {
     width: '100%',
+  },
+  attemptsText: {
+    marginTop: SPACING.sm,
+    fontSize: FONT_SIZES.sm,
+    color: COLORS.textSecondary,
+    textAlign: 'center',
   },
 });
 

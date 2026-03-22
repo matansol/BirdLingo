@@ -20,24 +20,14 @@ const FORMATS = [
     { id: 'mixed', key: 'mixed', icon: 'shuffle-variant', color: '#7B1FA2' },
 ];
 
-const GameFormatSelectScreen = ({ navigation, route }) => {
+const GameFormatSelectScreen = ({ navigation }) => {
     const { t, getTextAlign } = useLanguage();
-    const { mode } = route.params;
 
     const handleFormatSelect = (formatId) => {
-        // If endless quiz, go to CategorySelect
-        if (mode === 'endless') {
-            navigation.navigate('CategorySelect', {
-                mode,
-                questionFormat: formatId,
-            });
-        } else {
-            // If campaign, go to LevelSelect
-            navigation.navigate('LevelSelect', {
-                mode,
-                questionFormat: formatId,
-            });
-        }
+        navigation.navigate('CategorySelect', {
+            mode: 'endless',
+            questionFormat: formatId,
+        });
     };
 
     return (

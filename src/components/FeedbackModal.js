@@ -39,10 +39,10 @@ const FeedbackModal = ({
           </Text>
 
           {/* Correct Answer */}
-          {!isCorrect && correctBird && (
+          {correctBird && (
             <View style={styles.answerContainer}>
               <Text style={[styles.label, { textAlign: getTextAlign() }]}>
-                {t.correctAnswer}:
+                {isCorrect ? `${t.birdName || 'Bird'}:` : `${t.correctAnswer}:`}
               </Text>
               <Text style={[styles.birdName, { textAlign: getTextAlign() }]}>
                 {getBirdName(correctBird)}
@@ -64,6 +64,8 @@ const FeedbackModal = ({
           {/* Description or Scientific Name */}
           {correctBird && (
             <Text style={[styles.description, { textAlign: getTextAlign() }]}>
+              <Text style={styles.birdNameInline}>{getBirdName(correctBird)}</Text>
+              {' — '}
               {correctBird.description?.[language] || `(${correctBird.scientificName})`}
             </Text>
           )}
@@ -136,6 +138,10 @@ const styles = StyleSheet.create({
     fontSize: FONT_SIZES.xl,
     fontWeight: 'bold',
     color: COLORS.primaryGreen,
+  },
+  birdNameInline: {
+    fontWeight: 'bold',
+    color: COLORS.textPrimary,
   },
   description: {
     fontSize: FONT_SIZES.md,

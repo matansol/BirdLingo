@@ -13,10 +13,9 @@ import { MaterialCommunityIcons } from '@expo/vector-icons';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
 import { useLanguage } from '../context/LanguageContext';
 import { Button } from '../components';
+import { birdsWithImages, tierIds } from '../data/birdsCatalog';
 
-import birdsData from '../../assets/birds_data.json';
-
-const MIN_BIRDS_COUNT = 10;
+const MIN_BIRDS_COUNT = 6;
 
 const CATEGORIES = [
   { id: 'all', key: 'all', icon: 'bird', color: COLORS.primaryGreen, type: 'category' },
@@ -24,8 +23,6 @@ const CATEGORIES = [
   { id: 'Water Bird', key: 'waterBird', icon: 'duck', color: '#1976D2', type: 'category' },
   { id: 'Songbird', key: 'songbird', icon: 'music', color: '#7B1FA2', type: 'category' },
   { id: 'Exotic Bird', key: 'exotic', icon: 'palette', color: '#F57C00', type: 'category' },
-  // { id: 'Game Bird', key: 'gameBird', icon: 'feather', color: '#795548', type: 'category' }, // Removed
-  { id: 'Big Bird', key: 'bigBird', icon: 'image-size-select-actual', color: '#795548', type: 'tag' }, // Added Big Bird
   // Locations
   { id: 'Israel', key: 'israel', icon: 'earth', color: '#0038B8', type: 'location' },
   { id: 'Africa', key: 'africa', icon: 'earth', color: '#FFB300', type: 'location' },
@@ -54,28 +51,42 @@ const CategorySelectScreen = ({ navigation, route }) => {
       category: selectedCategory.id,
       filterType: selectedCategory.type || 'category',
       level: null,
-      difficultyType // 'beginner' or 'advanced'
+      difficultyType // 'tier1' | 'tier2' | 'tier3'
     });
   };
 
-  // Filter categories based on minimum bird count
-  const filteredCategories = CATEGORIES.filter(cat => {
-    if (cat.id === 'all') return true;
+  const isInCategory = (bird, category) => {
+    if (category.id === 'all') return true;
 
-    let count = 0;
-    if (cat.type === 'location') {
-      count = birdsData.filter(b => b.locations && b.locations.includes(cat.id)).length;
-    } else if (cat.type === 'tag') {
-      // Filter by tag (e.g. "Big")
-      // cat.id is "Big Bird", but tag is "Big"
-      // Or I can map "Big Bird" -> "Big"
-      const tag = cat.id === 'Big Bird' ? 'Big' : cat.id;
-      count = birdsData.filter(b => b.tags && b.tags.includes(tag)).length;
-    } else {
-      count = birdsData.filter(b => b.category === cat.id).length;
+    if (category.type === 'location') {
+      return bird.locations && bird.locations.includes(category.id);
     }
-    return count >= MIN_BIRDS_COUNT;
-  });
+
+    if (category.type === 'tag') {
+      const tag = category.id === 'Big Bird' ? 'Big' : category.id;
+      return bird.tags && bird.tags.includes(tag);
+    }
+
+    return bird.category === category.id;
+  };
+
+  const getTierCountForCategory = (tier, category) => {
+    const tierSet = tierIds[tier] || new Set();
+    return birdsWithImages.filter((b) => tierSet.has(b.id) && isInCategory(b, category)).length;
+  };
+
+  // Filter categories based on minimum bird count
+  const filteredCategories = CATEGORIES.filter((cat) =>
+    [1, 2, 3].some((tier) => getTierCountForCategory(tier, cat) >= MIN_BIRDS_COUNT)
+  );
+
+  const tierOptions = selectedCategory
+    ? [
+      { id: 'tier1', tier: 1, title: t.tier1Mode || 'Level 1', variant: 'primary' },
+      { id: 'tier2', tier: 2, title: t.tier2Mode || 'Level 2', variant: 'secondary' },
+      { id: 'tier3', tier: 3, title: t.tier3Mode || 'Level 3 (Specific Species)', variant: 'secondary' },
+    ].filter((option) => getTierCountForCategory(option.tier, selectedCategory) >= MIN_BIRDS_COUNT)
+    : [];
 
   return (
     <SafeAreaView style={styles.container}>
@@ -138,18 +149,20 @@ const CategorySelectScreen = ({ navigation, route }) => {
             </Text>
 
             <View style={styles.modalButtons}>
-              <Button
-                title={t.beginnerMode || 'Beginner (Groups)'}
-                onPress={() => startQuiz('beginner')}
-                variant="primary"
-                style={styles.modalButton}
-              />
-              <Button
-                title={t.advancedMode || 'Advanced (Species)'}
-                onPress={() => startQuiz('advanced')}
-                variant="secondary"
-                style={styles.modalButton}
-              />
+              {tierOptions.map((option) => (
+                <Button
+                  key={option.id}
+                  title={option.title}
+                  onPress={() => startQuiz(option.id)}
+                  variant={option.variant}
+                  style={styles.modalButton}
+                />
+              ))}
+              {tierOptions.length === 0 && (
+                <Text style={[styles.noLevelsText, { textAlign: getTextAlign() }]}>
+                  {t.noAvailableLevels || 'אין מספיק ציפורים בקטגוריה הזו'}
+                </Text>
+              )}
               <Button
                 title={t.backToMenu || 'Cancel'}
                 onPress={() => setModalVisible(false)}
@@ -240,6 +253,11 @@ const styles = StyleSheet.create({
   },
   modalButton: {
     marginBottom: SPACING.md,
+  },
+  noLevelsText: {
+    marginBottom: SPACING.md,
+    color: COLORS.textSecondary,
+    fontSize: FONT_SIZES.md,
   },
 });
 
