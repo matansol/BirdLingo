@@ -4,9 +4,9 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import {
   MainMenuScreen,
   CategorySelectScreen,
-  LevelSelectScreen,
   QuizScreen,
-  SettingsScreen,
+  GameFormatSelectScreen,
+  StatisticsScreen,
 } from '../screens';
 
 const Stack = createNativeStackNavigator();
@@ -22,10 +22,10 @@ const AppNavigator = () => {
         }}
       >
         <Stack.Screen name="MainMenu" component={MainMenuScreen} />
+        <Stack.Screen name="GameFormatSelect" component={GameFormatSelectScreen} />
         <Stack.Screen name="CategorySelect" component={CategorySelectScreen} />
-        <Stack.Screen name="LevelSelect" component={LevelSelectScreen} />
         <Stack.Screen name="Quiz" component={QuizScreen} />
-        <Stack.Screen name="Settings" component={SettingsScreen} />
+        <Stack.Screen name="Statistics" component={StatisticsScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

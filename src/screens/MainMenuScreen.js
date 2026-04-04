@@ -17,7 +17,7 @@ const MainMenuScreen = ({ navigation }) => {
   return (
     <SafeAreaView style={styles.container}>
       <StatusBar style="dark" />
-      
+
       {/* Header with Title */}
       <View style={styles.header}>
         <Text style={styles.appIcon}>🦜</Text>
@@ -40,23 +40,14 @@ const MainMenuScreen = ({ navigation }) => {
       <View style={styles.menuContainer}>
         <Button
           title={`🎯  ${t.endlessQuiz}`}
-          onPress={() => navigation.navigate('CategorySelect', { mode: 'endless' })}
+          onPress={() => navigation.navigate('GameFormatSelect', { mode: 'endless' })}
           variant="primary"
           size="large"
           style={styles.menuButton}
         />
-        
         <Button
-          title={`🏆  ${t.campaignMode}`}
-          onPress={() => navigation.navigate('LevelSelect')}
-          variant="primary"
-          size="large"
-          style={styles.menuButton}
-        />
-        
-        <Button
-          title={`⚙️  ${t.settings}`}
-          onPress={() => navigation.navigate('Settings')}
+          title={`📊  ${t.viewStatistics}`}
+          onPress={() => navigation.navigate('Statistics')}
           variant="outline"
           size="large"
           style={styles.menuButton}

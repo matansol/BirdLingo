@@ -3,6 +3,7 @@ import { View, Text, StyleSheet, Modal, TouchableOpacity } from 'react-native';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
 import { useLanguage } from '../context/LanguageContext';
 import Button from './Button';
+import BirdImage from './BirdImage';
 
 const FeedbackModal = ({
   visible,
@@ -38,10 +39,10 @@ const FeedbackModal = ({
           </Text>
 
           {/* Correct Answer */}
-          {!isCorrect && correctBird && (
+          {correctBird && (
             <View style={styles.answerContainer}>
               <Text style={[styles.label, { textAlign: getTextAlign() }]}>
-                {t.correctAnswer}:
+                {isCorrect ? `${t.birdName || 'Bird'}:` : `${t.correctAnswer}:`}
               </Text>
               <Text style={[styles.birdName, { textAlign: getTextAlign() }]}>
                 {getBirdName(correctBird)}
@@ -49,9 +50,22 @@ const FeedbackModal = ({
             </View>
           )}
 
+          {/* Bird Image */}
+          {correctBird && (
+            <View style={styles.imageWrapper}>
+              <BirdImage
+                bird={correctBird}
+                size="medium"
+                imageIndex={Number(correctBird.imageIndex) || 0}
+              />
+            </View>
+          )}
+
           {/* Description or Scientific Name */}
           {correctBird && (
             <Text style={[styles.description, { textAlign: getTextAlign() }]}>
+              <Text style={styles.birdNameInline}>{getBirdName(correctBird)}</Text>
+              {' — '}
               {correctBird.description?.[language] || `(${correctBird.scientificName})`}
             </Text>
           )}
@@ -125,12 +139,21 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: COLORS.primaryGreen,
   },
+  birdNameInline: {
+    fontWeight: 'bold',
+    color: COLORS.textPrimary,
+  },
   description: {
     fontSize: FONT_SIZES.md,
     color: COLORS.textSecondary,
     marginBottom: SPACING.lg,
     paddingHorizontal: SPACING.sm,
     lineHeight: 22,
+  },
+  imageWrapper: {
+    marginVertical: SPACING.sm,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   nextButton: {
     width: '100%',

@@ -3,15 +3,58 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 import { COLORS, SPACING, BORDER_RADIUS, FONT_SIZES, SHADOWS } from '../theme/theme';
 import birdImages from '../../assets/birdImages';
 
+const birdsAssetsContext =
+  typeof require.context === 'function'
+    ? require.context('../../assets/birds', true, /\.(png|jpe?g)$/i)
+    : null;
+
+const birdsAssetsKeys = birdsAssetsContext ? new Set(birdsAssetsContext.keys()) : null;
+const imageByFileName = (() => {
+  if (!birdsAssetsContext || !birdsAssetsKeys) return new Map();
+
+  const map = new Map();
+  birdsAssetsKeys.forEach((assetPath) => {
+    const fileName = assetPath.split('/').pop();
+    if (!fileName || map.has(fileName)) return;
+    try {
+      map.set(fileName, birdsAssetsContext(assetPath));
+    } catch {
+      // ignore invalid/unsupported entry
+    }
+  });
+  return map;
+})();
+
+const resolveBundledImage = (birdSlug, fileName) => {
+  if (!birdsAssetsContext || !birdSlug || !fileName) return null;
+
+  const normalizedPath = `./${birdSlug}/${fileName}`;
+
+  if (!birdsAssetsKeys?.has(normalizedPath)) {
+    return null;
+  }
+
+  try {
+    return birdsAssetsContext(normalizedPath);
+  } catch {
+    return null;
+  }
+};
+
+const resolveImageByFileName = (fileName) => {
+  if (!fileName) return null;
+  return imageByFileName.get(fileName) || null;
+};
+
 // Component that loads local bird images (supports multiple images per bird)
-const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
+const BirdImage = ({ bird, size = 'large', style, imageIndex = 0, disableInteractions = false }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(imageIndex);
 
   // Reset image index when bird or imageIndex prop changes
   useEffect(() => {
     setCurrentImageIndex(imageIndex);
   }, [bird?.id, imageIndex]);
-  
+
   const getSize = () => {
     switch (size) {
       case 'small':
@@ -29,16 +72,35 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
 
   // Get local image source from the image map
   const getImageSource = () => {
-    const imageKey = bird.image;
-    const images = birdImages[imageKey];
-    
-    if (!images) return null;
-    
+    if (Array.isArray(bird.images) && bird.images.length > 0) {
+      const selectedFileName = bird.images[currentImageIndex % bird.images.length];
+      const resolved = resolveImageByFileName(selectedFileName);
+      if (resolved) return resolved;
+    }
+
+    const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
+    if (!imageKey) return null;
+    const imageEntries = birdImages[imageKey];
+
+    if (!imageEntries) return null;
+
     // If single image (old format)
-    if (!Array.isArray(images)) return images;
-    
+    if (!Array.isArray(imageEntries)) {
+      return typeof imageEntries === 'string'
+        ? resolveBundledImage(imageKey, imageEntries)
+        : imageEntries;
+    }
+
     // If multiple images (new format)
-    return images[currentImageIndex % images.length];
+    if (imageEntries.length === 0) return null;
+
+    const selected = imageEntries[currentImageIndex % imageEntries.length];
+
+    if (typeof selected === 'string') {
+      return resolveBundledImage(imageKey, selected);
+    }
+
+    return selected;
   };
 
   // Generate a consistent color based on bird name for placeholder
@@ -61,8 +123,10 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
   };
 
   const imageSource = getImageSource();
-  const imageKey = bird.image;
-  const images = birdImages[imageKey];
+  const imageKey = bird.image ? bird.image.replace(/_\d+$/, '') : null;
+  const images = Array.isArray(bird.images) && bird.images.length > 0
+    ? bird.images
+    : (imageKey ? birdImages[imageKey] : null);
   const hasMultipleImages = Array.isArray(images) && images.length > 1;
 
   if (!imageSource) {
@@ -79,20 +143,28 @@ const BirdImage = ({ bird, size = 'large', style, imageIndex = 0 }) => {
 
   return (
     <View style={[styles.container, style]}>
-      <TouchableOpacity
-        onPress={() => {
-          if (hasMultipleImages) {
-            setCurrentImageIndex((currentImageIndex + 1) % images.length);
-          }
-        }}
-        disabled={!hasMultipleImages}
-      >
+      {disableInteractions ? (
         <Image
           source={imageSource}
           style={[styles.image, dimensions, SHADOWS.medium]}
           resizeMode="cover"
         />
-      </TouchableOpacity>
+      ) : (
+        <TouchableOpacity
+          onPress={() => {
+            if (hasMultipleImages) {
+              setCurrentImageIndex((currentImageIndex + 1) % images.length);
+            }
+          }}
+          disabled={!hasMultipleImages}
+        >
+          <Image
+            source={imageSource}
+            style={[styles.image, dimensions, SHADOWS.medium]}
+            resizeMode="cover"
+          />
+        </TouchableOpacity>
+      )}
     </View>
   );
 };
